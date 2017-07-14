@@ -103,7 +103,11 @@
 				</div>
 
 			</div>
+		</div>
+	</div>
 
+	<div class="layout-body bg-grey">
+		<div class="container">
 			<div class="row">
 				<div class="col s12">
 					<div class="btn-da-box">
@@ -116,6 +120,7 @@
 			</div>
 		</div>
 	</div>
+
 </section>
 
 @include('common.footer')
