@@ -1,4 +1,4 @@
-<section id="elegir">
+<section id="options">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
