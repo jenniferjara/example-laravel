@@ -1,0 +1,144 @@
+.layout-home {
+	margin-top: 50px;
+
+	.layout-home-text {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
+
+.layout-body {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+
+.bg-grey {
+	background-color: $bg-grey;
+}
+
+.layout-text {
+	font-size: 16px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.layout-subtitles {
+	font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 130%;
+}
+
+.layout-box {
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.layout-btn-box {
+	margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+/** Reconocimiento **/
+.options {
+	margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.circle-option {
+	border-radius: 50%;
+	border: 2px solid #787878;
+	width: 50px;
+	height: 50px;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+/** Beneficios **/
+
+.benef-slider {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+	.benef-slider-title{
+		font-weight: bold;
+		font-size: 25px;
+		padding-top: 1rem;
+	}
+
+	.bx-wrapper{
+		margin-bottom: 0px;
+		.bx-next {
+			right: 5px;
+		}
+		.bx-prev {
+			left: 5px;
+		}
+	}
+	.benef-slider-bottom {
+		.benef-slider-box {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 150px;
+
+			.benef-slider-options {
+				width: 90px;
+				height: 90px;
+				border-radius: 50%;
+				background-color: #cccccc;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #ffffff;
+
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+		}
+	}
+	
+}
+
+
+/** Medicion **/
+
+/** Nosotros **/
+
+.about-frase {
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 130%;
+	padding-left: 5px;
+	padding-right: 5px
+}
+.about-perfil {
+	padding-top: 1rem;
+
+	.about-perfil-pic {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		background-color: $bg-grey;
+		margin: 0 auto;
+	}
+	.about-perfil-text {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.contact-email {
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
