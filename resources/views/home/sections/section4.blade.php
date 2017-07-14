@@ -11,11 +11,11 @@
 				<p class="home-subtitle">Cotiza tu plan</p>
 			</div>
 			<div class="col s12">
-				<form class="home-form">
+				<form id="cotiza-home" class="home-form">
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="employee" type="number" class="validate">
-							<label for="employee">Número de colaboradores*</label>
+							<input id="employeehome" type="number" class="validate" name="employeehome">
+							<label for="employeehome">Número de colaboradores*</label>
 						</div>
 					</div>
 				</form>
@@ -25,11 +25,11 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="btn-da-box">
-					<a class="waves-effect waves-light btn btn-da btn-1" href="">¡Cotizar ya!</a>
+					<a id="cotiza-home-btn" class="waves-effect waves-light btn btn-da btn-1" href="">¡Cotizar ya!</a>
 				</div>
 			</div>
 
-			<div id="cotiza-300" class="col s12" style="display: none;">
+			<div id="cotizaopt1" class="col s12" style="display: none;">
 				<div class="cotiza-box-300">
 					<p>El costo de tu plan es:</p>
 					<p class="number"><span>S/</span><span>300</span></p>
@@ -70,46 +70,45 @@
 				</div>
 			</div>
 
-			<div id="cotiza-personal" class="col s12" style="display: none;">
+			<div id="cotizaopt2" class="col s12" style="display: none;">
 				<div class="cotiza-personal-title">
 					<p>¿Quieres un trato más personalizado?</p>
 					<p>¡Escríbenos!</p>
 				</div>
-				<form class="home-form">
+				<form id="cotizapersonal" class="home-form">
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="name" type="text" class="validate input-no-spinner">
+							<input name="name" id="name" type="text" class="validate">
 							<label for="name">Nombre*</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="company" type="text" class="validate input-no-spinner">
+							<input name="company" id="company" type="text" class="validate">
 							<label for="company">Empresa*</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="phone" type="number" class="validate input-no-spinner">
+							<input name="phone" id="phone" type="number" class="validate">
 							<label for="phone">Teléfono*</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="email" type="email" class="validate input-no-spinner">
+							<input name="email" id="email" type="email" class="validate">
 							<label for="email">Correo corporativo*</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="cargo" type="text" class="validate input-no-spinner">
+							<input name="cargo" id="cargo" type="text" class="validate">
 							<label for="cargo">Cargo*</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="employee" type="number" class="validate input-no-spinner">
-							<label for="employee">Cargo*</label>
+							<input id="employee" type="number" class="validate">
 						</div>
 					</div>
 					<div class="row">
@@ -121,7 +120,7 @@
 				</form>
 				<p>*Campos requeridos</p>
 				<div class="btn-da-box">
-					<a class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
+					<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
 				</div>
 			</div>
 

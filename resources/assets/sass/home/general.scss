@@ -115,7 +115,7 @@ a {
 
 /* Cotiza */
 
-#cotiza-300 {
+#cotizaopt1 {
 	padding-top: 2rem;
 
 	.cotiza-box-300 {
@@ -126,6 +126,15 @@ a {
 
 		.number {
 			font-weight: bold;
+			position: relative;
+
+			span:nth-child(1){
+				position: absolute;
+				top: 15px;
+				left: 50%;
+				margin-left: -70px;
+				font-size: 22px;
+			}
 
 			span:nth-child(2) {
 				font-size: 50px;
@@ -140,7 +149,7 @@ a {
 	}
 }
 
-#cotiza-personal {
+#cotizaopt2 {
 	padding-top: 3rem;
 
 	.cotiza-personal-title {
