@@ -1,10 +1,10 @@
 <header id="nav-bar">
 	<nav class="nav-top">
-		<div class="nav-perfil">
+		<a class="nav-perfil button-collapse">
 			<i class="material-icons nav-perfil-icon">perm_identity</i>
-		</div>
-		<div class="nav-barra">
+		</a>
+		<a class="nav-barra button-collapse">
 			<span></span>
-		</div>
+		</a>
 	</nav>
 </header>

@@ -99,7 +99,7 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="layout-btn-box">
-						<a class="waves-effect waves-light btn btn-da btn-2" href="">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect waves-light btn btn-da btn-1" href="">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 			</div>
