@@ -15,13 +15,9 @@ $(document).ready( function () {
 		},
 		errorPlacement: function(error, placement){
 			if(placement.attr('name') == 'employeehome') {
-				error.insertAfter(placement).next('<i class="material-icons">add</i>');
+				error.insertAfter(placement);
 			}
 		}
-	});
-
-	$('#employeehome').keydown(function(){
-
 	});
 
 	$cotizapersonal.validate({
