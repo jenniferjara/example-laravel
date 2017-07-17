@@ -14,7 +14,7 @@
 				<form id="cotiza-home" class="home-form">
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="employeehome" type="number" class="validate" name="employeehome">
+							<input id="employeehome" type="text" class="validate" name="employeehome">
 							<label for="employeehome">Número de colaboradores*</label>
 						</div>
 					</div>
@@ -90,7 +90,7 @@
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input name="phone" id="phone" type="number" class="validate">
+							<input name="phone" id="phone" type="text" class="validate">
 							<label for="phone">Teléfono*</label>
 						</div>
 					</div>
@@ -118,7 +118,7 @@
 						</div>
 					</div>
 				</form>
-				<p>*Campos requeridos</p>
+				<p class="">*Campos requeridos</p>
 				<div class="btn-da-box">
 					<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
 				</div>

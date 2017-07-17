@@ -145,7 +145,6 @@ a {
 	.cotiza-300-text-box {
 		padding-bottom: 1rem;
 		padding-top: 1rem;
-
 	}
 }
 
@@ -159,6 +158,10 @@ a {
 	    width: 280px;
 	    margin: 0 auto;
 	    line-height: 130%;
+	}
+
+	form.home-form .input-field input{
+		margin-bottom: 10px;
 	}
 
 }

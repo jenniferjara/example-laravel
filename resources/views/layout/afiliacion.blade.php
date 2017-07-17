@@ -11,69 +11,92 @@
 			<div class="row">
 				<div class="col s12">
 					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('layout.beneficio') }}" class="breadcrumb">Beneficios</a>
+					<a href="{{ route('layout.afiliacion') }}" class="breadcrumb">Afiliación</a>
 				</div>
 			</div>
 		</div>
 	</nav>
-	<div class="container">
-		<div class="row">
-			<div class="col s12">
-				<div class="cotiza-personal-title">
-					<p>Afiliate</p>
-					<p>¡Realiza tu prueba gratis!</p>
-					<p>Puedes inscribir hasta 10 colaboradores</p>
-				</div>
-				<form class="home-form">
-					<div class="row">
-						<div class="input-field col s12">
-							<input name="name" id="name" type="text" class="validate">
-							<label for="name">Nombre*</label>
-						</div>
+	<div class="layout-body">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<div class="center-align afiliacion-text">
+						<p class="titles">Afiliate</p>
+						<p>¡Realiza tu prueba gratis!</p>
+						<p>Puedes inscribir hasta 10 colaboradores</p>
 					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input name="company" id="company" type="text" class="validate">
-							<label for="company">Empresa*</label>
+					<form class="home-form">
+						<div class="row">
+							<div class="input-field col s12">
+								<input name="number_ruc" id="number_ruc"" type="text" class="validate">
+								<label for="number_ruc"">Número de RUC*</label>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input name="phone" id="phone" type="number" class="validate">
-							<label for="phone">Teléfono*</label>
+						<div class="row">
+							<div class="input-field col s12">
+								<input name="company" type="text" class="validate">
+								<label for="company">Nombre de la Empresa*</label>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input name="email" id="email" type="email" class="validate">
-							<label for="email">Correo corporativo*</label>
+						<div class="row">
+							<div class="input-field col s12">
+								<input name="razon" id="text" type="text" class="validate">
+								<label for="razon">Razón social*</label>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input name="cargo" id="cargo" type="text" class="validate">
-							<label for="cargo">Cargo*</label>
+						<div class="row">
+							<div class="input-field col s12">
+								<select name="sector">
+									<option value="" disabled selected>Sector*</option>
+									<option value="1">Option 1</option>
+									<option value="2">Option 2</option>
+									<option value="3">Option 3</option>
+								</select>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input id="employee" type="text" class="validate">
+						<div class="row">
+							<div class="input-field col s12">
+								<input name="cargo" id="cargo" type="text" class="validate">
+								<label for="cargo">Cargo*</label>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<textarea id="message" class="materialize-textarea" data-length="120"></textarea>
-							<label for="message">Escribe un mensaje (opcional)</label>
+						<div class="row">
+							<div class="input-field col s12">
+								<input name="contact_person" type="text" class="validate">
+								<label for="contact_person">Persona de contacto*</label>
+							</div>
 						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input name="email_contact_person" type="email" class="validate">
+								<label for="email_contact_person">Correo electrónico de contacto*</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input name="contact_phone" type="text" class="validate">
+								<label for="contact_phone">Teléfono*</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="terms-box">
+									<input type="checkbox" id="terms" />
+									<label for="terms">Acepto términos y condiciones*</label>
+								</div>
+							</div>
+						</div>
+						
+					</form>
+					<p>*Campos requeridos</p>
+					<div class="btn-da-box">
+						<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
 					</div>
-				</form>
-				<p>*Campos requeridos</p>
-				<div class="btn-da-box">
-					<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
 				</div>
 			</div>
-		</div>
+		</div>	
 	</div>
+
 </section>
 
 @include('common.footer')
