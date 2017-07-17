@@ -29,7 +29,7 @@
 				</div>
 			</div>
 
-			<div id="cotiza-300" class="col s12" style="display: none;">
+			<div id="cotizaopt1" class="col s12" style="display: none;">
 				<div class="cotiza-box-300">
 					<p>El costo de tu plan es:</p>
 					<p class="number"><span>S/</span><span>300</span></p>
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 
-			<div id="cotiza-personal" class="col s12" style="display: none;">
+			<div id="cotizaopt2" class="col s12" style="display: none;">
 				<div class="cotiza-personal-title">
 					<p>¿Quieres un trato más personalizado?</p>
 					<p>¡Escríbenos!</p>
@@ -108,8 +108,7 @@
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="employee" type="number" class="validate input-no-spinner">
-							<label for="employee">Cargo*</label>
+							<input id="employee" type="text" class="validate input-no-spinner">
 						</div>
 					</div>
 					<div class="row">
@@ -119,7 +118,7 @@
 						</div>
 					</div>
 				</form>
-				<p>*Campos requeridos</p>
+				<p class="">*Campos requeridos</p>
 				<div class="btn-da-box">
 					<a class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
 				</div>
