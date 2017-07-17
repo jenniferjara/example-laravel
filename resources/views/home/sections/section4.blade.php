@@ -108,7 +108,7 @@
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="employee" type="number" class="validate">
+							<input id="employee" type="text" class="validate">
 						</div>
 					</div>
 					<div class="row">
@@ -126,7 +126,7 @@
 
 			<div class="col s12">
 				<div class="btn-da-box">
-					<a class="waves-effect waves-light btn btn-da btn-2" href="">¡Pruébalo gratis hoy!</a>
+					<a class="waves-effect waves-light btn btn-da btn-2" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 				</div>
 			</div>
 		</div>

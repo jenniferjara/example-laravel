@@ -10,14 +10,18 @@ $(document).ready( function () {
 		rules: {
 			employeehome: {
 				required: true,
-				number: true
+				digits: true
 			}
 		},
 		errorPlacement: function(error, placement){
 			if(placement.attr('name') == 'employeehome') {
-				error.insertAfter(placement);
+				error.insertAfter(placement).next('<i class="material-icons">add</i>');
 			}
 		}
+	});
+
+	$('#employeehome').keydown(function(){
+
 	});
 
 	$cotizapersonal.validate({
@@ -56,16 +60,14 @@ $(document).ready( function () {
 
 		if ( $employee <= 300 && $cotizaForm.valid() ) {
 			$('#cotiza').css('height', 'auto');
-			console.log('300 y no formulario');
 			$cotizaOption1.css('display', 'block');
 			$cotizaOption2.css('display', 'none');
 		} else if ( $employee >= 301 && $cotizaForm.valid() ) {
 			$('#cotiza').css('height', 'auto');
-			console.log('formulario y no 300');
+			$('#employee').val($employee);
 			$cotizaOption2.css('display', 'block');
 			$cotizaOption1.css('display', 'none');
 		}
-		$('#employeehome').val('');
 	});
 
 	$('#cotiza-personal-btn').on('click', function(e){

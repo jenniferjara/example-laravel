@@ -24,4 +24,7 @@ class LayoutsController extends Controller
     {
         return view('layout.nosotros');
     }
+    public function afiliacion() {
+        return view('layout.afiliacion');
+    }
 }

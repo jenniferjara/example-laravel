@@ -20,3 +20,5 @@ Route::get('/beneficios', ['as' => 'layout.beneficio', 'uses' => 'LayoutsControl
 Route::get('/medicion', ['as' => 'layout.medicion', 'uses' => 'LayoutsController@medicion']);
 
 Route::get('/nosotros', ['as' => 'layout.nosotros', 'uses' => 'LayoutsController@about']);
+
+Route::get('/afiliacion', ['as' => 'layout.afiliacion', 'uses' => 'LayoutsController@afiliacion']);
