@@ -129,7 +129,7 @@ $(document).ready( function () {
 				error.insertAfter(placement);
 			} 
 			if (placement.attr('name') === 'sector') {
-				error.insertAfter(placement.parent('.select-wrapper'));
+				error.insertAfter(placement);
 			}
 			if (placement.attr('type') === 'checkbox') {
 				error.insertAfter(placement.parent('.terms-box'));
