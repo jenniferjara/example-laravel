@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
-			<p class="center-align titles">Por qué elegir ¡Dá!</p>
+			<p class="center-align title-home">Por qué elegir ¡Dá!</p>
 			</div>
 		</div>
 	</div>

@@ -36,7 +36,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<p class="titles center-align">¡Así funciona!</p>
+					<p class="title-home center-align">¡Así funciona!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -69,7 +69,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
-					<p class="titles">¡Es importante dar beneficios!</p>
+					<p class="title-home">¡Es importante dar beneficios!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -77,21 +77,21 @@
 				<div class="col s12">
 					<div class="center-align layout-box">
 						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="layout-subtitles">Es un ahorro a tus colaboradores</p>
+						<p class="titles">Es un ahorro a tus colaboradores</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
 						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="layout-subtitles">Genera un compromiso fortaleciendo un vinculo entre empresa y colaborador</p>
+						<p class="titles">Genera un compromiso fortaleciendo un vinculo entre empresa y colaborador</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
 						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="layout-subtitles">Los motiva y hace más felices</p>
+						<p class="titles">Los motiva y hace más felices</p>
 					</div>
 				</div>
 
@@ -107,7 +107,7 @@
 					<div class="benef-slider">
 						<div class="center-align">
 							<img class="home-icons" src="{{ asset('assets/img/icono.png')}}" alt="logo-viajes">
-							<p class="benef-slider-title">¡Dá! Viajes</p>
+							<p class="titles">¡Dá! Viajes</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -132,7 +132,7 @@
 					<div class="benef-slider">
 						<div class="center-align">
 							<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="logo-educacion">
-							<p class="benef-slider-title">¡Dá! Educación</p>
+							<p class="titles">¡Dá! Educación</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -157,7 +157,7 @@
 					<div class="benef-slider">
 						<div class="center-align">
 							<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="logo-bienestar">
-							<p class="benef-slider-title">¡Dá! Bienestar</p>
+							<p class="titles">¡Dá! Bienestar</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">

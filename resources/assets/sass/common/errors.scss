@@ -1,9 +1,10 @@
-.error-forms{
-	font-size: 13px;
+.input-field span.error,
+.select-box span.error {
+	font-size: 10px;
+	font-weight: 300;
+	color: red;
 }
-.error-forms ~ label {
-	color: black;
-}
+
 .icon-error {
 	right: 20px;
 	position: absolute;

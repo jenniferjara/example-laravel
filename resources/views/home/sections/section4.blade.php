@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
-				<p class="titles center-align">¡Incrementa la felicidá <br>de tus colaboradores!</p>
+				<p class="title-home center-align">¡Incrementa la felicidá <br>de tus colaboradores!</p>
 			</div>
 		</div>
 

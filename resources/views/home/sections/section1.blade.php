@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
-				<p class="center-align titles">La felicidad es simple,<br>cuando uno da felicidá</p>
+				<p class="center-align title-home">La felicidad es simple,<br>cuando uno da felicidá</p>
 			</div>
 		</div>
 		<div class="row">

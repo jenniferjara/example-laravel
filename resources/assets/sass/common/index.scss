@@ -25,7 +25,7 @@
 			cursor: pointer;
 			
 			.nav-perfil-icon {
-				color: $general-color;
+				color: $orange;
 				height: auto;
 				line-height: 50px;
 			}
@@ -46,7 +46,7 @@
 			    right: 0;
 			    height: 2px;
 			    width: 100%;
-			    background: $general-color;
+			    background: $violet;
 
 			    &::before, &::after {
 					position: absolute;
@@ -54,7 +54,7 @@
 					left: 0;
 					width: 100%;
 					height: 2px;
-					background: $general-color;
+					background: $violet;
 					content: "";
 			    }
 			    &::before {top: -8px;}
@@ -77,10 +77,10 @@
 		height: 50px;
 
 		.breadcrumb{
-			color: $general-color;
-			font-size: 15px;
+			color: $violet;
+			font-size: 12px;
 			&:before {
-				color:$general-color;
+				color:$violet;
 				margin: 0px;
 			}
 		}
@@ -89,14 +89,15 @@
 /*footer*/
 
 #footer {
-	background-color: #727272;
-	color: #ffffff;
+	background-color: $violet;
+	color: $white;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	line-height: 18px;
+	font-size: 14px;
 
 	.footer-titles {
 		font-weight: bold;
-		font-size: 17px;
 	}
 	.footer-bottom {padding-top: 4rem;}
 
@@ -109,6 +110,6 @@
 		margin-bottom: 10px;
 		margin-top: 10px;
 		text-decoration: none;
-		color: #ffffff;
+		color: $white;
 	}
 }

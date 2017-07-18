@@ -5,13 +5,16 @@
 }
 
 body{
-	background-color: #FFF;
-	color: $general-color;
+	background-color: $white;
+	color: $violet;
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
+
+	font-size: 14px;
+    line-height: 18px;
 }
 a {
-	color: $general-color;
+	color: $violet;
 	text-decoration: none;
 }
 
@@ -31,7 +34,7 @@ a {
 }
 
 #productos, #cotiza {
-	background-color: $bg-grey;
+	background-color: $grey;
 }
 #productos, #options, #cotiza, #estudios {
 	padding-top: 3rem;
@@ -47,23 +50,29 @@ a {
 }
 
 .home-subtitle {
-	font-size: 20px;
+	font-size: 18px;
     font-weight: bold;
+    line-height: 22px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 .home-link {
+    font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
-	border-bottom-color: $general-color;
+	border-bottom-color: $violet;
 	display: inline-block;
     margin-top: 10px;
-    font-weight: bold;
 }
 
 .home-form {
 	.input-field label {
-		color: #c5c5c5;
+		font-size: 12px;
+		opacity: 0.6;
+		color: $violet;
 	}
 	.input-field input[type=number]:focus + label {
 		color: #c5c5c5;
@@ -95,9 +104,9 @@ a {
     border-radius: 7px;
     text-align: center;
     margin: 0 auto;
-    border: 1px solid $general-color;
+    border: 1px solid $violet;
     font-size: 16px;
-    padding-top: 10px;
+    padding-top: 9px;
     padding-bottom: 10px;
     position: relative;
 
@@ -121,7 +130,7 @@ a {
 
 	.cotiza-box-300 {
 		border-radius: 5px;
-		border: 1px solid $general-color;
+		border: 1px solid $violet;
 		padding: 10px;
 		text-align: center;
 

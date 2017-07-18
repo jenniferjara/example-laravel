@@ -9,28 +9,38 @@
     padding: 1rem;
     border-radius: 7px;
     text-align: center;
-    color: white;
     margin: 0 auto;
     height: auto;
     line-height: 24px;
+    text-transform: initial;
+    letter-spacing: 0px;
+    font-size: 16px;
 }
 .btn-1{
-    background-color: $btn-1;
+    color: $violet;
+    background-color: $cyan;
     &:hover {
-        background-color: $btn-1;
+        background-color: $cyan;
     }
 }
 .btn-2{
-    background-color: $btn-2;
+    color: $white;
+    background-color: $violet;
     &:hover {
-        background-color: $btn-2;
+        background-color: $violet;
     }
 }
-
-.titles {
-	font-weight: bold;
-    font-size: 28px;
-    line-height: 130%;
+.title-home {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
     margin-bottom: 15px;
     margin-top: 15px;
+}
+.titles {
+	font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 22px;
 }

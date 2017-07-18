@@ -80,7 +80,6 @@ $(document).ready( function () {
 
 	$formFree.validate({
 		errorElement: 'span',
-		errorClass: 'error-forms',
 		rules: {
 			number_ruc: {
 				required: true,
@@ -125,14 +124,15 @@ $(document).ready( function () {
 			}
 		},
 		errorPlacement: function(error, placement){
+			console.log(placement);
 			if (placement.attr('name') === 'number_ruc' || 'company' || 'razon' || 'contact_person' || 'contact_person_phone' || 'contact_person_email') {
 				error.insertAfter(placement);
 			} 
-			if (placement.attr('name') === 'sector') {
-				error.insertAfter(placement);
-			}
 			if (placement.attr('type') === 'checkbox') {
 				error.insertAfter(placement.parent('.terms-box'));
+			} 
+			if (placement.parent('.select-box').length > 0) {
+				error.insertAfter(placement.parent('.select-box'));
 			}
 		}
 	});

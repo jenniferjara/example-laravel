@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12 center-align">
-				<p class="titles">Aquí te damos algunos estudios sobre la felicidad en el trabajo</p>
+				<p class="title-home">Aquí te damos algunos estudios sobre la felicidad en el trabajo</p>
 			</div>
 		</div>
 

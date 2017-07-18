@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
-				<p class="center-align titles">Nuestro producto</p>
+				<p class="center-align title-home">Nuestro producto</p>
 			</div>
 		</div>
 		<div class="row">

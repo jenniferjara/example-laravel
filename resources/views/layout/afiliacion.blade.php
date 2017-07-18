@@ -46,12 +46,14 @@
 						</div>
 						<div class="row">
 							<div class="input-field col s12">
-                                <select class="browser-default validate" id="sector" name="sector">
-                    				<option value="" disabled selected>Sector*</option>
-                    				<option value="1">Manager</option>
-                                    <option value="2">Developer</option>
-                                    <option value="3">Business</option>
-                    			</select>
+								<div class="select-box">
+	                                <select class="browser-default select-afiliate" id="sector" name="sector">
+	                    				<option value="" disabled selected>Sector*</option>
+	                    				<option value="1">Manager</option>
+	                                    <option value="2">Developer</option>
+	                                    <option value="3">Business</option>
+	                    			</select>
+								</div>
 							</div>
 						</div>
 						<div class="row">

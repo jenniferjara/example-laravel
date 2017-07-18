@@ -10,7 +10,7 @@
 			margin-top: 2rem;
 		}
 		#form-free input {
-			margin-bottom: 8px;
+			margin-bottom: 0px;
 		}
 	}
 
@@ -26,7 +26,7 @@
 		color: #5d5b5b;
 		width: 20px;
 	}
-	select {
+	.select-afiliate {
 		background-color: transparent;
 		width: 100%;
 		padding: 5px;
@@ -34,5 +34,8 @@
 		border-radius: 2px;
 		height: 3rem;
 		border-bottom: 1px solid #9e9e9e;
+	}
+	.input.field select:focus {
+		border: none;
 	}
 }
