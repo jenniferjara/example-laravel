@@ -86,7 +86,7 @@
 					</form>
 					<p class="campos-requeridos">*Campos requeridos</p>
 					<div class="btn-da-box">
-						<a id="btn-send-free" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
+						<a id="btn-send-free" class="waves-effect waves-light btn btn-da btn-violet" href="">Enviar</a>
 					</div>
 				</div>
 			</div>

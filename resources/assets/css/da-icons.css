@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/da-icons/icomoon.eot?x03imd');
+  src:  url('../fonts/da-icons/icomoon.eot?x03imd#iefix') format('embedded-opentype'),
+    url('../fonts/da-icons/icomoon.ttf?x03imd') format('truetype'),
+    url('../fonts/da-icons/icomoon.woff?x03imd') format('woff'),
+    url('../fonts/da-icons/icomoon.svg?x03imd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="da_"], [class*=" da_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.da_ico_alert:before {
+  content: "\e900";
+  color: #27073a;
+}
+.da_ico_benefits:before {
+  content: "\e901";
+  color: #27073a;
+}
+.da_ico_check:before {
+  content: "\e902";
+  color: #27073a;
+}
+.da_ico_checkcircle:before {
+  content: "\e903";
+  color: #27073a;
+}
+.da_ico_emailsent:before {
+  content: "\e904";
+  color: #27073a;
+}
+.da_ico_error:before {
+  content: "\e905";
+  color: #27073a;
+}
+.da_ico_happy .path1:before {
+  content: "\e906";
+  color: rgb(240, 243, 245);
+}
+.da_ico_happy .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(39, 7, 58);
+}
+.da_ico_idea:before {
+  content: "\e908";
+  color: #27073a;
+}
+.da_ico_measuring:before {
+  content: "\e909";
+  color: #27073a;
+}
+.da_ico_photo:before {
+  content: "\e90a";
+  color: #27073a;
+}
+.da_ico_productivity:before {
+  content: "\e90b";
+  color: #27073a;
+}
+.da_ico_recognition:before {
+  content: "\e90c";
+  color: #27073a;
+}
+.da_ico_user:before {
+  content: "\e90d";
+  color: #27073a;
+}
+.da_ico_workers:before {
+  content: "\e90e";
+  color: #27073a;
+}
+.da_logo_da:before {
+  content: "\e90f";
+  color: #27073a;
+}

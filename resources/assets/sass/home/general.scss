@@ -33,7 +33,13 @@ a {
 	height: 100vh;
 }
 
-#productos, #cotiza {
+#productos, #estudios {
+	p {
+		color: $violet;
+	}
+}
+
+#productos, #estudios {
 	background-color: $grey;
 }
 #productos, #options, #cotiza, #estudios {
@@ -41,7 +47,6 @@ a {
 	padding-bottom: 3rem;
 }
 
-.home-icons {width: 50px;}
 .home-box {
 	width: 90%;
 	margin: 0 auto;
@@ -60,10 +65,11 @@ a {
     font-weight: bold;
 	font-size: 14px;
 	line-height: 18px;
+	color: $orange;
 
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
-	border-bottom-color: $violet;
+	border-bottom-color: $orange;
 	display: inline-block;
     margin-top: 10px;
 }
@@ -85,7 +91,7 @@ a {
 }
 
 .home-docs {
-	border: 1px solid #c5c5c5;
+	background-color: $white;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin-top: 2.5rem;
@@ -101,25 +107,22 @@ a {
 .home-btn-docs {
 	display: block;
     width: 250px;
-    border-radius: 7px;
+    border-radius: 5px;
     text-align: center;
     margin: 0 auto;
     border: 1px solid $violet;
     font-size: 16px;
-    padding-top: 9px;
-    padding-bottom: 10px;
-    position: relative;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     i.left {
-		position: absolute;
-		left: 25%;
-		margin-left: -5px;
-		font-size: 25px;
+		font-size: 20px;
     	float: none !important;
-    	-webkit-transform: rotate(180deg);
-    	-moz-transform: rotate(180deg);
-    	-ms-transform: rotate(180deg);
-    	transform: rotate(180deg);
+    	color: $orange;
+    	margin-right: 10px;
     }
 }
 
@@ -131,23 +134,25 @@ a {
 	.cotiza-box-300 {
 		border-radius: 5px;
 		border: 1px solid $violet;
-		padding: 10px;
+		padding: 10px 30px;
 		text-align: center;
+		position: relative;
 
 		.number {
 			font-weight: bold;
-			position: relative;
+			margin-bottom: 10px;
+			margin-top: 30px;
 
 			span:nth-child(1){
 				position: absolute;
-				top: 15px;
-				left: 50%;
-				margin-left: -70px;
-				font-size: 22px;
+				top: 50px;
+				left: 48%;
+				margin-left: -90px;
+				font-size: 30px;
 			}
 
 			span:nth-child(2) {
-				font-size: 50px;
+				font-size: 80px;
 			}
 		}
 	}

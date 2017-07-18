@@ -13,11 +13,17 @@
 		box-shadow: none;
 		border-bottom: 1px solid #cccccc;
 
-		.nav-perfil, .nav-barra {
+		.nav-perfil, .nav-barra, .nav-logo {
 			position: absolute;
 			top: 0px;
 			display: block;
 			margin: 0;
+		}
+
+		.nav-logo {
+			font-size: 31px;
+			top: 10px;
+			left: 10px;
 		}
 
 		.nav-perfil{
@@ -25,9 +31,8 @@
 			cursor: pointer;
 			
 			.nav-perfil-icon {
+				font-size: 18px;
 				color: $orange;
-				height: auto;
-				line-height: 50px;
 			}
 		}
 		.nav-barra{
@@ -69,9 +74,10 @@
 /* breadcrumbs */
 
 .nav-breadcrumbs{
-	background-color: #ffffff;
+	background-color: $white;
 	height: 50px;
 	box-shadow: none;
+	line-height: 45px;
 
 	.nav-wrapper {
 		height: 50px;
@@ -80,12 +86,37 @@
 			color: $violet;
 			font-size: 12px;
 			&:before {
-				color:$violet;
+				color: $orange;
 				margin: 0px;
 			}
 		}
 	}
 }
+
+/* icons */
+.icons-violet-lg {
+	color: $violet;
+	font-size: 80px;
+}
+.icons-white-lg {
+	color: $white;
+	font-size: 80px;
+}
+
+.icons-violet-sm {
+	font-size: 40px;
+	color: $violet;
+}
+
+/** error **/
+.input-field span.error,
+.select-box span.error, 
+.terms-box ~ span.error {
+	font-size: 10px;
+	font-weight: 300;
+	color: red;
+}
+
 /*footer*/
 
 #footer {
@@ -101,14 +132,12 @@
 	}
 	.footer-bottom {padding-top: 4rem;}
 
-	p {
-		margin-bottom: 10px;
-		margin-top: 10px;
+	p, a {
+		padding-bottom: 10px;
+		padding-top: 10px;
 	}
 	a {
 		display: block;
-		margin-bottom: 10px;
-		margin-top: 10px;
 		text-decoration: none;
 		color: $white;
 	}

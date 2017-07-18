@@ -21,9 +21,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
-						<p class="about-frase">"La felicidad como herramienta de transformación mejora el rendimiento de tus colaboradores, refuerza la cultura y contribuye la conexión de los equipos de trabajo."</p>
+						<p class="title-home">"La felicidad como herramienta de transformación mejora el rendimiento de tus colaboradores, refuerza la cultura y contribuye la conexión de los equipos de trabajo."</p>
 						<br>
-						<p>Giacomo Zolezzi, GG</p>
+						<p class="text-orange">Giacomo Zolezzi, GG</p>
 					</div>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="center-align home-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="Icono">
+						<div><span class="da_ico_recognition icons-violet-lg"></span></div>
 						<p class="home-subtitle">Reconocimientos</p>
 						<p>Reconoce a tus colaboradores con KMS. <br>LATAM Pass</p>
 						<a class="home-link" href="{{ route('layout.reconocimiento') }}">Leer más</a>
@@ -49,7 +49,7 @@
 
 				<div class="col s12">
 					<div class="center-align home-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="Icono">
+						<div><span class="da_ico_benefits icons-violet-lg"></span></div>
 						<p class="home-subtitle">Beneficios</p>
 						<p>Queremos que des experiencias enfocadas <br>en educación, viajes y bienestar.</p>
 						<a class="home-link" href="{{ route('layout.beneficio') }}">Leer más</a>
@@ -58,7 +58,7 @@
 				
 				<div class="col s12">
 					<div class="center-align home-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="Icono">
+						<div><span class="da_ico_measuring icons-violet-lg"></span></div>
 						<p class="home-subtitle">Medición</p>
 						<p>Gestiona la felicidad y vuelve más productivo <br>a tu equipo.</p>
 						<a class="home-link" href="{{ route('layout.medicion') }}">Leer más</a>
@@ -80,14 +80,14 @@
 					<div class="col s6">
 						<div class="about-perfil-pic"></div>
 						<div class="about-perfil-text">
-							<p><strong>Yoel Chlimper</strong></p>
+							<p>Yoel Chlimper</p>
 							<p>Gerente Genreal</p>
 						</div>
 					</div>
 					<div class="col s6">
 						<div class="about-perfil-pic"></div>
 						<div class="about-perfil-text">
-							<p><strong>Giacomo Zolezzi</strong></p>
+							<p>Giacomo Zolezzi</p>
 							<p>Gerente General</p>
 						</div>
 					</div>
@@ -95,7 +95,7 @@
 			</div>
 		</div>
 	</div>
-	<div style="background-color: grey; height: 150px;"></div>
+	<div style="background-color: grey; height: 200px;"></div>
 	<div class="layout-body">
 		<div class="container">
 			<div class="row">
@@ -106,7 +106,7 @@
 				</div>
 				<div class="col s12">
 					<div class="layout-btn-box">
-						<a class="waves-effect waves-light btn btn-da btn-2" href="{{ route('home.index') }}">Regresar</a>
+						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>
 			</div>

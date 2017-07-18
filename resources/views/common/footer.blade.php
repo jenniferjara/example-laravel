@@ -11,7 +11,7 @@
 				<p class="footer-titles">Contacto</p>
 				<a href="">Cotizar</a>
 				<a href="">Consulta</a>
-				<a href="">Prueba gratis</a>
+				<a href="{{ route('layout.afiliacion') }}">Prueba gratis</a>
 			</div>
 		</div>
 		<div class="row">

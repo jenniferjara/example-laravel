@@ -28,7 +28,7 @@ $(document).ready( function () {
 
 	$cotizaHome.validate({
 		errorElement: 'span',
-		errorClass: 'not-valid',
+		errorClass: 'error',
 		rules: {
 			employeehome: {
 				required: true,
@@ -44,7 +44,7 @@ $(document).ready( function () {
 
 	$cotizapersonal.validate({
 		errorElement: 'span',
-		errorClass: 'not-valid',
+		errorClass: 'error',
 		rules: {
 			name: {
 				required: true

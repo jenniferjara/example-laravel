@@ -25,7 +25,7 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="btn-da-box">
-					<a id="cotiza-home-btn" class="waves-effect waves-light btn btn-da btn-1" href="">¡Cotizar ya!</a>
+					<a id="cotiza-home-btn" class="waves-effect waves-light btn btn-da btn-violet" href="">¡Cotizar ya!</a>
 				</div>
 			</div>
 
@@ -35,7 +35,7 @@
 					<p class="number"><span>S/</span><span>300</span></p>
 				</div>
 				<div class="cotiza-300-text-box center-align">
-					<p class="home-subtitle">Incluye</p>
+					<p class="home-subtitle text-orange">Incluye</p>
 
 					<div class="cotiza-300-text-box">
 						<p class="home-subtitle">Reconocimientos</p>
@@ -126,7 +126,7 @@
 
 			<div class="col s12">
 				<div class="btn-da-box">
-					<a class="waves-effect waves-light btn btn-da btn-2" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+					<a class="waves-effect waves-light btn btn-da btn-cyan" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 				</div>
 			</div>
 		</div>

@@ -22,8 +22,8 @@
 				<div class="row">
 					<div class="col s12">
 						<div class="center-align home-box">
-							<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="Icono">
-							<p class="titles">¡Dá! Reconocimientos</p>
+							<div><span class="da_ico_recognition icons-violet-lg"></span></div>
+							<p class="titles text-violet">¡Dá! Reconocimientos</p>
 							<p class="layout-text">Crea cultura de reconocimiento. Ten colaboradores más felices y productivos.</p>
 						</div>
 					</div>
@@ -36,7 +36,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<p class="titles center-align">¡Así funciona!</p>
+					<p class="title-home center-align text-violet">¡Así funciona!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -69,7 +69,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
-					<p class="titles">¡El reconocimiento es importante!</p>
+					<p class="title-home text-violet">¡El reconocimiento es importante!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -77,28 +77,28 @@
 				<div class="col s12">
 					<div class="center-align layout-box">
 						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="layout-subtitles">Refuerza conductas positivas</p>
+						<p class="layout-text">Refuerza conductas positivas</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
 						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="layout-subtitles">Motiva a los equipos de trabajo</p>
+						<p class="layout-text">Motiva a los equipos de trabajo</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
 						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="layout-subtitles">Contribuye a alcanzar las metas establecidas</p>
+						<p class="layout-text">Contribuye a alcanzar las metas establecidas</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
 						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="layout-subtitles">Obtén reportes de reconocimiento y evalua el desempeño de tus colaboradores</p>
+						<p class="layout-text">Obtén reportes de reconocimiento y evalua el desempeño de tus colaboradores</p>
 					</div>
 				</div>
 
@@ -111,10 +111,10 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="btn-da-box">
-						<a class="waves-effect waves-light btn btn-da btn-1" href="">Contáctanos</a>
+						<a class="waves-effect waves-light btn btn-da btn-violet" href="">Contáctanos</a>
 					</div>
 					<div class="btn-da-box">
-						<a class="waves-effect waves-light btn btn-da btn-2" href="{{ route('home.index') }}">Regresar</a>
+						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>
 			</div>

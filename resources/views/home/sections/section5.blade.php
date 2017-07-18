@@ -15,7 +15,7 @@
 						<p class="home-subtitle">Power of recognition</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque et doloremque error quam quo, corrupti.</p>
 						<div class="btn-da-box">
-							<a class="home-btn-docs" href=""><i class="material-icons left">open_in_browser</i>Descargar</a>
+							<a class="home-btn-docs" href=""><i class="material-icons left">system_update_alt</i> <span>Descargar</span></a>
 						</div>
 					</div>
 				</div>
@@ -28,7 +28,7 @@
 						<p class="home-subtitle">Happy employee</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque et doloremque error quam quo, corrupti.</p>
 						<div class="btn-da-box">
-							<a class="home-btn-docs" href=""><i class="material-icons left">open_in_browser</i>Descargar</a>
+							<a class="home-btn-docs" href=""><i class="material-icons left">system_update_alt</i> <span>Descargar</span></a>
 						</div>
 					</div>
 				</div>
@@ -41,7 +41,7 @@
 						<p class="home-subtitle">El índice de la chamba</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque et doloremque error quam quo, corrupti.</p>
 						<div class="btn-da-box">
-							<a class="home-btn-docs" href=""><i class="material-icons left">open_in_browser</i>Descargar</a>
+							<a class="home-btn-docs" href=""><i class="material-icons left">system_update_alt</i><span>Descargar</span></a>
 						</div>
 					</div>
 				</div>

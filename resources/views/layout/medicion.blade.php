@@ -22,11 +22,11 @@
 				<div class="row">
 					<div class="col s12">
 						<div class="center-align home-box">
-							<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="Icono">
+							<div><span class="da_ico_measuring icons-violet-lg"></span></div>
 							<p class="title-home">Mide la felicidad <br>de tus colaboradores</p>
 						</div>
 						<div class="btn-da-box">
-							<a class="waves-effect waves-light btn btn-da btn-2" href="">¡Mide hoy!</a>
+							<a class="waves-effect waves-light btn btn-da btn-violet" href="">¡Mide hoy!</a>
 						</div>
 					</div>
 				</div>
@@ -77,21 +77,21 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="titles">Incrementa la productividad</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="titles">Genera una relación cercana entre los colaboradores y la empresa</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="titles">Mejora el ambiente de trabajo</p>
 					</div>
 				</div>
@@ -99,7 +99,7 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="layout-btn-box">
-						<a class="waves-effect waves-light btn btn-da btn-2" href="">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect waves-light btn btn-da btn-violet" href="">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 			</div>
@@ -156,7 +156,7 @@
 
 				<div class="col s12">
 					<div class="layout-btn-box">
-						<a class="waves-effect waves-light btn btn-da btn-2" href="{{ route('home.index') }}">Regresar</a>
+						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>
 			</div>

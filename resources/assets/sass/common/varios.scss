@@ -6,41 +6,61 @@
 .btn-da{
 	display: block;
     width: 100%;
-    padding: 1rem;
-    border-radius: 7px;
+    padding: 11px;
+    border-radius: 5px;
     text-align: center;
     margin: 0 auto;
     height: auto;
     line-height: 24px;
     text-transform: initial;
-    letter-spacing: 0px;
     font-size: 16px;
+    box-shadow: none;
 }
-.btn-1{
+.btn-cyan{
     color: $violet;
     background-color: $cyan;
+    letter-spacing: 0px;
     &:hover {
         background-color: $cyan;
     }
 }
-.btn-2{
+.btn-violet{
     color: $white;
     background-color: $violet;
+    font-weight: bold;
     &:hover {
         background-color: $violet;
     }
 }
+.btn-flat {
+    background-color: transparent;
+    border: 1px solid $violet;
+    color: $violet;
+    &:hover {
+        background-color: $violet;
+        color: $white;
+    }
+}
+
 .title-home {
-    font-weight: bold;
     font-size: 24px;
     line-height: 28px;
+
     margin-bottom: 15px;
     margin-top: 15px;
 }
 .titles {
-	font-weight: bold;
-    margin-bottom: 15px;
-    margin-top: 15px;
     font-size: 18px;
     line-height: 22px;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text-orange {
+    color: $orange;
+}
+.text-violet {
+    color: $violet;
 }

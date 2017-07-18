@@ -22,8 +22,8 @@
 				<div class="row">
 					<div class="col s12">
 						<div class="center-align home-box">
-							<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="Icono">
-							<p class="titles">¡Dá! Beneficios</p>
+							<div><span class="da_ico_benefits icons-violet-lg"></span></div>
+							<p class="title-home text-violet">¡Dá! Beneficios</p>
 							<p class="layout-text">Dale a tus colaboradores los mejores beneficios.</p>
 						</div>
 					</div>
@@ -36,7 +36,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<p class="title-home center-align">¡Así funciona!</p>
+					<p class="title-home text-violet center-align">¡Así funciona!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -76,22 +76,22 @@
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="titles">Es un ahorro a tus colaboradores</p>
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<p class="layout-text">Es un ahorro a tus colaboradores</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="titles">Genera un compromiso fortaleciendo un vinculo entre empresa y colaborador</p>
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<p class="layout-text">Genera un compromiso fortaleciendo un vinculo entre empresa y colaborador</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
-						<p class="titles">Los motiva y hace más felices</p>
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<p class="layout-text">Los motiva y hace más felices</p>
 					</div>
 				</div>
 
@@ -107,7 +107,7 @@
 					<div class="benef-slider">
 						<div class="center-align">
 							<img class="home-icons" src="{{ asset('assets/img/icono.png')}}" alt="logo-viajes">
-							<p class="titles">¡Dá! Viajes</p>
+							<p class="titles text-violet">¡Dá! Viajes</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -132,7 +132,7 @@
 					<div class="benef-slider">
 						<div class="center-align">
 							<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="logo-educacion">
-							<p class="titles">¡Dá! Educación</p>
+							<p class="titles text-violet">¡Dá! Educación</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -157,7 +157,7 @@
 					<div class="benef-slider">
 						<div class="center-align">
 							<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="logo-bienestar">
-							<p class="titles">¡Dá! Bienestar</p>
+							<p class="titles text-violet">¡Dá! Bienestar</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -183,10 +183,10 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="btn-da-box">
-						<a class="waves-effect waves-light btn btn-da btn-1" href="">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect waves-light btn btn-da btn-violet" href="">¡Pruébalo gratis hoy!</a>
 					</div>
 					<div class="btn-da-box">
-						<a class="waves-effect waves-light btn btn-da btn-2" href="{{ route('home.index') }}">Regresar</a>
+						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>
 			</div>
