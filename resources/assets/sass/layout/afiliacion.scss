@@ -9,10 +9,21 @@
 		.home-form {
 			margin-top: 2rem;
 		}
+		#form-free input {
+			margin-bottom: 8px;
+		}
 	}
 
-	.tems-box {
+	.terms-box {
+		margin-top: 2rem;
+	}
+
+	.campos-requeridos {
+		margin-top: 2rem;
 		margin-bottom: 2rem;
-		margin-top: 1rem;
+	}
+	.caret {
+		color: #5d5b5b;
+		width: 20px;
 	}
 }

@@ -1,3 +1,10 @@
-.not-valid ~ label {
+.error-forms{
+	font-size: 13px;
+}
+.error-forms ~ label {
 	color: black;
+}
+.icon-error {
+	right: 20px;
+	position: absolute;
 }

@@ -25,7 +25,7 @@
 						<p>¡Realiza tu prueba gratis!</p>
 						<p>Puedes inscribir hasta 10 colaboradores</p>
 					</div>
-					<form class="home-form">
+					<form id="form-free" class="home-form">
 						<div class="row">
 							<div class="input-field col s12">
 								<input name="number_ruc" id="number_ruc"" type="text" class="validate">
@@ -46,18 +46,13 @@
 						</div>
 						<div class="row">
 							<div class="input-field col s12">
-								<select name="sector">
-									<option value="" disabled selected>Sector*</option>
-									<option value="1">Option 1</option>
-									<option value="2">Option 2</option>
-									<option value="3">Option 3</option>
+								<select id="sector" name="sector" class="validate">
+								    <option value="" disabled="true" selected="selected">Sector*</option>
+								    <option value="general">General</option>
+								    <option value="tech">Tech</option>
+								    <option value="person">Personnel</option>
+								    <option value="resource">Resourcing</option>
 								</select>
-							</div>
-						</div>
-						<div class="row">
-							<div class="input-field col s12">
-								<input name="cargo" id="cargo" type="text" class="validate">
-								<label for="cargo">Cargo*</label>
 							</div>
 						</div>
 						<div class="row">
@@ -68,29 +63,29 @@
 						</div>
 						<div class="row">
 							<div class="input-field col s12">
-								<input name="email_contact_person" type="email" class="validate">
-								<label for="email_contact_person">Correo electrónico de contacto*</label>
+								<input name="contact_person_email" type="email" class="validate">
+								<label for="contact_person_email">Correo electrónico de contacto*</label>
 							</div>
 						</div>
 						<div class="row">
 							<div class="input-field col s12">
-								<input name="contact_phone" type="text" class="validate">
-								<label for="contact_phone">Teléfono*</label>
+								<input id="contact_person_phone" name="contact_person_phone" type="text" class="validate">
+								<label for="contact_person_phone">Teléfono*</label>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col s12">
 								<div class="terms-box">
-									<input type="checkbox" id="terms" />
+									<input name="terms" type="checkbox" id="terms" />
 									<label for="terms">Acepto términos y condiciones*</label>
 								</div>
 							</div>
 						</div>
 						
 					</form>
-					<p>*Campos requeridos</p>
+					<p class="campos-requeridos">*Campos requeridos</p>
 					<div class="btn-da-box">
-						<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
+						<a id="btn-send-free" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
 					</div>
 				</div>
 			</div>
