@@ -8,6 +8,12 @@ $(document).ready( function () {
 
 	$('input#input_text, textarea#message').characterCounter();
 	$('#sector').material_select();
+	$('.button-collapse, .login').sideNav({
+		menuWidth: 300, 
+		edge: 'right',
+		closeOnClick: true,
+		draggable: true, 
+	});
 	
 	var $cotizaHome = $('#cotiza-home');
 	var $cotizapersonal = $('#cotizapersonal');

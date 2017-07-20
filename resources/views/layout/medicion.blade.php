@@ -21,7 +21,7 @@
 		<div class="layout-home-text bg-layout-wrap valign-wrapper">
 			<div class="container">
 				<div class="row">
-					<div class="col s12">
+					<div class="col s12 offset-l2 l8">
 						<div class="center-align">
 							<div><span class="da_ico_measuring icons-violet-lg"></span></div>
 							<p class="titles">Mide la felicidad <br>de tus colaboradores</p>
@@ -123,7 +123,7 @@
 							<p class="subtitles">Estudio 1</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing. Reiciendis doloremque error.</p>
 							<div class="btn-da-box">
-								<a class="docs-wrapper-btn" href="{{ asset('assets/dosc/doc-1.pdf') }}" download><i class="material-icons left">open_in_browser</i>Descargar</a>
+								<a class="docs-wrapper-btn" href="{{ asset('assets/dosc/best-place-work.pdf') }}" download><i class="material-icons left">open_in_browser</i>Descargar</a>
 							</div>
 						</div>
 					</div>
@@ -136,7 +136,7 @@
 							<p class="subtitles">Estudio 2</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing. Reiciendis doloremque error.</p>
 							<div class="btn-da-box">
-								<a class="docs-wrapper-btn" href="{{ asset('assets/docs/doc-1.pdf') }}" download><i class="material-icons left">open_in_browser</i>Descargar</a>
+								<a class="docs-wrapper-btn" href="{{ asset('assets/docs/happiness-work.pdf') }}" download><i class="material-icons left">open_in_browser</i>Descargar</a>
 							</div>
 						</div>
 					</div>
@@ -149,7 +149,7 @@
 							<p class="subtitles">Estudio 3</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing. Reiciendis doloremque error.</p>
 							<div class="btn-da-box">
-								<a class="docs-wrapper-btn" href="{{ asset('assets/docs/doc-1.pdf') }}"><i class="material-icons left">open_in_browser</i>Descargar</a>
+								<a class="docs-wrapper-btn" href="{{ asset('assets/docs/felices-en-el-trabajo.pdf') }}"><i class="material-icons left">open_in_browser</i>Descargar</a>
 							</div>
 						</div>
 					</div>

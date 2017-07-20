@@ -4,10 +4,12 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 99999;
+	z-index: 999;
 	border-bottom: 1px solid #cccccc;
 	background-color: #ffffff;
 	height: 50px;
+	padding-left: 1rem;
+    padding-right: 1rem;
 
 	.nav-top {
 		background-color: #ffffff;
@@ -16,32 +18,36 @@
 		box-shadow: none;
 		height: 50px;
 
-		.nav-perfil, .nav-barra, .nav-logo {
-			position: absolute;
-			top: 0px;
-			display: block;
-			margin: 0;
+		.nav-lineal {
+			display: none;
 		}
-
 		.nav-logo {
-			font-size: 31px;
-			top: 10px;
-			left: 20px;
+			font-size: 30px;
+			line-height: 50px;
 		}
-
-		.nav-perfil{
-			right: 60px;
-			cursor: pointer;
-			
-			.nav-perfil-icon {
-				font-size: 18px;
-				color: $orange;
+		.nav-collapse {
+			float: right;
+			.nav-perfil{
+				cursor: pointer;
+				line-height: 50px;
+				margin-right: 10px;
+				
+				.nav-perfil-icon {
+					font-size: 18px;
+					line-height: 50px;
+					&:before {
+						color: $orange;
+					}
+				}
 			}
-		}
-		.nav-barra{
-		    right: 20px;
-		    cursor: pointer;
-		    color: $violet;
+			.nav-barra {
+			    margin-right: 0px;
+				i{
+				    cursor: pointer;
+				    color: $violet;
+				    line-height: 50px;
+				}
+			}
 		}
 	}
 }
@@ -96,6 +102,8 @@
 	color: red;
 }
 
+
+
 /*footer*/
 
 #footer {
@@ -134,15 +142,33 @@
 }
 
 @media (min-width: 992px) {
-	#nav-bar .nav-top .nav-logo {
-		font-size: 40px;
-		top: 5px;
-		left: 40px;
-	}
-	.nav-breadcrumbs {
-		padding-left: 2rem;
-		.nav-wrapper .breadcrumb{
-			font-size: 14px;
+	#nav-bar {
+		padding-left: 5rem;
+		padding-right: 5rem;
+		.nav-top .nav-logo {
+			font-size: 40px;
+		}
+		.nav-top .nav-barra, 
+		.nav-top .nav-perfil{
+			display: none;
+		}
+		.nav-breadcrumbs {
+			margin-left: 5rem;
+			.nav-wrapper .breadcrumb{
+				font-size: 14px;
+			}
+		}
+		.nav-top .nav-lineal {
+			display: block;
+			line-height: 50px;
+
+			li {
+				margin-left: 10px;
+				margin-right: 10px;
+				a{
+					color: $violet;
+				}
+			}
 		}
 	}
 	

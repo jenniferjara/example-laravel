@@ -7,10 +7,12 @@
 <section id="beneficio">
 	<nav class="nav-breadcrumbs">
 		<div class="nav-wrapper">
-			<div class="row">
-				<div class="col s12">
-					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('layout.beneficio') }}" class="breadcrumb">Beneficios</a>
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+						<a href="{{ route('layout.beneficio') }}" class="breadcrumb">Beneficios</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -20,7 +22,7 @@
 		<div class="bg-layout-wrap layout-home-text valign-wrapper">
 			<div class="container">
 				<div class="row">
-					<div class="col s12">
+					<div class="col offset-l2 l8 s12">
 						<div class="center-align home-wrapper">
 							<div><span class="da_ico_benefits icons-violet-lg"></span></div>
 							<p class="subtitles text-violet">¡Dá! Beneficios</p>

@@ -8,10 +8,12 @@
 
 	<nav class="nav-breadcrumbs">
 		<div class="nav-wrapper">
-			<div class="row">
-				<div class="col s12">
-					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('layout.afiliacion') }}" class="breadcrumb">Afiliación</a>
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+						<a href="{{ route('layout.afiliacion') }}" class="breadcrumb">Afiliación</a>
+					</div>
 				</div>
 			</div>
 		</div>

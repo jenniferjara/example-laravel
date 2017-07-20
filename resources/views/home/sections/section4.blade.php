@@ -2,7 +2,7 @@
 	<div id="cotiza-wrapper">
 		<div class="container">
 			<div class="row">
-				<div class="col s12">
+				<div class="col offset-l3 l9 s12">
 					<p class="titles left-center">¡Incrementa la felicidá <br>de tus colaboradores!</p>
 					<p class="subtitles left-center">Cotiza tu plan</p>
 					<form id="cotiza-home" class="form-common">
@@ -58,7 +58,7 @@
 						</div>
 					</div> --}}
 
-					<div id="cotizaopt2" class="col s12 cotizaopt2" style="display: none;">
+					{{-- <div id="cotizaopt2" class="col s12 cotizaopt2" style="display: none;">
 						<div class="cotiza-personal-title">
 							<p>¿Quieres un trato más personalizado?</p>
 							<p>¡Escríbenos!</p>
@@ -110,7 +110,7 @@
 						<div class="btn-da-box">
 							<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
 						</div>
-					</div>
+					</div> --}}
 					
 					<div class="btn-da-box">
 						<a class="waves-effect btn btn-da btn-cyan" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
