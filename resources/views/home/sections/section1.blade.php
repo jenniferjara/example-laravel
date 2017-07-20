@@ -1,4 +1,4 @@
-<section id="home">
+<section id="home" class="valign-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">

@@ -5,19 +5,18 @@
 @include('common.navbar')
 
 <section id="nosotros">
-	<div class="layout-home">
-		<nav class="nav-breadcrumbs">
-			<div class="nav-wrapper">
-				<div class="row">
-					<div class="col s12">
-						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-						<a href="{{ route('layout.nosotros') }}" class="breadcrumb">Acerca de nosotros</a>
-					</div>
+	<nav class="nav-breadcrumbs">
+		<div class="nav-wrapper">
+			<div class="row">
+				<div class="col s12">
+					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+					<a href="{{ route('layout.nosotros') }}" class="breadcrumb">Acerca de nosotros</a>
 				</div>
 			</div>
-		</nav>
-		<div style="height: 200px; background-color: #c5c5c5;"></div>
-		<div class="layout-home-text">
+		</div>
+	</nav>
+	<div class="layout-home bg-nosotros">
+		<div class="layout-home-text bg-layout-wrap">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -30,7 +29,7 @@
 		</div>
 	</div>
 
-	<div class="layout-body bg-grey">
+	<div class="layout-body bg-grey valign-wrapper height-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
@@ -38,7 +37,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align home-box">
 						<div><span class="da_ico_recognition icons-violet-lg"></span></div>
 						<p class="subtitles">Reconocimientos</p>
@@ -47,7 +46,7 @@
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align home-box">
 						<div><span class="da_ico_benefits icons-violet-lg"></span></div>
 						<p class="subtitles">Beneficios</p>
@@ -56,7 +55,7 @@
 					</div>
 				</div>
 				
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align home-box">
 						<div><span class="da_ico_measuring icons-violet-lg"></span></div>
 						<p class="subtitles">Medición</p>
@@ -77,15 +76,15 @@
 			</div>
 			<div class="row">
 				<div class="center-align about-perfil">
-					<div class="col s6">
-						<div class="about-perfil-pic"></div>
+					<div class="col s6 offset-l2 l4">
+						<div class="about-perfil-pic about-perfil-bg1"></div>
 						<div class="about-perfil-text">
 							<p>Yoel Chlimper</p>
 							<p>Gerente Genreal</p>
 						</div>
 					</div>
-					<div class="col s6">
-						<div class="about-perfil-pic"></div>
+					<div class="col s6 l4">
+						<div class="about-perfil-pic about-perfil-bg2"></div>
 						<div class="about-perfil-text">
 							<p>Giacomo Zolezzi</p>
 							<p>Gerente General</p>
@@ -95,23 +94,26 @@
 			</div>
 		</div>
 	</div>
-	<div style="background-color: grey; height: 200px;"></div>
-	<div class="layout-body">
-		<div class="container">
-			<div class="row">
-				<div class="col s12 center-align">
-					<p class="subtitles">¡Trabaja con nosotros!</p>
-					<p>Si quieres formar parte de nuestro equipo, <br>envíanos tu CV a:</p>
-					<p class="contact-email">trabajaconnostros&commat;da.pe</p>
-				</div>
-				<div class="col s12">
-					<div class="layout-btn-box">
-						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
+	
+	<div class="bg-trabaja">
+		<div class="layout-home bg-layout-wrap about-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<p class="subtitles">¡Trabaja con nosotros!</p>
+						<p>Si quieres formar parte de nuestro equipo, <br>envíanos tu CV a:</p>
+						<p class="contact-email">trabajaconnostros&commat;da.pe</p>
+					</div>
+					<div class="col s12 d-none">
+						<div class="layout-btn-box">
+							<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	
 </section>
 
 @include('common.footer')

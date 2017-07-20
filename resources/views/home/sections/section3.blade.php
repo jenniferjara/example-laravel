@@ -44,10 +44,12 @@
 
 		<div class="col s12 l4">
 			<div class="center-align home-wrapper">
-				<span class="da_ico_happy">
-                	<span class="path1 icons-white-sm"></span>
-                	<span class="path2 icons-white-sm"></span>
-                </span>
+				<div>
+					<span class="da_ico_happy">
+	                	<span class="path1 icons-white-sm"></span>
+	                	<span class="path2 icons-white-sm"></span>
+	                </span>
+				</div>
 				<p class="subtitles">Te ayudamos a gestionar la felicidad</p>
 				<p>Prueba nuestra herramienta para medir la felicidad.</p>
 			</div>

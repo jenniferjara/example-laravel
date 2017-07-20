@@ -24,6 +24,62 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.da_ico_areas:before {
+  content: "\e912";
+  color: #27073a;
+}
+.da_ico_benefitsregister:before {
+  content: "\e913";
+  color: #27073a;
+}
+.da_ico_business:before {
+  content: "\e914";
+  color: #27073a;
+}
+.da_ico_dashboard:before {
+  content: "\e915";
+  color: #27073a;
+}
+.da_ico_education:before {
+  content: "\e916";
+  color: #27073a;
+}
+.da_ico_first:before {
+  content: "\e917";
+  color: #27073a;
+}
+.da_ico_happyface:before {
+  content: "\e918";
+  color: #27073a;
+}
+.da_ico_health:before {
+  content: "\e919";
+  color: #27073a;
+}
+.da_ico_plantype:before {
+  content: "\e91a";
+  color: #27073a;
+}
+.da_ico_shops:before {
+  content: "\e91b";
+  color: #27073a;
+}
+.da_ico_test:before {
+  content: "\e91c";
+  color: #27073a;
+}
+.da_ico_workersregister:before {
+  content: "\e91d";
+  color: #27073a;
+}
+.da_ico_travel:before {
+  content: "\e91e";
+  color: #27073a;
+}
+.da_ico_loading:before {
+  content: "\e911";
+  color: #27073a;
+}
 .da_ico_puzzle:before {
   content: "\e910";
   color: #ffffff;
@@ -54,12 +110,12 @@
 }
 .da_ico_happy .path1:before {
   content: "\e906";
-  color: transparent;
+  color: rgb(250, 250, 250);
 }
 .da_ico_happy .path2:before {
   content: "\e907";
   margin-left: -1em;
-  color: rgb(255,255,255);
+  color: rgb(250, 250, 250);
 }
 .da_ico_idea:before {
   content: "\e908";

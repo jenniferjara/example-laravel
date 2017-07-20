@@ -1,4 +1,4 @@
-<section id="productos">
+<section id="productos" class="valign-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">

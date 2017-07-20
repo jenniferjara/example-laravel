@@ -7,17 +7,18 @@
 <section id="medicion">
 	<nav class="nav-breadcrumbs">
 		<div class="nav-wrapper">
-			<div class="row">
-				<div class="col s12">
-					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('layout.medicion') }}" class="breadcrumb">Medición</a>
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+						<a href="{{ route('layout.medicion') }}" class="breadcrumb">Medición</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</nav>
 	<div class="layout-home bg-medicion">
-
-		<div class="layout-home-text">
+		<div class="layout-home-text bg-layout-wrap valign-wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -42,23 +43,23 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_puzzle icons-violet-lg"></span></div>
+						<div><span class="da_ico_test icons-violet-lg"></span></div>
 						<p class="layout-text">Contamos con una encuesta desarrollada por psicologos expertos en felicidad en el trabajo.</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_puzzle icons-violet-lg"></span></div>
+						<div><span class="da_ico_areas icons-violet-lg"></span></div>
 						<p class="layout-text">Puedes selecionar a qué áreas de tu empresa la quieres enviar</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_puzzle icons-violet-lg"></span></div>
+						<div><span class="da_ico_dashboard icons-violet-lg"></span></div>
 						<p class="layout-text">¡Ofrecemos un dashboard para que puedas revisar tus resultados!</p>
 					</div>
 				</div>
@@ -75,21 +76,21 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p>Incrementa la productividad</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p>Genera una relación cercana entre los colaboradores y la empresa</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p>Mejora el ambiente de trabajo</p>
@@ -115,7 +116,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="docs-wrapper">
 						<div><img class="img-common" src="{{ asset('assets/img/estudios/img_estudio1.jpg') }}" alt=""></div>
 						<div class="center-align docs-wrapper-inner">
@@ -128,7 +129,7 @@
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="docs-wrapper">
 						<div><img class="img-common" src="{{ asset('assets/img/estudios/img_estudio2.jpg') }}" alt=""></div>
 						<div class="center-align docs-wrapper-inner">
@@ -141,7 +142,7 @@
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="docs-wrapper">
 						<div><img class="img-common" src="{{ asset('assets/img/estudios/img_estudio3.jpg') }}" alt=""></div>
 						<div class="center-align docs-wrapper-inner">
@@ -154,7 +155,7 @@
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 d-none">
 					<div class="layout-btn-box">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>

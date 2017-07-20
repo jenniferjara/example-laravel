@@ -43,9 +43,15 @@
         color: $white;
     }
 }
+.d-none {
+    display: block;
+}
 
 @media (min-width: 992px) {
     .btn-da {
         width: 300px;
+    }
+    .d-none {
+        display: none;
     }
 }

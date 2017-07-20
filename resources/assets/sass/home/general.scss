@@ -60,10 +60,7 @@ a {
 /***********************************/
 
 #home {
-	height: 600px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	height: 100vh;
 	background-image: url('../assets/img/img_principal_responsive.jpg');
 	background-size: cover;
 	background-position: center;
@@ -281,9 +278,6 @@ a {
 		background-repeat: no-repeat;
 	}
 	#productos {
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		height: 600px;
 	}
 	#cotiza-wrapper {

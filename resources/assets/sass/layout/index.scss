@@ -1,8 +1,12 @@
+#reconocimiento, #beneficio, #nosotros, #medicion {
+	margin-top: 50px;
+}
+.height-wrapper {
+	height: auto;
+}
+/************/
 .layout-home {
 	.layout-home-text {
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		color: $violet;
@@ -37,9 +41,6 @@
 }
 
 /** Reconocimiento **/
-#reconocimiento {
-	margin-top: 50px;
-}
 .options {
 	margin-bottom: 2rem;
     margin-top: 2rem;
@@ -64,7 +65,7 @@
 #beneficio {
 	margin-top: 50px;
 }
-.bg-beneficio-wrap {
+.bg-layout-wrap {
 	width: 100%;
 }
 
@@ -119,6 +120,12 @@
 
 /** Nosotros **/
 
+.about-wrapper {
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	text-align: center;
+}
+
 .about-frase {
 	font-size: 23px;
 	font-weight: 700;
@@ -133,8 +140,16 @@
 		width: 110px;
 		height: 110px;
 		border-radius: 50%;
-		background-color: $grey;
 		margin: 0 auto;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.about-perfil-bg1 {
+		background-image: url('../img/founders/img_fundador1.jpg');
+	}
+	.about-perfil-bg2 {
+		background-image: url('../img/founders/img_fundador2.jpg');
 	}
 	.about-perfil-text {
 		margin-top: 2rem;
@@ -159,7 +174,11 @@
 		line-height: 20px;
 	}
 
-	.bg-beneficio, .bg-medicion {
+	.bg-beneficio, 
+	.bg-medicion, 
+	.bg-reconocimiento, 
+	.bg-nosotros,
+	.bg-trabaja {
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -171,11 +190,30 @@
 	.bg-medicion {
 		background-image: url('../assets/img/img_medicion.jpg');
 	}
+	.bg-nosotros {
+		background-image: url('../assets/img/img_nosotros.jpg');
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.bg-reconocimiento {
+		background-image: url('../assets/img/img_reconocimientos.jpg');
+	}
+	.bg-trabaja {
+		background-image: url('../assets/img/img_trabaja.jpg');
+	}
 
-	.bg-beneficio-wrap {
+	.bg-layout-wrap {
 		width: 50%;
 		background-color: $white;
 		height: 550px;
+	}
+	.height-wrapper {
+		height: 550px;
+	}
+	.about-wrapper {
+		padding-top: 5rem;
+		text-align: left;
 	}
 
 }

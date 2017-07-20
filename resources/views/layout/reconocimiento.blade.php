@@ -15,8 +15,9 @@
 			</div>
 		</div>
 	</nav>
-	<div class="layout-home">
-		<div class="layout-home-text">
+
+	<div class="layout-home bg-reconocimiento">
+		<div class="bg-layout-wrap layout-home-text valign-wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -39,21 +40,21 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
 						<div class="circle-option">1</div>
 						<p class="layout-text">Adquiere paquetes de KMS. LATAM Pass.</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
 						<div class="circle-option">2</div>
 						<p class="layout-text">Selecciona colaborador</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
 						<div class="circle-option">3</div>
 						<p class="layout-text">Reconocelo con Kms y un mensaje <br>personalizado.</p>
@@ -73,28 +74,28 @@
 			</div>
 			<div class="row">
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Refuerza conductas positivas</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Motiva a los equipos de trabajo</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Contribuye a alcanzar las metas establecidas</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 offset-l4 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Obtén reportes de reconocimiento y evalua el desempeño de tus colaboradores</p>
@@ -112,7 +113,7 @@
 					<div class="btn-da-box">
 						<a class="waves-effect waves-light btn btn-da btn-violet" href="">Contáctanos</a>
 					</div>
-					<div class="btn-da-box">
+					<div class="btn-da-box d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>

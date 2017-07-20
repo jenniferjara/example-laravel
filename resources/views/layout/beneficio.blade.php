@@ -17,7 +17,7 @@
 	</nav>
 	
 	<div class="layout-home bg-beneficio">
-		<div class="bg-beneficio-wrap layout-home-text">
+		<div class="bg-layout-wrap layout-home-text valign-wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -106,7 +106,7 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_checkcircle icons-violet-lg"></span></div>
+							<div><span class="da_ico_travel icons-violet-lg"></span></div>
 							<p class="titles text-violet">¡Dá! Viajes</p>
 						</div>
 						<div class="benef-slider-bottom">
@@ -131,7 +131,7 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_checkcircle icons-violet-lg"></span></div>
+							<div><span class="da_ico_education icons-violet-lg"></span></div>
 							<p class="titles text-violet">¡Dá! Educación</p>
 						</div>
 						<div class="benef-slider-bottom">
@@ -156,7 +156,7 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_checkcircle icons-violet-lg"></span></div>
+							<div><span class="da_ico_health icons-violet-lg"></span></div>
 							<p class="titles text-violet">¡Dá! Bienestar</p>
 						</div>
 						<div class="benef-slider-bottom">
@@ -185,7 +185,7 @@
 					<div class="btn-da-box">
 						<a class="waves-effect waves-light btn btn-da btn-violet" href="">¡Pruébalo gratis hoy!</a>
 					</div>
-					<div class="btn-da-box">
+					<div class="btn-da-box d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>

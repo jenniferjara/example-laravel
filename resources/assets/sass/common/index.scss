@@ -131,6 +131,11 @@
 }
 
 @media (min-width: 992px) {
+	#nav-bar .nav-top .nav-logo {
+		font-size: 40px;
+		top: 5px;
+		left: 40px;
+	}
 	.nav-breadcrumbs {
 		padding-left: 2rem;
 		.nav-wrapper .breadcrumb{
@@ -150,8 +155,8 @@
 		}
 		.footer-tilde {
 			position: absolute;
-			top: -45px;
-			right: -16px;
+			top: 0px;
+			right: 0px;
 			display: inline;
 		}
 	}
