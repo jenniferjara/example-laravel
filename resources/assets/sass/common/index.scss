@@ -101,10 +101,15 @@
 
 /** sidenav **/
 .side-nav {
-	width: 200px;
 	background-color: $violet;
 	color: $white;
+	margin-top: 50px;
+	padding-top: 30px;
+	li > a {
+		color: $white;
+	}
 }
+
 
 
 /** error **/
@@ -115,8 +120,6 @@
 	font-weight: 300;
 	color: red;
 }
-
-
 
 /*footer*/
 
@@ -158,7 +161,7 @@
 @media (min-width: 992px) {
 	#nav-bar {
 		padding-left: 5rem;
-		padding-right: 5rem;
+		padding-right: 3rem;
 		.nav-top .nav-logo {
 			font-size: 40px;
 		}
@@ -170,12 +173,30 @@
 			display: block;
 			line-height: 50px;
 
-			li {
+			li.nav-lineal-opt {
 				margin-left: 10px;
 				margin-right: 10px;
-				a{
+				padding: 0 30px;
+				a.nav-lineal-link,
+				a.login {
 					color: $violet;
 				}
+			}
+		}
+		.dropdown-content {
+			background-color: $violet;
+			li {
+				margin-left: 0px; 
+				margin-right: 0px;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+				border-bottom-color: $white;
+
+				&:hover {
+					background-color: $orange;
+					color: $white;
+				}
+				a {color: $white;}
 			}
 		}
 	}

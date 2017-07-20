@@ -12,7 +12,17 @@ $(document).ready( function () {
 		menuWidth: 300, 
 		edge: 'right',
 		closeOnClick: true,
-		draggable: true, 
+		draggable: true 
+	});
+	
+	$('.login').dropdown({
+		inDuration: 300,
+		outDuration: 225,
+		constrainWidth: false,
+		gutter: 0,
+		belowOrigin: true,
+		alignment: 'left',
+		stopPropagation: false
 	});
 	
 	var $cotizaHome = $('#cotiza-home');
