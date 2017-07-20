@@ -5,13 +5,16 @@
 	left: 0;
 	width: 100%;
 	z-index: 99999;
+	border-bottom: 1px solid #cccccc;
+	background-color: #ffffff;
+	height: 50px;
 
 	.nav-top {
-		overflow: hidden;
 		background-color: #ffffff;
-		height: 50px;
-		box-shadow: none;
 		border-bottom: 1px solid #cccccc;
+		overflow: hidden;
+		box-shadow: none;
+		height: 50px;
 
 		.nav-perfil, .nav-barra, .nav-logo {
 			position: absolute;
