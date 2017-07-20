@@ -2,7 +2,7 @@
 	<div id="cotiza-wrapper">
 		<div class="container">
 			<div class="row">
-				<div class="col offset-l3 l9 s12">
+				<div class="col s12">
 					<p class="titles left-center">¡Incrementa la felicidá <br>de tus colaboradores!</p>
 					<p class="subtitles left-center">Cotiza tu plan</p>
 					<form id="cotiza-home" class="form-common">
@@ -13,9 +13,12 @@
 							</div>
 						</div>
 					</form>
+				</div>
+				<div class="col s12">
 					<div class="btn-da-box">
 						<a id="cotiza-home-btn" class="waves-effect btn btn-da btn-violet" href="">¡Cotizar ya!</a>
 					</div>
+				</div>
 
 					{{-- <div id="cotizaopt1" class="col s12 cotizaopt1" style="display: none;">
 						<div class="cotiza-box-300">
@@ -111,9 +114,10 @@
 							<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-1" href="">Enviar</a>
 						</div>
 					</div> --}}
-					
-					<div class="btn-da-box">
-						<a class="waves-effect btn btn-da btn-cyan" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+					<div class="col s12">
+						<div class="btn-da-box">
+							<a class="waves-effect btn btn-da btn-cyan" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+						</div>
 					</div>
 					
 				</div>
@@ -122,7 +126,7 @@
 	</div>
 </section>
 
-<section id="cotizaopt1" class="cotizaopt1" style="display: none;">
+<section id="cotizaopt1" class="cotizaopt1 bg-grey" style="display: none;">
 	<div class="container center-align">
 		<div class="row">
 			<div class="col s12">
@@ -167,14 +171,14 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="btn-da-box">
+			<div class="btn-da-box valign-wrapper">
 				<a class="waves-effect waves-light btn btn-da btn-violet" href="">¡Lo quiero!</a>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="cotizaopt2" class="cotizaopt2" style="display: none;">
+<section id="cotizaopt2" class="cotizaopt2 bg-grey" style="display: none;">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
@@ -227,7 +231,7 @@
 
 			<div class="col s12">
 				<p class="center-left">*Campos requeridos</p>
-				<div class="btn-da-box">
+				<div class="btn-da-box valign-wrapper">
 					<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-violet" href="">Enviar</a>
 				</div>
 			</div>

@@ -185,6 +185,8 @@
 					<div class="btn-da-box valign-wrapper">
 						<a class="waves-effect waves-light btn btn-da btn-violet" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 					</div>
+				</div>
+				<div class="col s12">
 					<div class="btn-da-box d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
