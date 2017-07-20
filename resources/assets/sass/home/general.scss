@@ -17,20 +17,70 @@ a {
 	color: $violet;
 	text-decoration: none;
 }
-
 .row {margin-bottom: 0px;}
 
+.title-home {
+	font-family: 'acherus_grotesqueregular';
+	font-size: 26px;
+    line-height: 30px;
+	margin-bottom: 30px;
+}
+.titles {
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.subtitles {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text-orange {
+    color: $orange;
+}
+.text-violet {
+    color: $violet;
+}
+
+.img-common {
+	width: 100%;
+}
+.center-left{
+	text-align: left;
+}
+.left-center {
+	text-align: center;
+}
 /***********************************/
 
 #home {
-	height: 100vh;
+	height: 600px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: url('../assets/img/img_principal_responsive.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	p:first-child {
+		color: $white;
+	}
 }
 
 #cotiza {
-	height: 100vh;
+	height: 600px;
+}
+#cotiza-wrapper {
+	width: 100%;
+	height: 600px;
+	background-color: $white;
 }
 
 #productos, #estudios {
@@ -42,69 +92,78 @@ a {
 #productos, #estudios {
 	background-color: $grey;
 }
-#productos, #options, #cotiza, #estudios {
+#productos, #options, #cotiza-wrapper, #estudios {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
-.home-box {
+#options {
+	background-image: url('../assets/img/img_elegir-responsive.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: $white;
+}
+
+.home-wrapper {
 	width: 90%;
 	margin: 0 auto;
 	padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-.home-subtitle {
-	font-size: 18px;
-    font-weight: bold;
-    line-height: 22px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+/*** products ***/
+
+.product-wrap {
+	height: 80px;
 }
-.home-link {
+
+.seemore {
     font-weight: bold;
 	font-size: 14px;
 	line-height: 18px;
 	color: $orange;
+	display: block;
 
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: $orange;
-	display: inline-block;
-    margin-top: 10px;
+	// border-bottom-style: solid;
+	// border-bottom-width: 2px;
+	// border-bottom-color: $orange;
+	// display: inline-block;
 }
 
-.home-form {
+.form-common {
 	.input-field label {
 		font-size: 12px;
 		opacity: 0.6;
 		color: $violet;
 	}
-	.input-field input[type=number]:focus + label {
-		color: #c5c5c5;
+	.input-field input[type=number]:focus + label,
+	.input-field input[type=text]:focus + label {
+		color: $violet;
 	}
 
     .input-field input[type=text]:focus {
-    	border-bottom: 1px solid #000;
-    	box-shadow: 0 1px 0 0 #000;
+    	border-bottom: 1px solid $violet;
+    	box-shadow: 0 1px 0 0 $violet;
 	}
 }
 
-.home-docs {
+.docs-wrapper {
 	background-color: $white;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin-top: 2.5rem;
 }
 
-.home-docs-box {
+.docs-wrapper-inner {
 	padding-bottom: 10px;
     padding-top: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-.home-btn-docs {
+.docs-wrapper-btn {
 	display: block;
     width: 250px;
     border-radius: 5px;
@@ -128,7 +187,7 @@ a {
 
 /* Cotiza */
 
-#cotizaopt1 {
+.cotizaopt1 {
 	padding-top: 2rem;
 
 	.cotiza-box-300 {
@@ -137,6 +196,8 @@ a {
 		padding: 10px 30px;
 		text-align: center;
 		position: relative;
+		width: 300px;
+		margin: 0 auto;
 
 		.number {
 			font-weight: bold;
@@ -163,7 +224,7 @@ a {
 	}
 }
 
-#cotizaopt2 {
+.cotizaopt2 {
 	padding-top: 3rem;
 
 	.cotiza-personal-title {
@@ -179,4 +240,63 @@ a {
 		margin-bottom: 10px;
 	}
 
+}
+
+@media (min-width: 992px){
+	body {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.subtitles {
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 24px;
+	}
+	.titles {
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.title-home {
+		font-size: 45px;
+		line-height: 50px;
+	}
+	.seemore {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.docs-wrapper-btn{
+		width: 100%;
+	}
+
+	#home {
+		background-image: url('../assets/img/img_principal.jpg');
+	}
+	#options {
+		background-image: url('../assets/img/img_elegir.jpg');
+	}
+	#cotiza {
+		background-image: url('../assets/img/img_cotiza.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#productos {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 600px;
+	}
+	#cotiza-wrapper {
+		width: 50%;
+	}
+	.cotizaopt1, .cotizaopt2 {
+		padding-bottom: 3rem;
+		padding-top: 3rem;
+	}
+	.center-left {
+		text-align: center;
+	}
+	.left-center {
+		text-align: left;
+	}
 }

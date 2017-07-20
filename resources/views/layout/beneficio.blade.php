@@ -5,25 +5,25 @@
 @include('common.navbar')
 
 <section id="beneficio">
-	<div class="layout-home">
-		<nav class="nav-breadcrumbs">
-			<div class="nav-wrapper">
-				<div class="row">
-					<div class="col s12">
-						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-						<a href="{{ route('layout.beneficio') }}" class="breadcrumb">Beneficios</a>
-					</div>
+	<nav class="nav-breadcrumbs">
+		<div class="nav-wrapper">
+			<div class="row">
+				<div class="col s12">
+					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+					<a href="{{ route('layout.beneficio') }}" class="breadcrumb">Beneficios</a>
 				</div>
 			</div>
-		</nav>
-		<div style="height: 200px; background-color: #c5c5c5;"></div>
-		<div class="layout-home-text">
+		</div>
+	</nav>
+	
+	<div class="layout-home bg-beneficio">
+		<div class="bg-beneficio-wrap layout-home-text">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
-						<div class="center-align home-box">
+						<div class="center-align home-wrapper">
 							<div><span class="da_ico_benefits icons-violet-lg"></span></div>
-							<p class="title-home text-violet">¡Dá! Beneficios</p>
+							<p class="subtitles text-violet">¡Dá! Beneficios</p>
 							<p class="layout-text">Dale a tus colaboradores los mejores beneficios.</p>
 						</div>
 					</div>
@@ -36,25 +36,25 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<p class="title-home text-violet center-align">¡Así funciona!</p>
+					<p class="titles text-violet center-align">¡Así funciona!</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
 						<div class="circle-option">1</div>
 						<p class="layout-text">Escoge los beneficios que ofrecemos.</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
 						<div class="circle-option">2</div>
 						<p class="layout-text">Carga beneficios propios.</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align options">
 						<div class="circle-option">3</div>
 						<p class="layout-text">Crea grupo de colaboradores para dirigir mejor tus beneficios.</p>
@@ -69,26 +69,26 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
-					<p class="title-home">¡Es importante dar beneficios!</p>
+					<p class="titles">¡Es importante dar beneficios!</p>
 				</div>
 			</div>
 			<div class="row">
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Es un ahorro a tus colaboradores</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Genera un compromiso fortaleciendo un vinculo entre empresa y colaborador</p>
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Los motiva y hace más felices</p>
@@ -103,10 +103,10 @@
 	<div class="layout-body">
 		<div class="container">
 			<div class="row">
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<img class="home-icons" src="{{ asset('assets/img/icono.png')}}" alt="logo-viajes">
+							<div><span class="da_ico_checkcircle icons-violet-lg"></span></div>
 							<p class="titles text-violet">¡Dá! Viajes</p>
 						</div>
 						<div class="benef-slider-bottom">
@@ -128,10 +128,10 @@
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="logo-educacion">
+							<div><span class="da_ico_checkcircle icons-violet-lg"></span></div>
 							<p class="titles text-violet">¡Dá! Educación</p>
 						</div>
 						<div class="benef-slider-bottom">
@@ -153,10 +153,10 @@
 					</div>
 				</div>
 
-				<div class="col s12">
+				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<img class="home-icons" src="{{ asset('assets/img/icono.png') }}" alt="logo-bienestar">
+							<div><span class="da_ico_checkcircle icons-violet-lg"></span></div>
 							<p class="titles text-violet">¡Dá! Bienestar</p>
 						</div>
 						<div class="benef-slider-bottom">

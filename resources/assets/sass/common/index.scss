@@ -23,7 +23,7 @@
 		.nav-logo {
 			font-size: 31px;
 			top: 10px;
-			left: 10px;
+			left: 20px;
 		}
 
 		.nav-perfil{
@@ -36,37 +36,9 @@
 			}
 		}
 		.nav-barra{
-			background: #ffffff;
-		    top: 17px;
 		    right: 20px;
-		    width: 22px;
-		    height: 22px;
 		    cursor: pointer;
-
-			span {
-				display: block;
-			    position: absolute;
-			    top: 9px;
-			    left: 0px;
-			    right: 0;
-			    height: 2px;
-			    width: 100%;
-			    background: $violet;
-
-			    &::before, &::after {
-					position: absolute;
-					display: block;
-					left: 0;
-					width: 100%;
-					height: 2px;
-					background: $violet;
-					content: "";
-			    }
-			    &::before {top: -8px;}
-			    &::after {bottom:-8px;}
-
-
-			}
+		    color: $violet;
 		}
 	}
 }
@@ -104,8 +76,12 @@
 }
 
 .icons-violet-sm {
-	font-size: 40px;
+	font-size: 50px;
 	color: $violet;
+}
+.icons-white-sm {
+	font-size: 50px;
+	color: $white;
 }
 
 /** error **/
@@ -123,14 +99,20 @@
 	background-color: $violet;
 	color: $white;
 	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-bottom: 1rem;
 	line-height: 18px;
 	font-size: 14px;
-
+	
+	.footer-tilde {
+		display: none;
+	}
 	.footer-titles {
 		font-weight: bold;
 	}
-	.footer-bottom {padding-top: 4rem;}
+	.footer-bottom {
+		margin-top: 2rem;
+		padding-top: 1rem;
+	}
 
 	p, a {
 		padding-bottom: 10px;
@@ -140,5 +122,37 @@
 		display: block;
 		text-decoration: none;
 		color: $white;
+		cursor: pointer;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.nav-breadcrumbs {
+		padding-left: 2rem;
+		.nav-wrapper .breadcrumb{
+			font-size: 14px;
+		}
+	}
+	
+	#footer {
+		font-size: 16px;
+		line-height: 20px;
+		position: relative;
+		
+		.footer-bottom {
+			border-top-style: solid;
+			border-top-width: 1px;
+			border-top-color: rgba(255, 255, 255, 0.05);
+		}
+		.footer-tilde {
+			position: absolute;
+			top: -45px;
+			right: -16px;
+			display: inline;
+		}
 	}
 }

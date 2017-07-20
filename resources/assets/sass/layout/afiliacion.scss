@@ -3,9 +3,6 @@
 
 	.layout-body {
 		padding-top: 0rem;
-		.afiliacion-text {
-			font-size: 18px;
-		}
 		.home-form {
 			margin-top: 2rem;
 		}
@@ -16,11 +13,16 @@
 
 	.terms-box {
 		margin-top: 2rem;
+		input[type=checkbox]:checked+label:before {
+			border-right: 2px solid $violet;
+			border-bottom: 2px solid $violet;
+		}
 	}
 
 	.campos-requeridos {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		text-align: left;
 	}
 	.caret {
 		color: #5d5b5b;
@@ -37,5 +39,11 @@
 	}
 	.input.field select:focus {
 		border: none;
+	}
+}
+
+@media (min-width: 992px) {
+	#afiliacion .campos-requeridos {
+		text-align: center;
 	}
 }

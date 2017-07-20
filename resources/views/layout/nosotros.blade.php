@@ -21,7 +21,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
-						<p class="title-home">"La felicidad como herramienta de transformación mejora el rendimiento de tus colaboradores, refuerza la cultura y contribuye la conexión de los equipos de trabajo."</p>
+						<p class="titles">"La felicidad como herramienta de transformación mejora el rendimiento de tus colaboradores, refuerza la cultura y contribuye la conexión de los equipos de trabajo."</p>
 						<br>
 						<p class="text-orange">Giacomo Zolezzi, GG</p>
 					</div>
@@ -41,27 +41,27 @@
 				<div class="col s12">
 					<div class="center-align home-box">
 						<div><span class="da_ico_recognition icons-violet-lg"></span></div>
-						<p class="home-subtitle">Reconocimientos</p>
+						<p class="subtitles">Reconocimientos</p>
 						<p>Reconoce a tus colaboradores con KMS. <br>LATAM Pass</p>
-						<a class="home-link" href="{{ route('layout.reconocimiento') }}">Leer más</a>
+						<a class="seemore" href="{{ route('layout.reconocimiento') }}">Leer más</a>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align home-box">
 						<div><span class="da_ico_benefits icons-violet-lg"></span></div>
-						<p class="home-subtitle">Beneficios</p>
+						<p class="subtitles">Beneficios</p>
 						<p>Queremos que des experiencias enfocadas <br>en educación, viajes y bienestar.</p>
-						<a class="home-link" href="{{ route('layout.beneficio') }}">Leer más</a>
+						<a class="seemore" href="{{ route('layout.beneficio') }}">Leer más</a>
 					</div>
 				</div>
 				
 				<div class="col s12">
 					<div class="center-align home-box">
 						<div><span class="da_ico_measuring icons-violet-lg"></span></div>
-						<p class="home-subtitle">Medición</p>
+						<p class="subtitles">Medición</p>
 						<p>Gestiona la felicidad y vuelve más productivo <br>a tu equipo.</p>
-						<a class="home-link" href="{{ route('layout.medicion') }}">Leer más</a>
+						<a class="seemore" href="{{ route('layout.medicion') }}">Leer más</a>
 					</div>
 				</div>
 			</div>
@@ -100,9 +100,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
-					<p class="home-subtitle">¡Trabaja con nostros!</p>
+					<p class="subtitles">¡Trabaja con nosotros!</p>
 					<p>Si quieres formar parte de nuestro equipo, <br>envíanos tu CV a:</p>
-					<p class="contact-email">Trabajaconnostros&commat;da.pe</p>
+					<p class="contact-email">trabajaconnostros&commat;da.pe</p>
 				</div>
 				<div class="col s12">
 					<div class="layout-btn-box">

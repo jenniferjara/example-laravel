@@ -1,3 +1,13 @@
+/** fonts **/
+@font-face {
+	font-family: 'acherus_grotesqueregular';
+	src: url('../fonts/acherus/acherus_grotesque_-_regular-webfont.woff2') format('woff2'),
+	     url('../fonts/acherus/acherus_grotesque_-_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 /*** Colors Dá **/
 
 $violet: #27073A;

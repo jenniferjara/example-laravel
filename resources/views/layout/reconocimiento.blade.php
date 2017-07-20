@@ -5,25 +5,24 @@
 @include('common.navbar')
 
 <section id="reconocimiento">
-	<div class="layout-home">
-		<nav class="nav-breadcrumbs">
-			<div class="nav-wrapper">
-				<div class="row">
-					<div class="col s12">
-						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-						<a href="{{ route('layout.reconocimiento') }}" class="breadcrumb">Reconocimientos</a>
-					</div>
+	<nav class="nav-breadcrumbs">
+		<div class="nav-wrapper">
+			<div class="row">
+				<div class="col s12">
+					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+					<a href="{{ route('layout.reconocimiento') }}" class="breadcrumb">Reconocimientos</a>
 				</div>
 			</div>
-		</nav>
-		<div style="height: 200px; background-color: #c5c5c5;"></div>
+		</div>
+	</nav>
+	<div class="layout-home">
 		<div class="layout-home-text">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
-						<div class="center-align home-box">
+						<div class="center-align home-wrapper">
 							<div><span class="da_ico_recognition icons-violet-lg"></span></div>
-							<p class="titles text-violet">¡Dá! Reconocimientos</p>
+							<p class="subtitles text-violet">¡Dá! Reconocimientos</p>
 							<p class="layout-text">Crea cultura de reconocimiento. Ten colaboradores más felices y productivos.</p>
 						</div>
 					</div>
@@ -36,7 +35,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<p class="title-home center-align text-violet">¡Así funciona!</p>
+					<p class="titles center-align text-violet">¡Así funciona!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -69,35 +68,35 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
-					<p class="title-home text-violet">¡El reconocimiento es importante!</p>
+					<p class="titles text-violet">¡El reconocimiento es importante!</p>
 				</div>
 			</div>
 			<div class="row">
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Refuerza conductas positivas</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Motiva a los equipos de trabajo</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Contribuye a alcanzar las metas establecidas</p>
 					</div>
 				</div>
 
 				<div class="col s12">
 					<div class="center-align layout-box">
-						<img class="home-icons" src="{{ asset('assets/img/icono2.png') }}" alt="">
+						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
 						<p class="layout-text">Obtén reportes de reconocimiento y evalua el desempeño de tus colaboradores</p>
 					</div>
 				</div>

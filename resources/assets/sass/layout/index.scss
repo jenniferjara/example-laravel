@@ -1,6 +1,4 @@
 .layout-home {
-	margin-top: 50px;
-
 	.layout-home-text {
 		display: flex;
 		align-items: center;
@@ -39,6 +37,9 @@
 }
 
 /** Reconocimiento **/
+#reconocimiento {
+	margin-top: 50px;
+}
 .options {
 	margin-bottom: 2rem;
     margin-top: 2rem;
@@ -60,6 +61,12 @@
 }
 
 /** Beneficios **/
+#beneficio {
+	margin-top: 50px;
+}
+.bg-beneficio-wrap {
+	width: 100%;
+}
 
 .benef-slider {
 	padding-top: 2rem;
@@ -105,8 +112,10 @@
 	
 }
 
-
-/** Medicion **/
+/** medicion **/ 
+#medicion {
+	margin-top: 50px;
+}
 
 /** Nosotros **/
 
@@ -141,4 +150,32 @@
 	font-weight: bold;
 	margin-bottom: 10px;
 	margin-top: 10px;
+}
+
+
+@media (min-width: 992px){
+	.layout-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.bg-beneficio, .bg-medicion {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.bg-beneficio {
+		background-image: url('../assets/img/img_beneficios.jpg');
+	}
+	.bg-medicion {
+		background-image: url('../assets/img/img_medicion.jpg');
+	}
+
+	.bg-beneficio-wrap {
+		width: 50%;
+		background-color: $white;
+		height: 550px;
+	}
+
 }
