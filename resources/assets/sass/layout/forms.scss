@@ -1,4 +1,4 @@
-#afiliacion {
+#afiliacion, #contacto {
 	margin-top: 50px;
 
 	.layout-body {
@@ -6,7 +6,8 @@
 		.home-form {
 			margin-top: 2rem;
 		}
-		#form-free input {
+		#form-free input,
+		#form-contact input {
 			margin-bottom: 0px;
 		}
 	}
@@ -43,7 +44,8 @@
 }
 
 @media (min-width: 992px) {
-	#afiliacion .campos-requeridos {
+	#afiliacion .campos-requeridos,
+	#contacto .campos-requeridos {
 		text-align: center;
 	}
 }

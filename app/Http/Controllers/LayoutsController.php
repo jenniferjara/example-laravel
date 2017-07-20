@@ -27,4 +27,7 @@ class LayoutsController extends Controller
     public function afiliacion() {
         return view('layout.afiliacion');
     }
+    public function contacto() {
+        return view('layout.contacto');
+    }
 }

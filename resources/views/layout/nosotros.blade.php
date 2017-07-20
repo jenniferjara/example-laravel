@@ -7,21 +7,22 @@
 <section id="nosotros">
 	<nav class="nav-breadcrumbs">
 		<div class="nav-wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="col s12">
-						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-						<a href="{{ route('layout.nosotros') }}" class="breadcrumb">Acerca de nosotros</a>
-					</div>
+			<div class="row">
+				<div class="col s12">
+					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+					<a href="{{ route('layout.nosotros') }}" class="breadcrumb">Acerca de nosotros</a>
 				</div>
 			</div>
 		</div>
 	</nav>
 	<div class="layout-home bg-nosotros">
-		<div class="layout-home-text bg-layout-wrap">
+		<div class="d-none">
+			<img class="img-common" src="{{ asset('assets/img/responsive/img_nosotros.jpg') }}" alt="Nosotros">
+		</div>
+		<div class="layout-home-text bg-layout-wrap valign-wrapper">
 			<div class="container">
 				<div class="row">
-					<div class="col s12 offset-l2 l8">
+					<div class="col s12">
 						<p class="titles">"La felicidad como herramienta de transformación mejora el rendimiento de tus colaboradores, refuerza la cultura y contribuye la conexión de los equipos de trabajo."</p>
 						<br>
 						<p class="text-orange">Giacomo Zolezzi, GG</p>
@@ -97,6 +98,9 @@
 		</div>
 	</div>
 	
+	<div class="d-none">
+		<img class="img-common" src="{{ asset('assets/img/responsive/img_trabaja.jpg')}}" alt="Trabaja con nosotros">
+	</div>
 	<div class="bg-trabaja">
 		<div class="layout-home bg-layout-wrap about-wrapper">
 			<div class="container">

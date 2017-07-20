@@ -22,8 +22,8 @@
 				<div class="row">
 					<div class="col s12">
 						<div class="center-align home-wrapper">
-							<div><span class="da_ico_recognition icons-violet-lg"></span></div>
-							<p class="subtitles text-violet">¡Dá! Reconocimientos</p>
+							<div><span class="da_ico_recognition icons-special"></span></div>
+							<p class="titles text-violet">¡Dá! Reconocimientos</p>
 							<p class="layout-text">Crea cultura de reconocimiento. Ten colaboradores más felices y productivos.</p>
 						</div>
 					</div>
@@ -110,8 +110,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<div class="btn-da-box">
-						<a class="waves-effect waves-light btn btn-da btn-violet" href="">Contáctanos</a>
+					<div class="btn-da-box valign-wrapper">
+						<a class="waves-effect waves-light btn btn-da btn-violet" href="{{ route('layout.contacto') }}">Contáctanos</a>
 					</div>
 					<div class="btn-da-box d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>

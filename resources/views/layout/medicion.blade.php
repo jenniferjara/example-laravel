@@ -7,12 +7,10 @@
 <section id="medicion">
 	<nav class="nav-breadcrumbs">
 		<div class="nav-wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="col s12">
-						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-						<a href="{{ route('layout.medicion') }}" class="breadcrumb">Medición</a>
-					</div>
+			<div class="row">
+				<div class="col s12">
+					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+					<a href="{{ route('layout.medicion') }}" class="breadcrumb">Medición</a>
 				</div>
 			</div>
 		</div>
@@ -23,7 +21,7 @@
 				<div class="row">
 					<div class="col s12 offset-l2 l8">
 						<div class="center-align">
-							<div><span class="da_ico_measuring icons-violet-lg"></span></div>
+							<div><span class="da_ico_measuring icons-special"></span></div>
 							<p class="titles">Mide la felicidad <br>de tus colaboradores</p>
 						</div>
 						<div class="btn-da-box">
@@ -99,7 +97,7 @@
 			</div>
 			<div class="row">
 				<div class="col s12">
-					<div class="layout-btn-box">
+					<div class="layout-btn-box valign-wrapper">
 						<a class="waves-effect waves-light btn btn-da btn-violet" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>

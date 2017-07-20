@@ -10,7 +10,7 @@
 				<ul class="right nav-lineal">
 					<li><a href="#productos">Nuestro Producto</a></li>
 					<li><a href="{{ route('layout.nosotros') }}">Nosotros</a></li>
-					<li> <a href="#">Contáctanos</a></li>
+					<li> <a href="{{ route('layout.contacto') }}">Contáctanos</a></li>
 					<li><a data-activates="slide-out" class="login" href=""><span class="da_ico_user" style="margin-right: 5px;"></span>Inicia sesión</a></li>
 				</ul>
 				<div class="nav-collapse">

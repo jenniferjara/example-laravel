@@ -8,12 +8,10 @@
 
 	<nav class="nav-breadcrumbs">
 		<div class="nav-wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="col s12">
-						<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-						<a href="{{ route('layout.afiliacion') }}" class="breadcrumb">Afiliación</a>
-					</div>
+			<div class="row">
+				<div class="col s12">
+					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
+					<a href="{{ route('layout.afiliacion') }}" class="breadcrumb">Afiliación</a>
 				</div>
 			</div>
 		</div>
@@ -87,10 +85,10 @@
 						</div>
 					</div>
 					<p class="campos-requeridos">*Campos requeridos</p>
-					<div class="layout-btn-box">
+					<div class="layout-btn-box valign-wrapper">
 						<a id="btn-send-free" class="waves-effect waves-light btn btn-da btn-violet" href="">Enviar</a>
 					</div>
-					<div class="layout-btn-box">
+					<div class="layout-btn-box d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>

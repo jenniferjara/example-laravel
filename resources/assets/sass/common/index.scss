@@ -59,6 +59,8 @@
 	height: 50px;
 	box-shadow: none;
 	line-height: 45px;
+	padding-left: 1rem;
+    padding-right: 1rem;
 
 	.nav-wrapper {
 		height: 50px;
@@ -85,13 +87,25 @@
 }
 
 .icons-violet-sm {
-	font-size: 50px;
+	font-size: 40px;
 	color: $violet;
 }
 .icons-white-sm {
-	font-size: 50px;
+	font-size: 40px;
 	color: $white;
 }
+.icons-special {
+	font-size: 80px;
+	color: $violet;
+}
+
+/** sidenav **/
+.side-nav {
+	width: 200px;
+	background-color: $violet;
+	color: $white;
+}
+
 
 /** error **/
 .input-field span.error,
@@ -152,12 +166,6 @@
 		.nav-top .nav-perfil{
 			display: none;
 		}
-		.nav-breadcrumbs {
-			margin-left: 5rem;
-			.nav-wrapper .breadcrumb{
-				font-size: 14px;
-			}
-		}
 		.nav-top .nav-lineal {
 			display: block;
 			line-height: 50px;
@@ -171,7 +179,18 @@
 			}
 		}
 	}
-	
+	.nav-breadcrumbs {
+		padding-right: 5rem;
+		padding-left: 5rem;
+		.nav-wrapper .breadcrumb{
+			font-size: 14px;
+		}
+	}
+
+	.sidenav {
+		width: 300px;
+	}
+
 	#footer {
 		font-size: 16px;
 		line-height: 20px;
@@ -188,5 +207,8 @@
 			right: 0px;
 			display: inline;
 		}
+	}
+	.icons-special {
+		font-size: 120px;
 	}
 }

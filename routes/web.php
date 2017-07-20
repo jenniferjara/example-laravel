@@ -22,3 +22,5 @@ Route::get('/medicion', ['as' => 'layout.medicion', 'uses' => 'LayoutsController
 Route::get('/nosotros', ['as' => 'layout.nosotros', 'uses' => 'LayoutsController@about']);
 
 Route::get('/afiliacion', ['as' => 'layout.afiliacion', 'uses' => 'LayoutsController@afiliacion']);
+
+Route::get('/contáctanos', ['as' => 'layout.contacto', 'uses' => 'LayoutsController@contacto']);
