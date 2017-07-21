@@ -5,21 +5,14 @@
 	height: auto;
 }
 /************/
-.layout-home {
-	.layout-home-text {
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-		color: $violet;
-	}
-}
-
-.layout-body {
-	padding-top: 3rem;
+.wrapper-general {
 	padding-bottom: 3rem;
+	padding-top: 3rem;
 }
-
-.bg-grey {
-	background-color: $grey;
+.wrapper-general-text {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: $violet;
 }
 
 .layout-text {
@@ -202,6 +195,7 @@
 	}
 	.bg-trabaja {
 		background-image: url('../assets/img/img_trabaja.jpg');
+		background-position: 70% 100%;
 	}
 
 	.bg-layout-wrap {

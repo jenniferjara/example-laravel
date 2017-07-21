@@ -23,7 +23,7 @@ a {
 	font-family: 'acherus_grotesqueregular';
 	font-size: 30px;
     line-height: 34px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 .titles {
 	font-family: 'acherus_grotesqueregular';
@@ -58,7 +58,6 @@ a {
 .left-center {
 	text-align: center;
 }
-
 /***********************************/
 
 #home {
@@ -70,6 +69,12 @@ a {
 	background-attachment: fixed;
 	p:first-child {
 		color: $white;
+	}
+	.home-wrap-btn {
+		display: block;
+		a:first-child {
+			margin-bottom: 20px;
+		}
 	}
 }
 
@@ -115,7 +120,9 @@ a {
 /*** products ***/
 
 .product-wrap {
-	height: 80px;
+	height: 70px;
+	width: 260px;
+    margin: 0 auto;
 }
 
 .seemore {
@@ -124,11 +131,13 @@ a {
 	line-height: 18px;
 	color: $orange;
 	display: block;
+	&:hover {
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: $orange;
+		display: inline-block;	
+	}
 
-	// border-bottom-style: solid;
-	// border-bottom-width: 2px;
-	// border-bottom-color: $orange;
-	// display: inline-block;
 }
 
 .form-common {
@@ -256,19 +265,37 @@ a {
 		line-height: 34px;
 	}
 	.title-home {
-		font-size: 45px;
-		line-height: 50px;
+		font-size: 60px;
+		line-height: 65px;
 	}
 	.seemore {
 		font-size: 16px;
 		line-height: 20px;
 	}
 	.docs-wrapper-btn{
-		width: 100%;
+		width: 70%;
 	}
 
 	#home {
 		background-image: url('../assets/img/img_principal.jpg');
+		.home-wrap-btn {
+			display: -webkit-box;
+			display: flex;
+			display: -ms-flex;
+
+			-webkit-box-align: center;
+			align-items: center;
+			-ms-flex-align: center;
+
+			justify-content: center;
+			-webkit-align-content: stretch;
+			-ms-flex-line-pack: stretch;
+
+			a:first-child {
+				margin-bottom: 0px;
+				margin-right: 30px;
+			}
+		}
 	}
 	#options {
 		background-image: url('../assets/img/img_elegir.jpg');
@@ -279,9 +306,7 @@ a {
 		background-position: center;
 		background-repeat: no-repeat;
 	}
-	#productos {
-		height: 600px;
-	}
+	#productos {height: 600px;}
 	#cotiza-wrapper {
 		width: 50%;
 	}
@@ -295,5 +320,11 @@ a {
 	.left-center {
 		text-align: left;
 	}
-
+	.product-wrap {
+		width: 100%;
+		height: 80px;
+	}
+	#employeehome {
+		width: 270px;
+	}
 }

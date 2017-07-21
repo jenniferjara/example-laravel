@@ -16,8 +16,8 @@
 		</div>
 	</nav>
 
-	<div class="layout-home bg-reconocimiento">
-		<div class="bg-layout-wrap layout-home-text valign-wrapper">
+	<div class="bg-reconocimiento">
+		<div class="bg-layout-wrap wrapper-general-text valign-wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -32,7 +32,7 @@
 		</div>
 	</div>
 
-	<div class="layout-body bg-grey">
+	<div class="wrapper-general bg-grey">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
@@ -65,7 +65,7 @@
 		</div>
 	</div>
 
-	<div class="layout-body bg-grey">
+	<div class="wrapper-general bg-grey">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
@@ -106,12 +106,12 @@
 		</div>
 	</div>
 
-	<div class="layout-body bg-grey">
+	<div class="wrapper-general bg-grey">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
 					<div class="btn-da-box valign-wrapper">
-						<a class="waves-effect waves-light btn btn-da btn-violet" href="{{ route('layout.contacto') }}">Contáctanos</a>
+						<a class="waves-effect waves-light btn btn-da btn-violet font-bold" href="{{ route('layout.contacto') }}">Contáctanos</a>
 					</div>
 				</div>
 				<div class="col s12">

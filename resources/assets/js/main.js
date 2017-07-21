@@ -8,14 +8,23 @@ $(document).ready( function () {
 
 	$('input#input_text, textarea#message').characterCounter();
 	$('#sector').material_select();
-	$('.button-collapse').sideNav({
-		menuWidth: 300, 
+	$('.nav-barra').sideNav({ 
 		edge: 'right',
 		closeOnClick: true,
 		draggable: true 
 	});
 	
 	$('.login').dropdown({
+		inDuration: 300,
+		outDuration: 225,
+		constrainWidth: false,
+		gutter: 0,
+		belowOrigin: true,
+		alignment: 'left',
+		stopPropagation: false
+	});
+
+	$('.nav-perfil').dropdown({
 		inDuration: 300,
 		outDuration: 225,
 		constrainWidth: false,

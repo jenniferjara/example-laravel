@@ -1,19 +1,20 @@
+.bg-grey {
+	background-color: $grey;
+}
 /* navbar home */
 #nav-bar {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 999;
-	border-bottom: 1px solid #cccccc;
-	background-color: #ffffff;
+	z-index: 99999;
+	background-color: $white;
 	height: 50px;
 	padding-left: 1rem;
     padding-right: 1rem;
 
 	.nav-top {
-		background-color: #ffffff;
-		border-bottom: 1px solid #cccccc;
+		background-color: $white;
 		overflow: hidden;
 		box-shadow: none;
 		height: 50px;
@@ -27,14 +28,17 @@
 		}
 		.nav-collapse {
 			float: right;
+			height: 50px;
 			.nav-perfil{
 				cursor: pointer;
 				line-height: 50px;
 				margin-right: 10px;
+				height: 50px;
 				
 				.nav-perfil-icon {
 					font-size: 18px;
 					line-height: 50px;
+					height: 50px;
 					&:before {
 						color: $orange;
 					}
@@ -78,25 +82,35 @@
 
 /* icons */
 .icons-violet-lg {
-	color: $violet;
 	font-size: 80px;
+	&::before{
+		color: $violet;
+	}
 }
 .icons-white-lg {
-	color: $white;
 	font-size: 80px;
+	&::before {
+		color: $white;
+	}
 }
 
 .icons-violet-sm {
 	font-size: 40px;
-	color: $violet;
+	&::before {
+		color: $violet;
+	}
 }
 .icons-white-sm {
 	font-size: 40px;
-	color: $white;
+	&::before {
+		color: $white;
+	}
 }
 .icons-special {
 	font-size: 80px;
-	color: $violet;
+	&::before {
+		color: $violet;
+	}
 }
 
 /** sidenav **/
@@ -105,12 +119,81 @@
 	color: $white;
 	margin-top: 50px;
 	padding-top: 30px;
+	z-index: 99999;
 	li > a {
 		color: $white;
 	}
 }
 
+.dropdown-content {
+	background-color: $violet;
+	li {
+		margin-left: 0px; 
+		margin-right: 0px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: rgba(255, 255, 255, 0.05);
 
+		&:hover {
+			background-color: $orange;
+			color: $white;
+		}
+		a {color: $white;}
+	}
+}
+
+/** botones **/
+
+.btn-da-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.btn-da{
+	display: block;
+    width: 100%;
+    padding: 11px;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+    line-height: 24px;
+    text-transform: initial;
+    font-size: 16px;
+    box-shadow: none;
+}
+.btn-cyan{
+    color: $violet;
+    background-color: $cyan;
+    letter-spacing: 0px;
+    &:hover {
+        background-color: $cyan;
+        box-shadow: none;
+    }
+}
+.btn-violet{
+    color: $white;
+    background-color: $violet;
+    &:hover {
+        background-color: $violet;
+        box-shadow: none;
+    }
+}
+.btn-flat {
+    background-color: transparent;
+    border: 1px solid $violet;
+    color: $violet;
+    &:hover {
+        background-color: $violet;
+        color: $white;
+    }
+}
+.font-bold {
+    font-weight: bold;
+}
+
+.d-none {
+    display: block;
+}
 
 /** error **/
 .input-field span.error,
@@ -174,12 +257,17 @@
 			line-height: 50px;
 
 			li.nav-lineal-opt {
-				margin-left: 10px;
-				margin-right: 10px;
-				padding: 0 30px;
+				padding: 0 10px;
 				a.nav-lineal-link,
 				a.login {
 					color: $violet;
+					padding: 0 30px;
+				}
+				a.login span.nav-lineal-icon-login {
+					margin-right: 10px;
+					&::before {
+						color: $orange;
+					}
 				}
 			}
 		}
@@ -188,9 +276,9 @@
 			li {
 				margin-left: 0px; 
 				margin-right: 0px;
-				border-bottom-style: solid;
-				border-bottom-width: 2px;
-				border-bottom-color: $white;
+				border-top-style: solid;
+				border-top-width: 1px;
+				border-top-color: rgba(255, 255, 255, 0.05);
 
 				&:hover {
 					background-color: $orange;
@@ -232,4 +320,10 @@
 	.icons-special {
 		font-size: 120px;
 	}
+	.btn-da {
+        width: 270px;
+    }
+    .d-none {
+        display: none;
+    }
 }

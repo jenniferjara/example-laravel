@@ -15,8 +15,8 @@
 			</div>
 		</div>
 	</nav>
-	<div class="layout-home bg-medicion">
-		<div class="layout-home-text bg-layout-wrap valign-wrapper">
+	<div class="bg-medicion">
+		<div class="wrapper-general-text bg-layout-wrap valign-wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -35,7 +35,7 @@
 		</div>
 	</div>
 
-	<div class="layout-body bg-grey">
+	<div class="wrapper-general bg-grey height-wrapper valign-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
@@ -45,21 +45,21 @@
 			<div class="row">
 				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_test icons-violet-lg"></span></div>
+						<div><span class="da_ico_test_line icons-violet-lg"></span></div>
 						<p class="layout-text">Contamos con una encuesta desarrollada por psicologos expertos en felicidad en el trabajo.</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_areas icons-violet-lg"></span></div>
+						<div><span class="da_ico_areas_line icons-violet-lg"></span></div>
 						<p class="layout-text">Puedes selecionar a qué áreas de tu empresa la quieres enviar</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_dashboard icons-violet-lg"></span></div>
+						<div><span class="da_ico_dashboard_line icons-violet-lg"></span></div>
 						<p class="layout-text">¡Ofrecemos un dashboard para que puedas revisar tus resultados!</p>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 		</div>
 	</div>
 
-	<div class="layout-body">
+	<div class="wrapper-general height-wrapper valign-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
@@ -107,7 +107,7 @@
 		</div>
 	</div>
 
-	<div class="layout-body bg-grey">
+	<div class="wrapper-general bg-grey">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">

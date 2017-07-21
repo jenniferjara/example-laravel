@@ -8,13 +8,13 @@
 
 
 				<ul class="right nav-lineal">
-					<li class="nav-lineal-opt"><a href="#productos">Nuestro Producto</a></li>
+					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="#productos">Nuestro Producto</a></li>
 					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('layout.nosotros') }}">Nosotros</a></li>
 					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('layout.contacto') }}">Contáctanos</a></li>
-					<li class="nav-lineal-opt"><a data-activates='dropdown1' class="login"><span class="da_ico_user" style="margin-right: 5px;"></span>Inicia sesión</a></li>
+					<li class="nav-lineal-opt"><a data-activates='dropdown1' class="login dropdown-button"><span class="da_ico_user nav-lineal-icon-login"></span>Inicia sesión</a></li>
 				</ul>
-				<div class="nav-collapse">
-					<a class="nav-perfil button-collapse">
+				<div class="nav-collapse d-none">
+					<a data-activates='dropdown2' class="nav-perfil button-collapse">
 						<i class="da_ico_user nav-perfil-icon"></i>
 					</a>
 					<a data-activates="slide-out" class="nav-barra button-collapse">
@@ -32,7 +32,12 @@
 	<li><a class="waves-effect" href="{{ route('layout.contacto') }}">Contáctanos</a></li>
 </ul>
 
-<ul id='dropdown1' class='dropdown-content'>
+<ul id='dropdown1' class='dropdown-content d-none'>
+	<li class="dropdown2-li"><a class="dropdown2-a" href="#!">Como empresa</a></li>
+	<li class="dropdown2-li"><a class="dropdown2-a" href="#!">Como colaborador</a></li>
+</ul>
+
+<ul id='dropdown2' class='dropdown-content'>
 	<li class="dropdown2-li"><a class="dropdown2-a" href="#!">Como empresa</a></li>
 	<li class="dropdown2-li"><a class="dropdown2-a" href="#!">Como colaborador</a></li>
 </ul>
