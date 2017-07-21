@@ -27,7 +27,7 @@
 					</div>
 					<div class="col s12">
 						<div class="btn-da-box valign-wrapper">
-							<a class="waves-effect waves-light btn btn-da btn-violet" href="">¡Mide hoy!</a>
+							<a class="waves-effect waves-light btn btn-da btn-purple" href="">¡Mide hoy!</a>
 						</div>
 					</div>
 				</div>
@@ -45,21 +45,21 @@
 			<div class="row">
 				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_test_line icons-violet-lg"></span></div>
+						<div><span class="da_ico_test_line icons-purple-lg"></span></div>
 						<p class="layout-text">Contamos con una encuesta desarrollada por psicologos expertos en felicidad en el trabajo.</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_areas_line icons-violet-lg"></span></div>
+						<div><span class="da_ico_areas_line icons-purple-lg"></span></div>
 						<p class="layout-text">Puedes selecionar a qué áreas de tu empresa la quieres enviar</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align options">
-						<div><span class="da_ico_dashboard_line icons-violet-lg"></span></div>
+						<div><span class="da_ico_dashboard_line icons-purple-lg"></span></div>
 						<p class="layout-text">¡Ofrecemos un dashboard para que puedas revisar tus resultados!</p>
 					</div>
 				</div>
@@ -78,21 +78,21 @@
 			<div class="row">
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
 						<p>Incrementa la productividad</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
 						<p>Genera una relación cercana entre los colaboradores y la empresa</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
 						<p>Mejora el ambiente de trabajo</p>
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="layout-btn-box valign-wrapper">
-						<a class="waves-effect waves-light btn btn-da btn-violet" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect waves-light btn btn-da btn-purple" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 			</div>

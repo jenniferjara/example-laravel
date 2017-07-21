@@ -16,7 +16,7 @@
 				</div>
 				<div class="col s12">
 					<div class="btn-da-box">
-						<a id="cotiza-home-btn" class="waves-effect btn btn-da btn-violet font-bold" href="">¡Cotizar ya!</a>
+						<a id="cotiza-home-btn" class="waves-effect btn btn-da btn-purple font-bold" href="">¡Cotizar ya!</a>
 					</div>
 				</div>
 
@@ -78,7 +78,7 @@
 		</div>
 		<div class="row">
 			<div class="btn-da-box valign-wrapper">
-				<a class="waves-effect waves-light btn btn-da btn-violet font-bold" href="#">¡Lo quiero!</a>
+				<a class="waves-effect waves-light btn btn-da btn-purple font-bold" href="#">¡Lo quiero!</a>
 			</div>
 		</div>
 	</div>
@@ -138,7 +138,7 @@
 			<div class="col s12">
 				<p class="center-left">*Campos requeridos</p>
 				<div class="btn-da-box valign-wrapper">
-					<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-violet font-bold" href="">Enviar</a>
+					<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-purple font-bold" href="">Enviar</a>
 				</div>
 			</div>
 		</div>

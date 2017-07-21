@@ -42,7 +42,7 @@
 			<div class="row">
 				<div class="col s12 l4">
 					<div class="center-align home-box">
-						<div><span class="da_ico_recognition icons-violet-lg"></span></div>
+						<div><span class="da_ico_recognition icons-purple-lg"></span></div>
 						<p class="subtitles">Reconocimientos</p>
 						<p>Reconoce a tus colaboradores con KMS. <br>LATAM Pass</p>
 						<a class="seemore" href="{{ route('layout.reconocimiento') }}">Leer más</a>
@@ -51,7 +51,7 @@
 
 				<div class="col s12 l4">
 					<div class="center-align home-box">
-						<div><span class="da_ico_benefits icons-violet-lg"></span></div>
+						<div><span class="da_ico_benefits icons-purple-lg"></span></div>
 						<p class="subtitles">Beneficios</p>
 						<p>Queremos que des experiencias enfocadas <br>en educación, viajes y bienestar.</p>
 						<a class="seemore" href="{{ route('layout.beneficio') }}">Leer más</a>
@@ -60,7 +60,7 @@
 				
 				<div class="col s12 l4">
 					<div class="center-align home-box">
-						<div><span class="da_ico_measuring icons-violet-lg"></span></div>
+						<div><span class="da_ico_measuring icons-purple-lg"></span></div>
 						<p class="subtitles">Medición</p>
 						<p>Gestiona la felicidad y vuelve más productivo <br>a tu equipo.</p>
 						<a class="seemore" href="{{ route('layout.medicion') }}">Leer más</a>

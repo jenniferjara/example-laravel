@@ -23,10 +23,10 @@
 			display: none;
 		}
 		.nav-logo {
-			font-size: 30px;
-			line-height: 50px;
-			span.nav-logo::before {
-				color: #5520B2;
+			font-size: 40px;
+			line-height: 55px;
+			span.da_logo_da::before {
+				color: $purple-light;
 			}
 		}
 		.nav-collapse {
@@ -35,7 +35,7 @@
 			.nav-perfil{
 				cursor: pointer;
 				line-height: 50px;
-				margin-right: 10px;
+				margin: 0px;
 				height: 50px;
 				
 				.nav-perfil-icon {
@@ -51,7 +51,7 @@
 			    margin-right: 0px;
 				i{
 				    cursor: pointer;
-				    color: $violet;
+				    color: $purple;
 				    line-height: 50px;
 				}
 			}
@@ -76,7 +76,7 @@
 		height: 50px;
 
 		.breadcrumb{
-			color: $violet;
+			color: $purple;
 			font-size: 12px;
 			&:before {
 				color: $orange;
@@ -87,10 +87,10 @@
 }
 
 /* icons */
-.icons-violet-lg {
+.icons-purple-lg {
 	font-size: 80px;
 	&::before{
-		color: $violet;
+		color: $purple;
 	}
 }
 .icons-white-lg {
@@ -100,14 +100,14 @@
 	}
 }
 
-.icons-violet-sm {
-	font-size: 40px;
+.icons-purple-sm {
+	font-size: 50px;
 	&::before {
-		color: $violet;
+		color: $purple;
 	}
 }
 .icons-white-sm {
-	font-size: 40px;
+	font-size: 50px;
 	&::before {
 		color: $white;
 	}
@@ -115,13 +115,13 @@
 .icons-special {
 	font-size: 80px;
 	&::before {
-		color: $violet;
+		color: $purple;
 	}
 }
 
 /** sidenav **/
 .side-nav {
-	background-color: $violet;
+	background-color: $purple;
 	color: $white;
 	margin-top: 50px;
 	padding-top: 30px;
@@ -132,7 +132,7 @@
 }
 
 .dropdown-content {
-	background-color: $violet;
+	background-color: $purple;
 	li {
 		margin-left: 0px; 
 		margin-right: 0px;
@@ -144,8 +144,16 @@
 			background-color: $orange;
 			color: $white;
 		}
-		a {color: $white;}
+		a {
+			color: $white;
+			font-size: 14px;
+		}
 	}
+}
+
+#dropdown2 {
+	left: initial !important;
+	right: 0px !important;
 }
 
 /** botones **/
@@ -168,7 +176,7 @@
     box-shadow: none;
 }
 .btn-cyan{
-    color: $violet;
+    color: $purple;
     background-color: $cyan;
     letter-spacing: 0px;
     &:hover {
@@ -176,20 +184,20 @@
         box-shadow: none;
     }
 }
-.btn-violet{
+.btn-purple{
     color: $white;
-    background-color: $violet;
+    background-color: $purple;
     &:hover {
-        background-color: $violet;
+        background-color: $purple;
         box-shadow: none;
     }
 }
 .btn-flat {
     background-color: transparent;
-    border: 1px solid $violet;
-    color: $violet;
+    border: 1px solid $purple;
+    color: $purple;
     &:hover {
-        background-color: $violet;
+        background-color: $purple;
         color: $white;
     }
 }
@@ -214,7 +222,7 @@
 /*footer*/
 
 #footer {
-	background-color: $violet;
+	background-color: $purple;
 	color: $white;
 	padding-top: 3rem;
 	padding-bottom: 1rem;
@@ -295,7 +303,7 @@
 			}
 		}
 		.dropdown-content {
-			background-color: $violet;
+			background-color: $purple;
 			li {
 				margin-left: 0px; 
 				margin-right: 0px;
@@ -324,14 +332,14 @@
 				font-size: 60px;
 				line-height: 75px;
 				span.da_logo_da::before {
-					color: #5520B2;
+					color: $purple-light;
 				}
 			}
 		}
 		.nav-top .nav-lineal {
 			li.nav-lineal-opt {
 				a.nav-lineal-link, a.login {
-					color: $violet;
+					color: $purple;
 				}
 			}
 		}

@@ -17,7 +17,7 @@ $(document).ready( function () {
 	$('.login').dropdown({
 		inDuration: 300,
 		outDuration: 225,
-		constrainWidth: false,
+		constrainWidth: true,
 		gutter: 0,
 		belowOrigin: true,
 		alignment: 'left',
@@ -30,7 +30,7 @@ $(document).ready( function () {
 		constrainWidth: false,
 		gutter: 0,
 		belowOrigin: true,
-		alignment: 'left',
+		alignment: 'right',
 		stopPropagation: false
 	});
 

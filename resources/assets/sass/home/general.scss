@@ -6,7 +6,7 @@
 
 body{
 	background-color: $white;
-	color: $violet;
+	color: $purple;
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
 
@@ -14,7 +14,7 @@ body{
     line-height: 18px;
 }
 a {
-	color: $violet;
+	color: $purple;
 	text-decoration: none;
 }
 .row {margin-bottom: 0px;}
@@ -45,8 +45,8 @@ a {
 .text-orange {
     color: $orange;
 }
-.text-violet {
-    color: $violet;
+.text-purple {
+    color: $purple;
 }
 
 .img-common {
@@ -89,14 +89,14 @@ a {
 
 #productos, #estudios {
 	p {
-		color: $violet;
+		color: $purple;
 	}
 }
 
 #productos, #estudios {
 	background-color: $grey;
 }
-#productos, #options, #cotiza, #estudios {
+#productos, #options, .cotiza-wrapper, #estudios {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
@@ -144,16 +144,16 @@ a {
 	.input-field label {
 		font-size: 12px;
 		opacity: 0.6;
-		color: $violet;
+		color: $purple;
 	}
 	.input-field input[type=number]:focus + label,
 	.input-field input[type=text]:focus + label {
-		color: $violet;
+		color: $purple;
 	}
 
     .input-field input[type=text]:focus {
-    	border-bottom: 1px solid $violet;
-    	box-shadow: 0 1px 0 0 $violet;
+    	border-bottom: 1px solid $purple;
+    	box-shadow: 0 1px 0 0 $purple;
 	}
 }
 
@@ -177,7 +177,7 @@ a {
     border-radius: 5px;
     text-align: center;
     margin: 0 auto;
-    border: 1px solid $violet;
+    border: 1px solid $purple;
     font-size: 16px;
     padding-top: 12px;
     padding-bottom: 13px;
@@ -200,7 +200,7 @@ a {
 
 	.cotiza-box-300 {
 		border-radius: 5px;
-		border: 1px solid $violet;
+		border: 1px solid $purple;
 		padding: 10px 30px;
 		text-align: center;
 		position: relative;

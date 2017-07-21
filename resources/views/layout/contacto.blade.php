@@ -68,7 +68,7 @@
 					</div>
 					<p class="campos-requeridos">*Campos requeridos</p>
 					<div class="layout-btn-box valign-wrapper">
-						<a id="btn-send-contact" class="waves-effect waves-light btn btn-da btn-violet font-bold" href="">Enviar</a>
+						<a id="btn-send-contact" class="waves-effect waves-light btn btn-da btn-purple font-bold" href="">Enviar</a>
 					</div>
 					<div class="layout-btn-box d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>

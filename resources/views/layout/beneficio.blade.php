@@ -23,7 +23,7 @@
 					<div class="col offset-l2 l8 s12">
 						<div class="center-align home-wrapper">
 							<div><span class="da_ico_benefits icons-special"></span></div>
-							<p class="titles text-violet">¡Dá! Beneficios</p>
+							<p class="titles text-purple">¡Dá! Beneficios</p>
 							<p class="layout-text">Dale a tus colaboradores los mejores beneficios.</p>
 						</div>
 					</div>
@@ -36,7 +36,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<p class="titles text-violet center-align">¡Así funciona!</p>
+					<p class="titles text-purple center-align">¡Así funciona!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -76,21 +76,21 @@
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
 						<p class="layout-text">Es un ahorro a tus colaboradores</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
 						<p class="layout-text">Genera un compromiso fortaleciendo un vinculo entre empresa y colaborador</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-violet-sm"></span></div>
+						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
 						<p class="layout-text">Los motiva y hace más felices</p>
 					</div>
 				</div>
@@ -106,8 +106,8 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_travel icons-violet-lg"></span></div>
-							<p class="titles text-violet">¡Dá! Viajes</p>
+							<div><span class="da_ico_travel icons-purple-sm"></span></div>
+							<p class="titles text-purple">¡Dá! Viajes</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -131,8 +131,8 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_education icons-violet-lg"></span></div>
-							<p class="titles text-violet">¡Dá! Educación</p>
+							<div><span class="da_ico_education icons-purple-sm"></span></div>
+							<p class="titles text-purple">¡Dá! Educación</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -156,8 +156,8 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_health icons-violet-lg"></span></div>
-							<p class="titles text-violet">¡Dá! Bienestar</p>
+							<div><span class="da_ico_health icons-purple-sm"></span></div>
+							<p class="titles text-purple">¡Dá! Bienestar</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -183,7 +183,7 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="btn-da-box valign-wrapper">
-						<a class="waves-effect waves-light btn btn-da btn-violet font-bold" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect waves-light btn btn-da btn-purple font-bold" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 				<div class="col s12">
