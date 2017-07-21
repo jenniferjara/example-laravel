@@ -1,4 +1,4 @@
-<header id="nav-bar" class="nav-bar">
+<header class="nav-bar scrolled">
 	<div class="row">
 		<div class="col s12">
 			<nav class="nav-top">
@@ -27,7 +27,7 @@
 </header>
 
 <ul id="slide-out" class="side-nav d-none">
-	<li><a href="{{ route('home.index') }}">Nuestro Producto</a></li>
+	<li><a href="#producto">Nuestro Producto</a></li>
 	<li><a href="{{ route('layout.nosotros') }}">Nosotros</a></li>
 	<li><a class="waves-effect" href="{{ route('layout.contacto') }}">Contáctanos</a></li>
 </ul>

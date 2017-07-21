@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbar')
+@include('common.navbar2')
 
 <section id="medicion">
 	<nav class="nav-breadcrumbs">

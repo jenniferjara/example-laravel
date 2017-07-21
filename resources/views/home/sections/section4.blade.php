@@ -1,5 +1,5 @@
 <section id="cotiza">
-	<div id="cotiza-wrapper">
+	<div class="cotiza-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
@@ -8,7 +8,7 @@
 					<form id="cotiza-home" class="form-common">
 						<div class="row">
 							<div class="input-field col l10 s12">
-								<input id="employeehome" type="text" class="validate" name="employeehome">
+								<input id="employeehome" type="text" class="validate" name="employeehome"  autocomplete="off">
 								<label for="employeehome">Número de colaboradores*</label>
 							</div>
 						</div>
@@ -32,7 +32,7 @@
 	</div>
 </section>
 
-<section id="cotizaopt1" class="cotizaopt1 bg-grey" style="display: none;">
+<section id="cotizaopt1" class="cotizaopt1 bg-grey wrapper-general" style="display: none;">
 	<div class="container center-align">
 		<div class="row">
 			<div class="col s12">
@@ -84,7 +84,7 @@
 	</div>
 </section>
 
-<section id="cotizaopt2" class="cotizaopt2 bg-grey" style="display: none;">
+<section id="cotizaopt2" class="cotizaopt2 bg-grey wrapper-general" style="display: none;">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
@@ -99,36 +99,36 @@
 				<form id="cotizapersonal" class="form-common">
 					<div class="row">
 						<div class="input-field col s12 l6">
-							<input name="name" id="name" type="text" class="validate">
+							<input name="name" id="name" type="text" class="validate" autocomplete="off">
 							<label for="name">Nombre*</label>
 						</div>
 						<div class="input-field col s12 l6">
-							<input name="company" id="company" type="text" class="validate">
+							<input name="company" id="company" type="text" class="validate" autocomplete="off">
 							<label for="company">Empresa*</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12 l6">
-							<input name="phone" id="phone" type="text" class="validate">
+							<input name="phone" id="phone" type="text" class="validate" autocomplete="off">
 							<label for="phone">Teléfono*</label>
 						</div>
 						<div class="input-field col s12 l6">
-							<input name="email" id="email" type="email" class="validate">
+							<input name="email" id="email" type="email" class="validate" autocomplete="off">
 							<label for="email">Correo corporativo*</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12 l6">
-							<input name="cargo" id="cargo" type="text" class="validate">
+							<input name="cargo" id="cargo" type="text" class="validate" autocomplete="off">
 							<label for="cargo">Cargo*</label>
 						</div>
 						<div class="input-field col s12 l6">
-							<input id="employee" type="text" class="validate">
+							<input id="employee" type="text" class="validate" autocomplete="off">
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<textarea id="message" class="materialize-textarea" data-length="120"></textarea>
+							<textarea id="message" class="materialize-textarea" data-length="120" autocomplete="off"></textarea>
 							<label for="message">Escribe un mensaje (opcional)</label>
 						</div>
 					</div>

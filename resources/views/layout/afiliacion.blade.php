@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbar')
+@include('common.navbar2')
 
 <section id="afiliacion">
 
@@ -34,14 +34,14 @@
 										<label for="number_ruc"">Número de RUC*</label>
 									</div>
 									<div class="input-field col s12 l6">
-										<input name="company" type="text" class="validate">
+										<input name="company" type="text" class="validate" autocomplete="off">
 										<label for="company">Nombre de la Empresa*</label>
 									</div>
 								</div>
 
 								<div class="row">
 									<div class="input-field col s12 l6">
-										<input name="razon" id="text" type="text" class="validate">
+										<input name="razon" id="text" type="text" class="validate" autocomplete="off">
 										<label for="razon">Razón social*</label>
 									</div>
 									<div class="input-field col s12 l6">
@@ -57,25 +57,25 @@
 								</div>
 								<div class="row">
 									<div class="input-field col s12 l6">
-										<input name="contact_person" type="text" class="validate">
+										<input name="contact_person" type="text" class="validate" autocomplete="off">
 										<label for="contact_person">Persona de contacto*</label>
 									</div>
 									<div class="input-field col s12 l6">
-										<input name="contact_person_email" type="email" class="validate">
+										<input name="contact_person_email" type="email" class="validate" autocomplete="off">
 										<label for="contact_person_email">Correo electrónico de contacto*</label>
 									</div>
 								</div>
 
 								<div class="row">
 									<div class="input-field col s12 l6">
-										<input id="contact_person_phone" name="contact_person_phone" type="text" class="validate">
+										<input id="contact_person_phone" name="contact_person_phone" type="text" class="validate" autocomplete="off">
 										<label for="contact_person_phone">Teléfono*</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col s12">
 										<div class="terms-box">
-											<input name="terms" type="checkbox" id="terms" />
+											<input name="terms" type="checkbox" id="terms" autocomplete="off">
 											<label for="terms">Acepto términos y condiciones*</label>
 										</div>
 									</div>

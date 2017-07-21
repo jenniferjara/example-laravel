@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbar')
+@include('common.navbar2')
 
 <section id="nosotros">
 	<nav class="nav-breadcrumbs">
@@ -19,7 +19,7 @@
 		<div class="d-none">
 			<img class="img-common" src="{{ asset('assets/img/responsive/img_nosotros.jpg') }}" alt="Nosotros">
 		</div>
-		<div class="text bg-layout-wrap valign-wrapper">
+		<div class="wrapper-general-text bg-layout-wrap valign-wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">

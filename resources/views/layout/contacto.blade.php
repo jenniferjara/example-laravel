@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbar')
+@include('common.navbar2')
 
 <section id="contacto">
 
@@ -29,37 +29,37 @@
 							<form id="form-contact" class="form-common">
 								<div class="row">
 									<div class="input-field col s12 l6">
-										<input name="name_contact" id="name_contact" type="text" class="validate">
+										<input name="name_contact" id="name_contact" type="text" class="validate" autocomplete="off">
 										<label for="name_contact">Nombre*</label>
 									</div>
 									<div class="input-field col s12 l6">
-										<input name="company_contact" id="company_contact" type="text" class="validate">
+										<input name="company_contact" id="company_contact" type="text" class="validate" autocomplete="off">
 										<label for="company_contact">Empresa*</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12 l6">
-										<input name="phone_contact" id="phone_contact" type="text" class="validate">
+										<input name="phone_contact" id="phone_contact" type="text" class="validate" autocomplete="off">
 										<label for="phone_contact">Teléfono*</label>
 									</div>
 									<div class="input-field col s12 l6">
-										<input name="email_contact" id="email_contact" type="email" class="validate">
+										<input name="email_contact" id="email_contact" type="email" class="validate" autocomplete="off">
 										<label for="email_contact">Correo corporativo*</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12 l6">
-										<input name="cargo_contact" id="cargo_contact" type="text" class="validate">
+										<input name="cargo_contact" id="cargo_contact" type="text" class="validate" autocomplete="off">
 										<label for="cargo_contact">Puesto*</label>
 									</div>
 									<div class="input-field col s12 l6">
-										<input name="employee_contact" id="employee_contact" type="text" class="validate">
+										<input name="employee_contact" id="employee_contact" type="text" class="validate" autocomplete="off">
 										<label for="employee_contact">Número de colaboradores*</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12">
-										<textarea id="message_contact" class="materialize-textarea" data-length="120"></textarea>
+										<textarea id="message_contact" class="materialize-textarea" data-length="120"  autocomplete="off"></textarea>
 										<label for="message_contact">Escribe un mensaje (opcional)</label>
 									</div>
 								</div>

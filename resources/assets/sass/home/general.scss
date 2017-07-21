@@ -79,12 +79,12 @@ a {
 }
 
 #cotiza {
-	height: 600px;
-}
-#cotiza-wrapper {
-	width: 100%;
-	height: 600px;
-	background-color: $white;
+	height: auto;
+	.cotiza-wrapper {
+		width: 100%;
+		height: 600px;
+		background-color: $white;
+	}
 }
 
 #productos, #estudios {
@@ -96,7 +96,7 @@ a {
 #productos, #estudios {
 	background-color: $grey;
 }
-#productos, #options, #cotiza-wrapper, #estudios {
+#productos, #options, #cotiza, #estudios {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
@@ -300,20 +300,24 @@ a {
 	#options {
 		background-image: url('../assets/img/img_elegir.jpg');
 	}
+	#productos {height: 600px;}
+	
 	#cotiza {
 		background-image: url('../assets/img/img_cotiza.jpg');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-	}
-	#productos {height: 600px;}
-	#cotiza-wrapper {
-		width: 50%;
+		
+		.cotiza-wrapper {
+			width: 50%;
+			
+		}
 	}
 	.cotizaopt1, .cotizaopt2 {
 		padding-bottom: 3rem;
 		padding-top: 3rem;
 	}
+
 	.center-left {
 		text-align: center;
 	}

@@ -44,8 +44,10 @@
 }
 
 @media (min-width: 992px) {
-	#afiliacion .campos-requeridos,
-	#contacto .campos-requeridos {
-		text-align: center;
+	#afiliacion, #contacto {
+		margin-top: 70px;
+		.campos-requeridos {
+			text-align: center;
+		}
 	}
 }
