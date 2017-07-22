@@ -27,7 +27,7 @@
 </header>
 
 <ul id="slide-out" class="side-nav d-none">
-	<li><a href="{{ route('home.index') }}">Nuestro Producto</a></li>
+	<li><a>Nuestro Producto</a></li>
 	<li><a href="{{ route('layout.nosotros') }}">Nosotros</a></li>
 	<li><a class="waves-effect" href="{{ route('layout.contacto') }}">Contáctanos</a></li>
 </ul>

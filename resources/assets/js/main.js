@@ -8,6 +8,7 @@ $(document).ready( function () {
 
 	$('input#input_text, textarea#message').characterCounter();
 	$('#sector').material_select();
+
 	$('.nav-barra').sideNav({ 
 		edge: 'right',
 		closeOnClick: true,

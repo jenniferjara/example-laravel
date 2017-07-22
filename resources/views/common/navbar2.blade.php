@@ -8,7 +8,7 @@
 
 
 				<ul class="right nav-lineal">
-					<li id="go-products" class="nav-lineal-opt"><a class="nav-lineal-link" href="#productos">Nuestro Producto</a></li>
+					<li id="go-products" class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('home.index') }}">Nuestro Producto</a></li>
 					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('layout.nosotros') }}">Nosotros</a></li>
 					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('layout.contacto') }}">Contáctanos</a></li>
 					<li class="nav-lineal-opt"><a data-activates='dropdown1' class="login dropdown-button"><span class="da_ico_user nav-lineal-icon-login"></span>Inicia sesión</a></li>
@@ -27,7 +27,7 @@
 </header>
 
 <ul id="slide-out" class="side-nav d-none">
-	<li><a href="#producto">Nuestro Producto</a></li>
+	<li><a>Nuestro Producto</a></li>
 	<li><a href="{{ route('layout.nosotros') }}">Nosotros</a></li>
 	<li><a class="waves-effect" href="{{ route('layout.contacto') }}">Contáctanos</a></li>
 </ul>
