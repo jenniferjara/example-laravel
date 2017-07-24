@@ -36,7 +36,7 @@ $(document).ready( function () {
 		$('html, body').animate({scrollTop: position}, 800);
 		return false;
 	}
-	$('.go-products').on('click', goProducts);
+	$('#go-products-home').on('click', goProducts);
 
 	$(window).on('hashchange', function (e) {
         var name = window.location.hash;
@@ -52,10 +52,10 @@ $(document).ready( function () {
         $(window).trigger('hashchange');
     });
 
-	$('#go-cotiza').on('click', function(){
+	$('.go-cotiza').on('click', function(){
 		$("html, body").animate({scrollTop: $('.go-to-section[data-section-name="cotiza"]').offset().top - 50});
 	});
-	$('#go-products, #go-products2').on('click', function(){
+	$('.go-products').on('click', function(){
 		$("html, body").animate({scrollTop: $('.go-to-section[data-section-name="productos"]').offset().top - 50});
 	});
 	

@@ -1,6 +1,10 @@
 .bg-grey {
 	background-color: $grey;
 }
+.bg-purple-light {
+	background-color: $purple-light;
+	color: $white;
+}
 /* navbar home */
 .nav-bar {
 	position: fixed;
@@ -147,6 +151,7 @@
 		a {
 			color: $white;
 			font-size: 14px;
+			padding: 20px;
 		}
 	}
 }
@@ -165,15 +170,16 @@
 }
 .btn-da{
 	display: block;
-    width: 100%;
-    padding: 11px;
+    width: 290px;
+    padding: 10px;
     border-radius: 5px;
     text-align: center;
     height: auto;
-    line-height: 24px;
+    line-height: 25px;
     text-transform: initial;
     font-size: 16px;
     box-shadow: none;
+    margin: 0 auto;
 }
 .btn-cyan{
     color: $purple;
@@ -201,6 +207,16 @@
         color: $white;
     }
 }
+.btn-flat-white {
+	background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+    &:hover, &:active, &:focus {
+    	background-color: $white;
+    	color: $purple;
+    }
+}
+
 .font-bold {
     font-weight: bold;
 }

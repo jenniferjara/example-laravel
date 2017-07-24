@@ -17,6 +17,9 @@
 	</nav>
 	
 	<div class="bg-beneficio">
+		<div class="d-none">
+			<img class="img-common" src="{{ asset('assets/img/responsive/img_beneficios.jpg') }}" alt="Nosotros">
+		</div>
 		<div class="bg-layout-wrap wrapper-general-text valign-wrapper">
 			<div class="container">
 				<div class="row">
@@ -32,11 +35,11 @@
 		</div>
 	</div>
 
-	<div class="wrapper-general bg-grey">
+	<div class="wrapper-general bg-purple-light">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<p class="titles text-purple center-align">¡Así funciona!</p>
+					<p class="titles center-align">¡Así funciona!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -76,21 +79,21 @@
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Es un ahorro a tus colaboradores</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Genera un compromiso fortaleciendo un vinculo entre empresa y colaborador</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Los motiva y hace más felices</p>
 					</div>
 				</div>
@@ -100,14 +103,14 @@
 		</div>
 	</div>
 
-	<div class="wrapper-general">
+	<div class="wrapper-general bg-beneficio-options">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_travel icons-purple-sm"></span></div>
-							<p class="titles text-purple">¡Dá! Viajes</p>
+							<div><span class="da_ico_travel icons-white-lg"></span></div>
+							<p class="titles">¡Dá! Viajes</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -131,8 +134,8 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_education icons-purple-sm"></span></div>
-							<p class="titles text-purple">¡Dá! Educación</p>
+							<div><span class="da_ico_education icons-white-lg"></span></div>
+							<p class="titles">¡Dá! Educación</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -156,8 +159,8 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_health icons-purple-sm"></span></div>
-							<p class="titles text-purple">¡Dá! Bienestar</p>
+							<div><span class="da_ico_health icons-white-lg"></span></div>
+							<p class="titles">¡Dá! Bienestar</p>
 						</div>
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
@@ -183,12 +186,12 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="btn-da-box valign-wrapper">
-						<a class="waves-effect waves-light btn btn-da btn-purple font-bold" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 				<div class="col s12">
 					<div class="btn-da-box d-none">
-						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
+						<a class="waves-effect waves-light btn btn-da btn-flat-white" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>
 			</div>

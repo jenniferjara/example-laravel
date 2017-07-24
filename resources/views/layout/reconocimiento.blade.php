@@ -17,6 +17,9 @@
 	</nav>
 
 	<div class="bg-reconocimiento">
+		<div class="d-none">
+			<img class="img-common" src="{{ asset('assets/img/responsive/img_reconocimientos.jpg') }}" alt="Nosotros">
+		</div>
 		<div class="bg-layout-wrap wrapper-general-text valign-wrapper">
 			<div class="container">
 				<div class="row">
@@ -32,11 +35,11 @@
 		</div>
 	</div>
 
-	<div class="wrapper-general bg-grey">
+	<div class="wrapper-general bg-purple-light">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<p class="titles center-align text-purple">¡Así funciona!</p>
+					<p class="titles center-align">¡Así funciona!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -76,28 +79,28 @@
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Refuerza conductas positivas</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Motiva a los equipos de trabajo</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Contribuye a alcanzar las metas establecidas</p>
 					</div>
 				</div>
 
 				<div class="col s12 offset-l4 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Obtén reportes de reconocimiento y evalua el desempeño de tus colaboradores</p>
 					</div>
 				</div>
