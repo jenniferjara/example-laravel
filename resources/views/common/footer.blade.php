@@ -10,7 +10,7 @@
 
 			<div class="col s6 l4">
 				<p class="footer-titles">Contacto</p>
-				<a>Cotizar</a>
+				<a id="go-cotiza" href="{{ route('home.index') }}#cotiza">Cotizar</a>
 				<a>Consulta</a>
 				<a href="{{ route('layout.afiliacion') }}">Prueba gratis</a>
 			</div>

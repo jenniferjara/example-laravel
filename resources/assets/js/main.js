@@ -16,35 +16,18 @@ $(document).ready( function () {
 	});
 	
 	$('.login').dropdown({
-		inDuration: 300,
-		outDuration: 225,
 		constrainWidth: true,
-		gutter: 0,
 		belowOrigin: true,
-		alignment: 'left',
-		stopPropagation: false
+		alignment: 'left'
 	});
 
 	$('.nav-perfil').dropdown({
-		inDuration: 300,
-		outDuration: 225,
 		constrainWidth: false,
-		gutter: 0,
 		belowOrigin: true,
-		alignment: 'right',
-		stopPropagation: false
+		alignment: 'right'
 	});
 
 	function goProducts (e) {
-		e.preventDefault();
-		var id = $(this).find('a').attr('href'),
-		position, elemento, padding = 50;
-		elemento = $(id);
-		position = ($(elemento).offset() || 0).top - padding;
-		$('html, body').animate({scrollTop: position}, 800);
-		return false;
-	}
-	function goProductBtn (e) {
 		e.preventDefault();
 		var id = $(this).attr('href'),
 		position, elemento, padding = 50;
@@ -53,8 +36,28 @@ $(document).ready( function () {
 		$('html, body').animate({scrollTop: position}, 800);
 		return false;
 	}
-	$('#go-products').on('click', goProducts);
-	$('#go-products-btn').on('click', goProductBtn);
+	$('.go-products').on('click', goProducts);
+
+	$(window).on('hashchange', function (e) {
+        var name = window.location.hash;
+        var name_clean = name.substr(1);
+        if (name.length) {
+            $('html, body').animate({
+                scrollTop: $('.go-to-section[data-section-name="' + name_clean + '"]').offset().top - 50
+            });
+        }
+    });
+
+    $(window).on('load', function () {
+        $(window).trigger('hashchange');
+    });
+
+	$('#go-cotiza').on('click', function(){
+		$("html, body").animate({scrollTop: $('.go-to-section[data-section-name="cotiza"]').offset().top - 50});
+	});
+	$('#go-products, #go-products2').on('click', function(){
+		$("html, body").animate({scrollTop: $('.go-to-section[data-section-name="productos"]').offset().top - 50});
+	});
 	
 	function scrollMenu () {
 		var start_change = $('#nav-bar');
@@ -83,6 +86,7 @@ $(document).ready( function () {
 	$('#contact_person_phone').keydown(justNumbers);
 	$('#phone_contact').keydown(justNumbers);
 	$('#employee_number').keydown(justNumbers);
+	$('#employee_contact').keydown(justNumbers);
 
 	$.validator.setDefaults({
 	       ignore: []
@@ -248,14 +252,16 @@ $(document).ready( function () {
 			window.location.href = urlAfiliacion;
 
 		} else if ( $cotizaHome.valid() && ($employee >= 11 && $employee <= 300) ) {
-			$('.cotiza-wrapper').css('height', 'auto');
+			// $('.cotiza-wrapper').css('height', 'auto');
 			$cotizaOption1.css('display', 'block');
 			$cotizaOption2.css('display', 'none');
+			$("html, body").animate({scrollTop: $($cotizaOption1).offset().top - 50});
 		} else if ($cotizaHome.valid() && $employee >= 301 ) {
-			$('.cotiza-wrapper').css('height', 'auto');
+			// $('.cotiza-wrapper').css('height', 'auto');
 			$('#employee').val($employee);
 			$cotizaOption2.css('display', 'block');
 			$cotizaOption1.css('display', 'none');
+			$("html, body").animate({scrollTop: $($cotizaOption2).offset().top - 50});
 		}
 
 	});

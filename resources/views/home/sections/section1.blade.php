@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="home-wrap-btn">
-					<a id="go-products-btn" class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="#productos">Conoce ¡Dá!</a>
+					<a class="waves-effect waves-light btn btn-da btn-cyan font-bold go-products" href="#productos">Conoce ¡Dá!</a>
 					<a class="waves-effect waves-light btn btn-da btn-purple" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 				</div>
 			</div>

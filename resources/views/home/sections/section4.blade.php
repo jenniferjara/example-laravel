@@ -1,4 +1,4 @@
-<section id="cotiza" class="go-to-section">
+<section id="cotiza" class="go-to-section" data-section-name="cotiza">
 	<div class="cotiza-wrapper">
 		<div class="container">
 			<div class="row">

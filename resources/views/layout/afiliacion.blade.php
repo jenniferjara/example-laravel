@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbar2')
+@include('common.navbarlayout')
 
 <section id="afiliacion">
 

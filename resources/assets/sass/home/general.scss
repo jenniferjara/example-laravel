@@ -141,19 +141,37 @@ a {
 }
 
 .form-common {
+	.input-field input {
+		margin-bottom: 5px;
+	}
 	.input-field label {
 		font-size: 12px;
 		opacity: 0.6;
 		color: $purple;
 	}
 	.input-field input[type=number]:focus + label,
-	.input-field input[type=text]:focus + label {
+	.input-field input[type=text]:focus + label,
+	.input-field input[type=email]:focus + label,
+	textarea.materialize-textarea:focus + label {
 		color: $purple;
 	}
 
-    .input-field input[type=text]:focus {
+    .input-field input[type=text]:focus,
+    .input-field input[type=text].valid,
+    .input-field input[type=text]:focus.valid,
+    .input-field input[type=number]:focus,
+    .input-field input[type=number].valid,
+    .input-field input[type=number]:focus.valid,
+    .input-field input[type=email]:focus,
+    .input-field input[type=email].valid,
+    .input-field input[type=email]:focus.valid,
+    textarea.materialize-textarea:focus,
+    textarea.materialize-textarea.valid {
     	border-bottom: 1px solid $purple;
     	box-shadow: 0 1px 0 0 $purple;
+	}
+	textarea.materialize-textarea {
+		padding: 0;
 	}
 }
 

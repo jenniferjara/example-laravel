@@ -179,16 +179,16 @@
     color: $purple;
     background-color: $cyan;
     letter-spacing: 0px;
-    &:hover {
-        background-color: $cyan;
+    &:hover,&:active, &:focus {
+        background-color: $cyan2;
         box-shadow: none;
     }
 }
 .btn-purple{
     color: $white;
     background-color: $purple;
-    &:hover {
-        background-color: $purple;
+    &:hover, &:active, &:focus {
+        background-color: $purple2;
         box-shadow: none;
     }
 }
@@ -196,7 +196,7 @@
     background-color: transparent;
     border: 1px solid $purple;
     color: $purple;
-    &:hover {
+    &:hover, &:active, &:focus {
         background-color: $purple;
         color: $white;
     }
@@ -332,7 +332,7 @@
 				font-size: 60px;
 				line-height: 75px;
 				span.da_logo_da::before {
-					color: $purple-light;
+					color: $purple;
 				}
 			}
 		}
