@@ -77,44 +77,40 @@
 			</div>
 			<div class="row">
 
-				<div class="col s12 l4">
+				<div class="col s12 l6">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Refuerza conductas positivas</p>
 					</div>
 				</div>
 
-				<div class="col s12 l4">
+				<div class="col s12 l6">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Motiva a los equipos de trabajo</p>
 					</div>
 				</div>
 
-				<div class="col s12 l4">
+				<div class="col s12 l6">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
 						<p class="layout-text">Contribuye a alcanzar las metas establecidas</p>
 					</div>
 				</div>
 
-				<div class="col s12 offset-l4 l4">
+				<div class="col s12 l6">
 					<div class="center-align layout-box">
 						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
-						<p class="layout-text">Obtén reportes de reconocimiento y evalua el desempeño de tus colaboradores</p>
+						<p class="layout-text">Obtén reportes de reconocimiento y evalua <br> el desempeño de tus colaboradores</p>
 					</div>
 				</div>
 
 			</div>
-		</div>
-	</div>
 
-	<div class="wrapper-general bg-grey">
-		<div class="container">
 			<div class="row">
 				<div class="col s12">
 					<div class="btn-da-box valign-wrapper">
-						<a class="waves-effect waves-light btn btn-da btn-purple font-bold" href="{{ route('layout.contacto') }}">Contáctanos</a>
+						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 				<div class="col s12">
@@ -125,6 +121,11 @@
 			</div>
 		</div>
 	</div>
+
+	{{-- <div class="wrapper-general bg-grey">
+		<div class="container">
+		</div>
+	</div> --}}
 
 </section>
 

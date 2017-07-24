@@ -280,9 +280,11 @@ a {
 			-webkit-align-content: stretch;
 			-ms-flex-line-pack: stretch;
 
-			a:first-child {
+			a:first-child, a:last-child {
+				margin-right: 20px;
+				margin-left: 20px;
 				margin-bottom: 0px;
-				margin-right: 30px;
+				margin-top: 0px;
 			}
 		}
 	}

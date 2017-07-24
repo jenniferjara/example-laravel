@@ -25,7 +25,7 @@
 					<div class="col s12">
 						<p class="titles">"La felicidad como herramienta de transformación mejora el rendimiento de tus colaboradores, refuerza la cultura y contribuye la conexión de los equipos de trabajo."</p>
 						<br>
-						<p class="text-orange">Giacomo Zolezzi, GG</p>
+						<p class="text-orange font-bold">Giacomo Zolezzi, GG</p>
 					</div>
 				</div>
 			</div>
@@ -41,31 +41,38 @@
 			</div>
 			<div class="row">
 				<div class="col s12 l4">
-					<div class="center-align home-box">
-						<div><span class="da_ico_recognition icons-purple-lg"></span></div>
-						<p class="subtitles">Reconocimientos</p>
-						<p>Reconoce a tus colaboradores con KMS. <br>LATAM Pass</p>
-						<a class="seemore" href="{{ route('layout.reconocimiento') }}">Leer más</a>
+				<div class="center-align home-wrapper">
+					<div><span class="da_ico_recognition icons-purple-lg"></span></div>
+					<p class="subtitles">Reconocimientos</p>
+					<div class="product-wrap">
+						<p>Reconoce a tus colaboradores con KMS.</p>
+						<p>LATAM Pass</p>
 					</div>
+					<a class="seemore" href="{{ route('layout.reconocimiento') }}">Leer más</a>
 				</div>
+			</div>
 
-				<div class="col s12 l4">
-					<div class="center-align home-box">
-						<div><span class="da_ico_benefits icons-purple-lg"></span></div>
-						<p class="subtitles">Beneficios</p>
-						<p>Queremos que des experiencias enfocadas <br>en educación, viajes y bienestar.</p>
-						<a class="seemore" href="{{ route('layout.beneficio') }}">Leer más</a>
+			<div class="col s12 l4">
+				<div class="center-align home-wrapper">
+					<div><span class="da_ico_benefits icons-purple-lg"></span></div>
+					<p class="subtitles">Beneficios</p>
+					<div class="product-wrap">
+						<p>Queremos que des experiencias enfocadas en educación, viajes y bienestar.</p>
 					</div>
+					<a class="seemore" href="{{ route('layout.beneficio') }}">Leer más</a>
 				</div>
-				
-				<div class="col s12 l4">
-					<div class="center-align home-box">
-						<div><span class="da_ico_measuring icons-purple-lg"></span></div>
-						<p class="subtitles">Medición</p>
-						<p>Gestiona la felicidad y vuelve más productivo <br>a tu equipo.</p>
-						<a class="seemore" href="{{ route('layout.medicion') }}">Leer más</a>
+			</div>
+			
+			<div class="col s12 l4">
+				<div class="center-align home-wrapper">
+					<div><span class="da_ico_measuring icons-purple-lg"></span></div>
+					<p class="subtitles">Medición</p>
+					<div class="product-wrap">
+						<p>Gestiona la felicidad y vuelve más productivo a tu equipo.</p>
 					</div>
+					<a class="seemore" href="{{ route('layout.medicion') }}">Leer más</a>
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>

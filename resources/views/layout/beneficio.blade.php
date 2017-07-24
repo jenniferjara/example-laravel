@@ -109,7 +109,7 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_travel icons-white-lg"></span></div>
+							<div><span class="da_ico_travel_line icons-white-lg"></span></div>
 							<p class="titles">¡Dá! Viajes</p>
 						</div>
 						<div class="benef-slider-bottom">
@@ -134,7 +134,7 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_education icons-white-lg"></span></div>
+							<div><span class="da_ico_education_line icons-white-lg"></span></div>
 							<p class="titles">¡Dá! Educación</p>
 						</div>
 						<div class="benef-slider-bottom">
@@ -159,7 +159,7 @@
 				<div class="col s12 l4">
 					<div class="benef-slider">
 						<div class="center-align">
-							<div><span class="da_ico_health icons-white-lg"></span></div>
+							<div><span class="da_ico_health_line icons-white-lg"></span></div>
 							<p class="titles">¡Dá! Bienestar</p>
 						</div>
 						<div class="benef-slider-bottom">
