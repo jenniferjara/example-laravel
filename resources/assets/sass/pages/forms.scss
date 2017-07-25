@@ -29,7 +29,7 @@
 		color: $purple;
 		width: 20px;
 	}
-	.select-afiliate {
+	select.select-afiliate {
 		background-color: transparent;
 		width: 100%;
 		padding: 0px;
@@ -37,6 +37,9 @@
 		border-radius: 2px;
 		height: 3rem;
 		border-bottom: 1px solid $purple;
+		&:focus {
+			border: none;
+		}
 	}
 	.input.field select:focus {
 		border: none;
@@ -56,6 +59,7 @@
 	.input-field input[type=text]:focus + label,
 	.input-field input[type=email]:focus + label,
 	textarea.materialize-textarea:focus + label {
+		font-weight: bold;
 		color: $purple;
 	}
 

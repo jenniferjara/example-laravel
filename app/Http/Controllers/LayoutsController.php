@@ -8,26 +8,29 @@ class LayoutsController extends Controller
 {
     public function reconocimiento()
     {
-        return view('layout.reconocimiento');
+        return view('pages.reconocimiento');
     }
 
     public function beneficio()
     {
-    	return view('layout.beneficio');
+    	return view('pages.beneficio');
     }
 
     public function medicion()
     {
-    	return view('layout.medicion');
+    	return view('pages.medicion');
     }
+
     public function about()
     {
-        return view('layout.nosotros');
+        return view('pages.nosotros');
     }
+
     public function afiliacion() {
-        return view('layout.afiliacion');
+        return view('pages.afiliacion');
     }
+    
     public function contacto() {
-        return view('layout.contacto');
+        return view('pages.contacto');
     }
 }

@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbarlayout')
+@include('partials.navbarpages')
 
 <section id="nosotros">
 	<nav class="nav-breadcrumbs">
@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="col s12">
 					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('layout.nosotros') }}" class="breadcrumb">Acerca de nosotros</a>
+					<a href="{{ route('pages.nosotros') }}" class="breadcrumb">Acerca de nosotros</a>
 				</div>
 			</div>
 		</div>
@@ -48,7 +48,7 @@
 						<p>Reconoce a tus colaboradores con KMS.</p>
 						<p>LATAM Pass</p>
 					</div>
-					<a class="seemore" href="{{ route('layout.reconocimiento') }}">Leer más</a>
+					<a class="seemore" href="{{ route('pages.reconocimiento') }}">Leer más</a>
 				</div>
 			</div>
 
@@ -59,7 +59,7 @@
 					<div class="product-wrap">
 						<p>Queremos que des experiencias enfocadas en educación, viajes y bienestar.</p>
 					</div>
-					<a class="seemore" href="{{ route('layout.beneficio') }}">Leer más</a>
+					<a class="seemore" href="{{ route('pages.beneficio') }}">Leer más</a>
 				</div>
 			</div>
 			
@@ -70,7 +70,7 @@
 					<div class="product-wrap">
 						<p>Gestiona la felicidad y vuelve más productivo a tu equipo.</p>
 					</div>
-					<a class="seemore" href="{{ route('layout.medicion') }}">Leer más</a>
+					<a class="seemore" href="{{ route('pages.medicion') }}">Leer más</a>
 				</div>
 			</div>
 			</div>
@@ -129,6 +129,6 @@
 	
 </section>
 
-@include('common.footer')
+@include('partials.footer')
 
 @stop

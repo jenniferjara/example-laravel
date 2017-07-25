@@ -14,7 +14,7 @@
 						<p>Reconoce a tus colaboradores con KMS.</p>
 						<p>LATAM Pass</p>
 					</div>
-					<a class="seemore" href="{{ route('layout.reconocimiento') }}">Leer más</a>
+					<a class="seemore" href="{{ route('pages.reconocimiento') }}">Leer más</a>
 				</div>
 			</div>
 
@@ -25,7 +25,7 @@
 					<div class="product-wrap">
 						<p>Queremos que des experiencias enfocadas en educación, viajes y bienestar.</p>
 					</div>
-					<a class="seemore" href="{{ route('layout.beneficio') }}">Leer más</a>
+					<a class="seemore" href="{{ route('pages.beneficio') }}">Leer más</a>
 				</div>
 			</div>
 			
@@ -36,7 +36,7 @@
 					<div class="product-wrap">
 						<p>Gestiona la felicidad y vuelve más productivo a tu equipo.</p>
 					</div>
-					<a class="seemore" href="{{ route('layout.medicion') }}">Leer más</a>
+					<a class="seemore" href="{{ route('pages.medicion') }}">Leer más</a>
 				</div>
 			</div>
 		</div>

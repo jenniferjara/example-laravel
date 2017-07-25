@@ -1,4 +1,4 @@
-<header class="nav-bar scrolled">
+<header id="nav-bar" class="nav-bar">
 	<div class="row">
 		<div class="col s12">
 			<nav class="nav-top">
@@ -8,9 +8,9 @@
 
 
 				<ul class="right nav-lineal">
-					<li class="nav-lineal-opt"><a class="nav-lineal-link go-products" href="{{ route('home.index') }}#productos">Nuestro Producto</a></li>
-					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('layout.nosotros') }}">Nosotros</a></li>
-					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('layout.contacto') }}">Contáctanos</a></li>
+					<li class="nav-lineal-opt"><a id="go-products-home" class="nav-lineal-link" href="#productos">Nuestro Producto</a></li>
+					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('pages.nosotros') }}">Nosotros</a></li>
+					<li class="nav-lineal-opt"><a class="nav-lineal-link" href="{{ route('pages.contacto') }}">Contáctanos</a></li>
 					<li class="nav-lineal-opt"><a data-activates='dropdown1' class="login dropdown-button"><span class="da_ico_user nav-lineal-icon-login"></span>Inicia sesión</a></li>
 				</ul>
 				<div class="nav-collapse d-none">
@@ -28,13 +28,13 @@
 
 <ul id="slide-out" class="side-nav d-none">
 	<li><a class="go-products" href="{{ route('home.index') }}#productos">Conoce Dá</a></li>
-	<li><a href="{{ route('layout.nosotros') }}">Acerca de nosotros</a></li>
-	<li><a href="{{ route('layout.beneficio') }}">Beneficios</a></li>
-	<li><a href="{{ route('layout.reconocimiento') }}">Reconocimientos</a></li>
-	<li><a href="{{ route('layout.medicion') }}">Medición</a></li>
+	<li><a href="{{ route('pages.nosotros') }}">Acerca de nosotros</a></li>
+	<li><a href="{{ route('pages.beneficio')}}">Beneficios</a></li>
+	<li><a href="{{ route('pages.reconocimiento') }}">Reconocimientos</a></li>
+	<li><a href="{{ route('pages.medicion') }}">Medición</a></li>
 	<li><a class="go-cotiza" href="{{ route('home.index') }}#cotiza">Cotiza tu plan</a></li>
-	<li><a href="{{ route('layout.afiliacion') }}">Pruébalo gratis</a></li>
-	<li><a class="waves-effect" href="{{ route('layout.contacto') }}">Contáctanos</a></li>
+	<li><a href="{{ route('pages.afiliacion') }}">Pruébalo gratis</a></li>
+	<li><a class="waves-effect" href="{{ route('pages.contacto') }}">Contáctanos</a></li>
 </ul>
 
 <ul id='dropdown1' class='dropdown-content d-none'>

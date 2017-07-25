@@ -22,7 +22,7 @@
 
 				<div class="col s12">
 					<div class="btn-da-box">
-						<a class="waves-effect btn btn-da btn-cyan" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect btn btn-da btn-cyan" href="{{ route('pages.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 					
@@ -32,7 +32,7 @@
 	</div>
 </section>
 
-<section id="cotizaopt1" class="cotizaopt1 bg-grey wrapper-general" style="display: none;">
+<section id="cotizaopt1" class="cotizaopt1 bg-grey wrapper-general valign-wrapper" style="display: none;">
 	<div class="container center-align">
 		<div class="row">
 			<div class="col s12">
@@ -84,7 +84,7 @@
 	</div>
 </section>
 
-<section id="cotizaopt2" class="cotizaopt2 bg-grey wrapper-general" style="display: none;">
+<section id="cotizaopt2" class="cotizaopt2 bg-grey wrapper-general valign-wrapper" style="display: none;">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">

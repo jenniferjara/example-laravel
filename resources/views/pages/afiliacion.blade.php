@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbarlayout')
+@include('partials.navbarpages')
 
 <section id="afiliacion">
 
@@ -11,7 +11,7 @@
 			<div class="row">
 				<div class="col s12">
 					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('layout.afiliacion') }}" class="breadcrumb">Afiliación</a>
+					<a href="{{ route('pages.afiliacion') }}" class="breadcrumb">Afiliación</a>
 				</div>
 			</div>
 		</div>
@@ -46,9 +46,9 @@
 									</div>
 									<div class="input-field col s12 l6">
 										<div>
-			                    			 <label style="top: -7px;">Sector*</label>
-			                                <select class="browser-default select-afiliate" id="sector" name="sector">
-			                    				<option value="" disabled selected></option>
+			                    			 <label style="top: -.5rem;">Sector*</label>
+			                                <select class="error browser-default select-afiliate" id="sector" name="sector">
+			                    				<option value="" disabled selected>Elige un sector</option>
 			                    				<option value="1">Manager</option>
 			                                    <option value="2">Developer</option>
 			                                    <option value="3">Business</option>
@@ -99,6 +99,6 @@
 
 </section>
 
-@include('common.footer')
+@include('partials.footer')
 
 @stop

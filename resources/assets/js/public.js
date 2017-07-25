@@ -253,13 +253,13 @@ $(document).ready( function () {
 
 		} else if ( $cotizaHome.valid() && ($employee >= 11 && $employee <= 300) ) {
 			// $('.cotiza-wrapper').css('height', 'auto');
-			$cotizaOption1.css('display', 'block');
+			$cotizaOption1.css('display', 'flex');
 			$cotizaOption2.css('display', 'none');
 			$("html, body").animate({scrollTop: $($cotizaOption1).offset().top - 50});
 		} else if ($cotizaHome.valid() && $employee >= 301 ) {
 			// $('.cotiza-wrapper').css('height', 'auto');
 			$('#employee').val($employee);
-			$cotizaOption2.css('display', 'block');
+			$cotizaOption2.css('display', 'flex');
 			$cotizaOption1.css('display', 'none');
 			$("html, body").animate({scrollTop: $($cotizaOption2).offset().top - 50});
 		}

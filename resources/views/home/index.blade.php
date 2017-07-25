@@ -2,7 +2,7 @@
 
 @section('content')
 
-	@include('common.navbar')
+	@include('partials.navbar')
 
 	@include('home.sections.section1')
 	@include('home.sections.section2')
@@ -10,6 +10,6 @@
 	@include('home.sections.section4')
 	@include('home.sections.section5')
 
-	@include('common.footer')
+	@include('partials.footer')
 
 @stop

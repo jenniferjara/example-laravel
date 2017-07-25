@@ -13,14 +13,14 @@
 
 Route::get('/',  ['as' => 'home.index', 'uses' => 'HomeController@index']);
 
-Route::get('/reconocimiento', ['as' => 'layout.reconocimiento', 'uses' => 'LayoutsController@reconocimiento']);
+Route::get('/reconocimiento', ['as' => 'pages.reconocimiento', 'uses' => 'LayoutsController@reconocimiento']);
 
-Route::get('/beneficios', ['as' => 'layout.beneficio', 'uses' => 'LayoutsController@beneficio']);
+Route::get('/beneficios', ['as' => 'pages.beneficio', 'uses' => 'LayoutsController@beneficio']);
 
-Route::get('/medicion', ['as' => 'layout.medicion', 'uses' => 'LayoutsController@medicion']);
+Route::get('/medicion', ['as' => 'pages.medicion', 'uses' => 'LayoutsController@medicion']);
 
-Route::get('/nosotros', ['as' => 'layout.nosotros', 'uses' => 'LayoutsController@about']);
+Route::get('/nosotros', ['as' => 'pages.nosotros', 'uses' => 'LayoutsController@about']);
 
-Route::get('/afiliacion', ['as' => 'layout.afiliacion', 'uses' => 'LayoutsController@afiliacion']);
+Route::get('/afiliacion', ['as' => 'pages.afiliacion', 'uses' => 'LayoutsController@afiliacion']);
 
-Route::get('/contáctanos', ['as' => 'layout.contacto', 'uses' => 'LayoutsController@contacto']);
+Route::get('/contáctanos', ['as' => 'pages.contacto', 'uses' => 'LayoutsController@contacto']);

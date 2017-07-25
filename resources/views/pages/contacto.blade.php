@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbarlayout')
+@include('partials.navbarpages')
 
 <section id="contacto">
 
@@ -11,7 +11,7 @@
 			<div class="row">
 				<div class="col s12">
 					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('layout.afiliacion') }}" class="breadcrumb">Contáctanos</a>
+					<a href="{{ route('pages.afiliacion') }}" class="breadcrumb">Contáctanos</a>
 				</div>
 			</div>
 		</div>
@@ -80,6 +80,6 @@
 
 </section>
 
-@include('common.footer')
+@include('partials.footer')
 
 @stop

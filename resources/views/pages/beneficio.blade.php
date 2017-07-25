@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('common.navbarlayout')
+@include('partials.navbarpages')
 
 <section id="beneficio">
 	<nav class="nav-breadcrumbs">
@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="col s12">
 					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('layout.beneficio') }}" class="breadcrumb">Beneficios</a>
+					<a href="{{ route('pages.beneficio') }}" class="breadcrumb">Beneficios</a>
 				</div>
 			</div>
 		</div>
@@ -186,7 +186,7 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="btn-da-box valign-wrapper">
-						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('layout.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('pages.afiliacion') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 				<div class="col s12">
@@ -200,6 +200,6 @@
 
 </section>
 
-@include('common.footer')
+@include('partials.footer')
 
 @stop

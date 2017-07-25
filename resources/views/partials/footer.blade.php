@@ -3,22 +3,22 @@
 		<div class="row">
 			<div class="col s6 l4">
 				<p class="footer-titles">Productos</p>
-				<a href="{{ route('layout.beneficio') }}">Beneficios</a>
-				<a href="{{ route('layout.reconocimiento') }}">Reconocimientos</a>
-				<a href="{{ route('layout.medicion') }}">Medición</a>
+				<a href="{{ route('pages.beneficio') }}">Beneficios</a>
+				<a href="{{ route('pages.reconocimiento') }}">Reconocimientos</a>
+				<a href="{{ route('pages.medicion') }}">Medición</a>
 			</div>
 
 			<div class="col s6 l4">
 				<p class="footer-titles">Contacto</p>
 				<a class="go-cotiza" href="{{ route('home.index') }}#cotiza">Cotizar</a>
-				<a href="{{ route('layout.contacto') }}">Consulta</a>
-				<a href="{{ route('layout.afiliacion') }}">Prueba gratis</a>
+				<a href="{{ route('pages.contacto') }}">Consulta</a>
+				<a href="{{ route('pages.afiliacion') }}">Prueba gratis</a>
 			</div>
 
 			<div class="col s12 l4">
 				<p class="footer-titles">La Compañia</p>
 				{{-- <p>Acerca de</p> --}}
-				<a href="{{ route('layout.nosotros') }}">Acerca de</a>
+				<a href="{{ route('pages.nosotros') }}">Acerca de</a>
 			</div>
 		</div>
 	</div>
