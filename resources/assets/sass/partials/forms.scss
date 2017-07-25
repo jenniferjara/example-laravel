@@ -80,7 +80,28 @@
 	textarea.materialize-textarea {
 		padding: 0;
 		border-bottom: 1px solid $purple;
+		margin-bottom: 5px;
 	}
+}
+
+.form-results {
+	height: 100vh;
+}
+.form-messages-wrap {
+	padding-bottom: 20px;
+}
+
+/** error **/
+.input-field span.error,
+.input-field p.error,
+.select-box span.error, 
+.terms-box ~ span.error {
+	font-size: 10px;
+	font-weight: 300;
+	color: red;
+}
+.input-field span.error::before {
+	border-bottom: 1px solid red;
 }
 @media (min-width: 992px) {
 	#afiliacion, #contacto {

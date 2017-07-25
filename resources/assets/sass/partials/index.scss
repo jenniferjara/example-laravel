@@ -122,7 +122,12 @@
 		color: $purple;
 	}
 }
-
+.icons-check {
+	font-size: 40px;
+	&::before {
+		color: $purple;
+	}
+}
 /** sidenav **/
 .side-nav {
 	background-color: $purple;
@@ -152,6 +157,7 @@
 			color: $white;
 			font-size: 14px;
 			padding: 20px;
+			opacity: .8;
 		}
 	}
 }
@@ -225,16 +231,6 @@
     display: block;
 }
 
-/** error **/
-.input-field span.error,
-.input-field p.error,
-.select-box span.error, 
-.terms-box ~ span.error {
-	font-size: 10px;
-	font-weight: 300;
-	color: red;
-}
-
 /*footer*/
 
 #footer {
@@ -254,6 +250,10 @@
 	.footer-bottom {
 		margin-top: 2rem;
 		padding-top: 1rem;
+		p {
+			font-size: 14px;
+			opacity: .8;
+		}
 	}
 
 	p, a {
@@ -264,6 +264,7 @@
 		display: block;
 		text-decoration: none;
 		color: $white;
+		opacity: .8;
 		cursor: pointer;
 
 		&:hover {

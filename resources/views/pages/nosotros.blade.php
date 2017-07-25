@@ -19,7 +19,7 @@
 		<div class="d-none">
 			<img class="img-common" src="{{ asset('assets/img/responsive/img_nosotros.jpg') }}" alt="Nosotros">
 		</div>
-		<div class="wrapper-general-text bg-layout-wrap valign-wrapper">
+		<div class="wrapper-general-text bg-layout-wrap valign-wrapper bg-grey">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -105,11 +105,11 @@
 		</div>
 	</div>
 	
-	<div class="d-none">
+	<div class="d-none bg-grey">
 		<img class="img-common" src="{{ asset('assets/img/responsive/img_trabaja.jpg')}}" alt="Trabaja con nosotros">
 	</div>
 	<div class="bg-trabaja">
-		<div class="bg-layout-wrap about-wrapper">
+		<div class="bg-layout-wrap about-wrapper bg-grey">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">

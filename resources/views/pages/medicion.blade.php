@@ -19,7 +19,7 @@
 		<div class="d-none">
 			<img class="img-common" src="{{ asset('assets/img/responsive/img_medicion.jpg') }}" alt="Nosotros">
 		</div>
-		<div class="wrapper-general-text bg-layout-wrap valign-wrapper">
+		<div class="wrapper-general-text bg-layout-wrap valign-wrapper bg-grey">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -81,21 +81,21 @@
 			<div class="row">
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p>Incrementa la productividad</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p>Genera una relación cercana entre los colaboradores y la empresa</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p>Mejora el ambiente de trabajo</p>
 					</div>
 				</div>

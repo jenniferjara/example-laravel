@@ -81,12 +81,12 @@ $(document).ready( function () {
         }
     };
 
-	$('#employeehome').keydown(justNumbers);
-	$('#phone').keydown(justNumbers);
-	$('#contact_person_phone').keydown(justNumbers);
-	$('#phone_contact').keydown(justNumbers);
-	$('#employee_number').keydown(justNumbers);
-	$('#employee_contact').keydown(justNumbers);
+	// $('#employeehome').keydown(justNumbers);
+	// $('#phone').keydown(justNumbers);
+	// $('#contact_person_phone').keydown(justNumbers);
+	// $('#phone_contact').keydown(justNumbers);
+	// $('#employee_number').keydown(justNumbers);
+	// $('#employee_contact').keydown(justNumbers);
 
 	$.validator.setDefaults({
 	       ignore: []
@@ -108,6 +108,29 @@ $(document).ready( function () {
 		}
 	});
 
+	/* opciones de cotizacion */
+	$('#cotiza-home-btn').on('click', function(e){
+		e.preventDefault();
+
+		var $employee = $('#employeehome').val();
+		var $cotizaOption1 = $('#cotizaopt1');
+		var $cotizaOption2 = $('#cotizaopt2');
+
+		if ( $cotizaHome.valid() && ($employee >= 1 && $employee <= 10) ) {
+			window.location.href = urlAfiliacion;
+
+		} else if ( $cotizaHome.valid() && ($employee >= 11 && $employee <= 300) ) {
+			$cotizaOption1.css('display', 'flex');
+			$cotizaOption2.css('display', 'none');
+			$("html, body").animate({scrollTop: $($cotizaOption1).offset().top - 50});
+		} else if ($cotizaHome.valid() && $employee >= 301 ) {
+			$('#employee').val($employee);
+			$cotizaOption2.css('display', 'flex');
+			$cotizaOption1.css('display', 'none');
+			$("html, body").animate({scrollTop: $($cotizaOption2).offset().top - 50});
+		}
+	});
+	/* cotizacion personal */
 	$cotizapersonal.validate({
 		errorElement: 'span',
 		errorClass: 'error',
@@ -143,7 +166,21 @@ $(document).ready( function () {
 			}
 		}
 	});
+	$cotizapersonal.on('submit', function(e){
+		e.preventDefault();
+		if ($cotizapersonal.valid()) {
+			$('#form-loader').css('display', 'flex').addClass('fadein');
+			$('#cotizaopt2').css('display', 'none');
 
+		}
+
+	});
+	$('#cotiza-personal-btn').on('click', function(e){
+		e.preventDefault();
+		$cotizapersonal.submit();
+	});
+
+	/* afiliciacion hasta 10 */
 	$formFree.validate({
 		errorElement: 'span',
 		rules: {
@@ -202,7 +239,16 @@ $(document).ready( function () {
 			}
 		}
 	});
+	$('#btn-send-free').on('click', function(e){
+		e.preventDefault();
+		if ($formFree.valid()) {
+			console.log('ok');
+		} else {
+			console.log('error');
+		}
+	});
 
+	/* formulario de contacto */
 	$formContact.validate({
 		errorElement: 'span',
 		errorClass: 'error',
@@ -238,49 +284,6 @@ $(document).ready( function () {
 			if (placement.attr('name') == 'name_contact' || 'company_contact' || 'phone_contact' || 'employee_contact') {
 				error.insertAfter(placement);
 			}
-		}
-	});
-
-	$('#cotiza-home-btn').on('click', function(e){
-		e.preventDefault();
-
-		var $employee = $('#employeehome').val();
-		var $cotizaOption1 = $('#cotizaopt1');
-		var $cotizaOption2 = $('#cotizaopt2');
-
-		if ( $cotizaHome.valid() && ($employee >= 1 && $employee <= 10) ) {
-			window.location.href = urlAfiliacion;
-
-		} else if ( $cotizaHome.valid() && ($employee >= 11 && $employee <= 300) ) {
-			// $('.cotiza-wrapper').css('height', 'auto');
-			$cotizaOption1.css('display', 'flex');
-			$cotizaOption2.css('display', 'none');
-			$("html, body").animate({scrollTop: $($cotizaOption1).offset().top - 50});
-		} else if ($cotizaHome.valid() && $employee >= 301 ) {
-			// $('.cotiza-wrapper').css('height', 'auto');
-			$('#employee').val($employee);
-			$cotizaOption2.css('display', 'flex');
-			$cotizaOption1.css('display', 'none');
-			$("html, body").animate({scrollTop: $($cotizaOption2).offset().top - 50});
-		}
-
-	});
-
-	$('#cotiza-personal-btn').on('click', function(e){
-		e.preventDefault();
-		if ($cotizapersonal.valid()) {
-			console.log('ok')
-		} else {
-			console.log('error');
-		}
-	});
-
-	$('#btn-send-free').on('click', function(e){
-		e.preventDefault();
-		if ($formFree.valid()) {
-			console.log('ok');
-		} else {
-			console.log('error');
 		}
 	});
 

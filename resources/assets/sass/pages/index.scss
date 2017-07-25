@@ -74,12 +74,13 @@
 
 	.bx-wrapper{
 		margin-bottom: 0px;
-		.bx-next {
-			right: 5px;
-		}
-		.bx-prev {
-			left: 5px;
-		}
+		img {margin: auto;}
+		// .bx-next {
+		// 	right: 5px;
+		// }
+		// .bx-prev {
+		// 	left: 5px;
+		// }
 	}
 	.benef-slider-bottom {
 		.benef-slider-box {
@@ -139,10 +140,10 @@
 		background-repeat: no-repeat;
 	}
 	.about-perfil-bg1 {
-		background-image: url('../img/founders/img_fundador1.jpg');
+		background-image: url('../assets/img/founders/img_fundador1.jpg');
 	}
 	.about-perfil-bg2 {
-		background-image: url('../img/founders/img_fundador2.jpg');
+		background-image: url('../assets/img/founders/img_fundador2.jpg');
 	}
 	.about-perfil-text {
 		margin-top: 2rem;
@@ -175,7 +176,6 @@
 		font-size: 16px;
 		line-height: 20px;
 	}
-
 	.bg-beneficio, 
 	.bg-medicion, 
 	.bg-reconocimiento, 
@@ -211,11 +211,10 @@
 
 	.bg-layout-wrap {
 		width: 50%;
-		background-color: $white;
 		height: 550px;
 	}
 	.height-wrapper {
-		height: 550px;
+		height: 400px;
 	}
 	.about-wrapper {
 		padding-top: 5rem;

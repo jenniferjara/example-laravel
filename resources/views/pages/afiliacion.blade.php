@@ -99,6 +99,8 @@
 
 </section>
 
+@include('partials.loader')
+
 @include('partials.footer')
 
 @stop

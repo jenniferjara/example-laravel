@@ -30,8 +30,8 @@ a {
     font-size: 24px;
     line-height: 28px;
 
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .subtitles {
     font-size: 18px;
@@ -82,7 +82,7 @@ a {
 	height: auto;
 	.cotiza-wrapper {
 		width: 100%;
-		height: 600px;
+		height: auto;
 		background-color: $white;
 		.btn-da-box {
 			#cotiza-home-btn{
@@ -219,6 +219,12 @@ a {
 		padding-bottom: 1rem;
 		padding-top: 1rem;
 	}
+	.title-cotiza {
+		font-family: 'acherus_grotesqueregular';
+		font-size: 24px;
+		line-height: 28px;
+		padding-top: 30px;
+	}
 }
 
 .cotizaopt2 {
@@ -236,6 +242,9 @@ a {
 	form.home-form .input-field input{
 		margin-bottom: 10px;
 	}
+	p:last-child {
+		margin-bottom: 30px;
+	}
 
 }
 
@@ -249,7 +258,7 @@ a {
 		font-weight: bold;
 		line-height: 28px;
 	}
-	.titles {
+	.titles, .title-cotiza {
 		font-size: 30px;
 		line-height: 34px;
 	}
@@ -301,6 +310,7 @@ a {
 		
 		.cotiza-wrapper {
 			width: 50%;
+			height: 600px;
 			.btn-da-box {
 				a {
 					margin-left: 0px;

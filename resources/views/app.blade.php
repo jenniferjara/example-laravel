@@ -27,8 +27,8 @@
 	  	var urlAfiliacion = "<?php echo URL::to('/afiliacion'); ?>";
 
 		$('.bxslider').bxSlider({
-	  		pager: false,
-			hideControlOnEnd: true
+			mode: 'fade',
+	  		pager: false
 	  	});
 	  	
 	</script>

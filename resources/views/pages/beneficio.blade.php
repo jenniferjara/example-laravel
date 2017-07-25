@@ -20,7 +20,7 @@
 		<div class="d-none">
 			<img class="img-common" src="{{ asset('assets/img/responsive/img_beneficios.jpg') }}" alt="Nosotros">
 		</div>
-		<div class="bg-layout-wrap wrapper-general-text valign-wrapper">
+		<div class="bg-layout-wrap wrapper-general-text valign-wrapper bg-grey">
 			<div class="container">
 				<div class="row">
 					<div class="col offset-l2 l8 s12">
@@ -35,7 +35,7 @@
 		</div>
 	</div>
 
-	<div class="wrapper-general bg-purple-light">
+	<div class="wrapper-general bg-purple-light valign-wrapper height-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
@@ -68,7 +68,7 @@
 		</div>
 	</div>
 
-	<div class="wrapper-general bg-grey">
+	<div class="wrapper-general valign-wrapper height-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
@@ -79,21 +79,21 @@
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p class="layout-text">Es un ahorro a tus colaboradores</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p class="layout-text">Genera un compromiso fortaleciendo un vinculo entre empresa y colaborador</p>
 					</div>
 				</div>
 
 				<div class="col s12 l4">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p class="layout-text">Los motiva y hace más felices</p>
 					</div>
 				</div>
@@ -115,16 +115,13 @@
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
 								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">Logo 1</div>
-										<div class="benef-slider-options">Logo 2</div>
-									</div>
+									<img src="{{ asset('assets/img/logos/logo_viaje1.png') }}" alt="">
 								</li>
 								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">Logo 3</div>
-										<div class="benef-slider-options">Logo 4</div>
-									</div>
+									<img src="{{ asset('assets/img/logos/logo_viaje2.png') }}" alt="">
+								</li>
+								<li>
+									<img src="{{ asset('assets/img/logos/logo_viaje3.png') }}" alt="">
 								</li>
 							</ul>
 						</div>
@@ -140,17 +137,15 @@
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
 								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">Logo 1</div>
-										<div class="benef-slider-options">Logo 2</div>
-									</div>
+									<img src="{{ asset('assets/img/logos/logo_educacion1.png') }}" alt="">
 								</li>
 								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">Logo 3</div>
-										<div class="benef-slider-options">Logo 4</div>
-									</div>
+									<img src="{{ asset('assets/img/logos/logo_educacion2.png') }}" alt="">
 								</li>
+								<li>
+									<img src="{{ asset('assets/img/logos/logo_educacion3.png') }}" alt="">
+								</li>
+
 							</ul>
 						</div>
 					</div>
@@ -165,16 +160,13 @@
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
 								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">Logo 1</div>
-										<div class="benef-slider-options">Logo 2</div>
-									</div>
+									<img src="{{ asset('assets/img/logos/logo_salud1.png') }}" alt="">
 								</li>
 								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">Logo 3</div>
-										<div class="benef-slider-options">Logo 4</div>
-									</div>
+									<img src="{{ asset('assets/img/logos/logo_salud2.png') }}" alt="">
+								</li>
+								<li>
+									<img src="{{ asset('assets/img/logos/logo_salud3.png') }}" alt="">
 								</li>
 							</ul>
 						</div>

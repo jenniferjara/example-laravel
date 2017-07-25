@@ -20,7 +20,7 @@
 		<div class="d-none">
 			<img class="img-common" src="{{ asset('assets/img/responsive/img_reconocimientos.jpg') }}" alt="Nosotros">
 		</div>
-		<div class="bg-layout-wrap wrapper-general-text valign-wrapper">
+		<div class="bg-layout-wrap wrapper-general-text valign-wrapper bg-grey">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -35,7 +35,7 @@
 		</div>
 	</div>
 
-	<div class="wrapper-general bg-purple-light">
+	<div class="wrapper-general bg-purple-light height-wrapper valign-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
@@ -68,7 +68,7 @@
 		</div>
 	</div>
 
-	<div class="wrapper-general bg-grey">
+	<div class="wrapper-general">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center-align">
@@ -79,28 +79,28 @@
 
 				<div class="col s12 l6">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p class="layout-text">Refuerza conductas positivas</p>
 					</div>
 				</div>
 
 				<div class="col s12 l6">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p class="layout-text">Motiva a los equipos de trabajo</p>
 					</div>
 				</div>
 
 				<div class="col s12 l6">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p class="layout-text">Contribuye a alcanzar las metas establecidas</p>
 					</div>
 				</div>
 
 				<div class="col s12 l6">
 					<div class="center-align layout-box">
-						<div><span class="da_ico_checkcircle_line font-bold icons-purple-sm"></span></div>
+						<div><span class="da_ico_checkcircle_line font-bold icons-check"></span></div>
 						<p class="layout-text">Obtén reportes de reconocimiento y evalua <br> el desempeño de tus colaboradores</p>
 					</div>
 				</div>
