@@ -11,7 +11,7 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/main.js', 'public/assets/js')
-   .sass('resources/assets/sass/main.scss', 'public/assets/css')
-   .styles('resources/assets/css/*.css', 'public/assets/css/others.css')
-   .scripts('resources/assets/js/vendor/*.js', 'public/assets/js/others.js');
+mix.styles('resources/assets/css/*.css', 'public/assets/css/publicvendor.css');
+mix.sass('resources/assets/sass/public.scss', 'public/assets/css');
+mix.scripts('resources/assets/js/vendor/*.js', 'public/assets/js/publicvendor.js');
+mix.js('resources/assets/js/public.js', 'public/assets/js'); 

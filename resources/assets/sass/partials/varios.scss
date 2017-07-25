@@ -1,0 +1,60 @@
+/** fonts **/
+@font-face {
+	font-family: 'acherus_grotesqueregular';
+	src: url('../fonts/acherus/acherus_grotesque_-_regular-webfont.woff2') format('woff2'),
+	     url('../fonts/acherus/acherus_grotesque_-_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+/*** Colors Dá **/
+
+$purple: #27073A;
+$purple2: #38074f;
+
+$cyan: #51F6FF;
+$cyan2: #4ee0e8;
+
+$orange: #FF5D00;
+$orange2: #ff6c1d;
+
+$purple-light: #5520B2;
+$purple-light2: #5520c1;
+$grey: #F0F0F0;
+$white: #FFFFFF;
+
+/* animations */
+
+.fadein {
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

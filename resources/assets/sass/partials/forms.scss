@@ -1,0 +1,113 @@
+#afiliacion, #contacto {
+	margin-top: 50px;
+
+	.layout-body {
+		padding-top: 0rem;
+		.home-form {
+			margin-top: 2rem;
+		}
+		#form-free input,
+		#form-contact input {
+			margin-bottom: 0px;
+		}
+	}
+
+	.terms-box {
+		margin-top: 2rem;
+		input[type=checkbox]:checked + label:before {
+			border-right: 2px solid $purple;
+			border-bottom: 2px solid $purple;
+		}
+	}
+
+	.campos-requeridos {
+		margin-top: 20px;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+	.caret {
+		color: $purple;
+		width: 20px;
+	}
+	select.select-afiliate {
+		background-color: transparent;
+		width: 100%;
+		padding: 0px;
+		border: none;
+		border-radius: 2px;
+		height: 3rem;
+		border-bottom: 1px solid $purple;
+		&:focus {
+			border: none;
+		}
+	}
+	.input.field select:focus {
+		border: none;
+	}
+}
+.form-common {
+	.input-field input {
+		margin-bottom: 5px;
+		border-bottom: 1px solid $purple;
+	}
+	.input-field label {
+		font-size: 12px;
+		opacity: 0.6;
+		color: $purple;
+	}
+	.input-field input[type=number]:focus + label,
+	.input-field input[type=text]:focus + label,
+	.input-field input[type=email]:focus + label,
+	textarea.materialize-textarea:focus + label {
+		font-weight: bold;
+		color: $purple;
+	}
+
+    .input-field input[type=text]:focus,
+    .input-field input[type=text].valid,
+    .input-field input[type=text]:focus.valid,
+    .input-field input[type=number]:focus,
+    .input-field input[type=number].valid,
+    .input-field input[type=number]:focus.valid,
+    .input-field input[type=email]:focus,
+    .input-field input[type=email].valid,
+    .input-field input[type=email]:focus.valid,
+    textarea.materialize-textarea:focus,
+    textarea.materialize-textarea.valid {
+    	border-bottom: 1px solid $purple;
+    	box-shadow: 0 1px 0 0 $purple;
+	}
+	textarea.materialize-textarea {
+		padding: 0;
+		border-bottom: 1px solid $purple;
+		margin-bottom: 5px;
+	}
+}
+
+.form-results {
+	height: 100vh;
+}
+.form-messages-wrap {
+	padding-bottom: 20px;
+}
+
+/** error **/
+.input-field span.error,
+.input-field p.error,
+.select-box span.error, 
+.terms-box ~ span.error {
+	font-size: 10px;
+	font-weight: 300;
+	color: red;
+}
+.input-field span.error::before {
+	border-bottom: 1px solid red;
+}
+@media (min-width: 992px) {
+	#afiliacion, #contacto {
+		margin-top: 70px;
+		.campos-requeridos {
+			text-align: center;
+		}
+	}
+}
