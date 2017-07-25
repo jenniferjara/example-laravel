@@ -22,7 +22,7 @@
 
 				<div class="col s12">
 					<div class="btn-da-box">
-						<a class="waves-effect btn btn-da btn-cyan" href="{{ route('pages.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect btn btn-da btn-cyan" href="{{ route('pages.free') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 					
@@ -36,5 +36,3 @@
 @include('home.cotiza.option2')
 
 @include('partials.loader')
-@include('partials.messages.success')
-@include('partials.messages.error')

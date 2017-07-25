@@ -26,8 +26,8 @@ class LayoutsController extends Controller
         return view('pages.nosotros');
     }
 
-    public function afiliacion() {
-        return view('pages.afiliacion');
+    public function gratis() {
+        return view('pages.free');
     }
     
     public function contacto() {

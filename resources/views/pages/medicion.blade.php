@@ -16,7 +16,7 @@
 		</div>
 	</nav>
 	<div class="bg-medicion">
-		<div class="d-none">
+		<div class="d-none bg-grey">
 			<img class="img-common" src="{{ asset('assets/img/responsive/img_medicion.jpg') }}" alt="Nosotros">
 		</div>
 		<div class="wrapper-general-text bg-layout-wrap valign-wrapper bg-grey">
@@ -103,7 +103,7 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="layout-btn-box valign-wrapper">
-						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('pages.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('pages.free') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 			</div>

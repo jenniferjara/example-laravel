@@ -1,4 +1,4 @@
-<section class="form-results valign-wrapper center-align" style="display: none;">
+<section id="contacterror" class="form-results valign-wrapper center-align">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">

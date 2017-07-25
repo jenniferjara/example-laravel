@@ -11,19 +11,19 @@
 			<div class="row">
 				<div class="col s12">
 					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('pages.afiliacion') }}" class="breadcrumb">Afiliación</a>
+					<a href="{{ route('pages.free') }}" class="breadcrumb">Pruébalo gratis</a>
 				</div>
 			</div>
 		</div>
 	</nav>
-	<div class="wrapper-general">
+	<div id="form-free-wrap" class="wrapper-general">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
 					<div class="center-align">
-						<p class="titles">Afiliate</p>
-						<p>¡Realiza tu prueba gratis!</p>
-						<p>Puedes inscribir hasta 10 colaboradores</p>
+						<p class="titles">¡Realiza tu prueba gratis!</p>
+						<p>Afiliate y podrás inscribir hasta</p>
+						<p>10 colaboradores</p>
 					</div>
 					<div class="row">
 						<div class="col s12 offset-l2 l8">

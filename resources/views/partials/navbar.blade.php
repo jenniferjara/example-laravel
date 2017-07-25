@@ -33,7 +33,7 @@
 	<li><a href="{{ route('pages.reconocimiento') }}">Reconocimientos</a></li>
 	<li><a href="{{ route('pages.medicion') }}">Medición</a></li>
 	<li><a class="go-cotiza" href="{{ route('home.index') }}#cotiza">Cotiza tu plan</a></li>
-	<li><a href="{{ route('pages.afiliacion') }}">Pruébalo gratis</a></li>
+	<li><a href="{{ route('pages.free') }}">Pruébalo gratis</a></li>
 	<li><a class="waves-effect" href="{{ route('pages.contacto') }}">Contáctanos</a></li>
 </ul>
 

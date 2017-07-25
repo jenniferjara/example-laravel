@@ -19,7 +19,7 @@
 		<div class="d-none">
 			<img class="img-common" src="{{ asset('assets/img/responsive/img_nosotros.jpg') }}" alt="Nosotros">
 		</div>
-		<div class="wrapper-general-text bg-layout-wrap valign-wrapper bg-grey">
+		<div class="wrapper-general-text bg-layout-wrap valign-wrapper bg-white">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -115,7 +115,7 @@
 					<div class="col s12">
 						<p class="subtitles">¡Trabaja con nosotros!</p>
 						<p>Si quieres formar parte de nuestro equipo, <br>envíanos tu CV a:</p>
-						<p class="contact-email">trabajaconnostros&commat;da.pe</p>
+						<p class="contact-email text-orange">trabajaconnostros&commat;da.pe</p>
 					</div>
 					<div class="col s12 d-none">
 						<div class="layout-btn-box">

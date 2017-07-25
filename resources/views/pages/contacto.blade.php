@@ -11,12 +11,12 @@
 			<div class="row">
 				<div class="col s12">
 					<a href="{{ route('home.index') }}" class="breadcrumb">Inicio</a>
-					<a href="{{ route('pages.afiliacion') }}" class="breadcrumb">Contáctanos</a>
+					<a href="{{ route('pages.contacto') }}" class="breadcrumb">Contáctanos</a>
 				</div>
 			</div>
 		</div>
 	</nav>
-	<div class="wrapper-general">
+	<div id="form-contact-wrap" class="wrapper-general">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
@@ -39,7 +39,7 @@
 								</div>
 								<div class="row">
 									<div class="input-field col s12 l6">
-										<input name="phone_contact" id="phone_contact" type="text" class="validate" autocomplete="off">
+										<input name="phone_contact" id="phone_contact" type="number" class="validate" autocomplete="off">
 										<label for="phone_contact">Teléfono*</label>
 									</div>
 									<div class="input-field col s12 l6">
@@ -53,7 +53,7 @@
 										<label for="cargo_contact">Puesto*</label>
 									</div>
 									<div class="input-field col s12 l6">
-										<input name="employee_contact" id="employee_contact" type="text" class="validate" autocomplete="off">
+										<input name="employee_contact" id="employee_contact" type="number" class="validate" autocomplete="off">
 										<label for="employee_contact">Número de colaboradores*</label>
 									</div>
 								</div>
@@ -78,6 +78,9 @@
 		</div>	
 	</div>
 
+
+	@include('partials.loader')
+	
 </section>
 
 @include('partials.footer')
