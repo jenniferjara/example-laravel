@@ -122,11 +122,6 @@
 		</div>
 	</div>
 
-	{{-- <div class="wrapper-general bg-grey">
-		<div class="container">
-		</div>
-	</div> --}}
-
 </section>
 
 @include('partials.footer')

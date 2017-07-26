@@ -115,13 +115,24 @@
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
 								<li>
-									<img src="{{ asset('assets/img/logos/logo_viaje1.png') }}" alt="">
+									<div class="benef-slider-box">
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_viaje1.png') }}" alt="">
+										</div>
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_viaje2.png') }}" alt="">
+										</div>
+									</div>
 								</li>
 								<li>
-									<img src="{{ asset('assets/img/logos/logo_viaje2.png') }}" alt="">
-								</li>
-								<li>
-									<img src="{{ asset('assets/img/logos/logo_viaje3.png') }}" alt="">
+									<div class="benef-slider-box">
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_viaje3.png') }}" alt="">
+										</div>
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_viaje2.png') }}" alt="">
+										</div>
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -137,15 +148,25 @@
 						<div class="benef-slider-bottom">
 							<ul class="bxslider">
 								<li>
-									<img src="{{ asset('assets/img/logos/logo_educacion1.png') }}" alt="">
+									<div class="benef-slider-box">
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_educacion1.png') }}" alt="">
+										</div>
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_educacion2.png') }}" alt="">
+										</div>
+									</div>
 								</li>
 								<li>
-									<img src="{{ asset('assets/img/logos/logo_educacion2.png') }}" alt="">
+									<div class="benef-slider-box">
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_educacion3.png') }}" alt="">
+										</div>
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_educacion2.png') }}" alt="">
+										</div>
+									</div>
 								</li>
-								<li>
-									<img src="{{ asset('assets/img/logos/logo_educacion3.png') }}" alt="">
-								</li>
-
 							</ul>
 						</div>
 					</div>
@@ -157,16 +178,27 @@
 							<div><span class="da_ico_health_line icons-white-lg"></span></div>
 							<p class="titles">¡Dá! Bienestar</p>
 						</div>
-						<div class="benef-slider-bottom">
+						<div class="benef-slider-bottom" style="padding-bottom: 2rem; padding-top: 2rem;">
 							<ul class="bxslider">
 								<li>
-									<img src="{{ asset('assets/img/logos/logo_salud1.png') }}" alt="">
+									<div class="benef-slider-box">
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_salud1.png') }}" alt="">
+										</div>
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_salud2.png') }}" alt="">
+										</div>
+									</div>
 								</li>
 								<li>
-									<img src="{{ asset('assets/img/logos/logo_salud2.png') }}" alt="">
-								</li>
-								<li>
-									<img src="{{ asset('assets/img/logos/logo_salud3.png') }}" alt="">
+									<div class="benef-slider-box">
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_salud2.png') }}" alt="">
+										</div>
+										<div class="benef-slider-options">
+											<img src="{{ asset('assets/img/logos/logo_salud3.png') }}" alt="">
+										</div>
+									</div>
 								</li>
 							</ul>
 						</div>

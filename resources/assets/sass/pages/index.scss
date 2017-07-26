@@ -74,15 +74,17 @@
 
 	.bx-wrapper{
 		margin-bottom: 0px;
-		img {margin: auto;}
-		// .bx-next {
-		// 	right: 5px;
-		// }
-		// .bx-prev {
-		// 	left: 5px;
-		// }
+		.bx-next {
+			right: 5px;
+		}
+		.bx-prev {
+			left: 5px;
+		}
 	}
 	.benef-slider-bottom {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+
 		.benef-slider-box {
 			display: flex;
 			align-items: center;
@@ -93,12 +95,6 @@
 				width: 90px;
 				height: 90px;
 				border-radius: 50%;
-				background-color: #cccccc;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				color: $white;
-
 				margin-left: 10px;
 				margin-right: 10px;
 			}
