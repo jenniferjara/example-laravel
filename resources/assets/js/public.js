@@ -81,12 +81,13 @@ $(document).ready( function () {
         }
     };
 
-	// $('#employeehome').keydown(justNumbers);
-	// $('#phone').keydown(justNumbers);
-	// $('#contact_person_phone').keydown(justNumbers);
-	// $('#phone_contact').keydown(justNumbers);
-	// $('#employee_number').keydown(justNumbers);
-	// $('#employee_contact').keydown(justNumbers);
+	$('#employeehome').keydown(justNumbers);
+	$('#phone').keydown(justNumbers);
+	$('#contact_person_phone').keydown(justNumbers);
+	$('#phone_contact').keydown(justNumbers);
+	$('#employee_number').keydown(justNumbers);
+	$('#employee_contact').keydown(justNumbers);
+	$('#number_ruc').keydown(justNumbers);
 
 	$.validator.setDefaults({
 	       ignore: []
@@ -94,14 +95,18 @@ $(document).ready( function () {
 
 	$cotizaHome.validate({
 		errorElement: 'p',
-		errorClass: 'error',
 		rules: {
 			employeehome: {
 				required: true,
 				digits: true,
 			}
 		},
-		errorPlacement: function(error, placement){
+		messages: {
+			employeehome: {
+				required: 'Por favor ingrese solo números.'
+			}
+		},
+		errorPlacement: function(error, element){
 			if(placement.attr('name') == 'employeehome') {
 				error.insertAfter(placement);
 			}
@@ -171,7 +176,6 @@ $(document).ready( function () {
 		if ($cotizapersonal.valid()) {
 			$('#form-loader').css('display', 'flex').addClass('fadein');
 			$('#cotizaopt2').css('display', 'none');
-
 		}
 
 	});
@@ -239,13 +243,18 @@ $(document).ready( function () {
 			}
 		}
 	});
-	$('#btn-send-free').on('click', function(e){
+
+	$formFree.on('submit', function(e){
 		e.preventDefault();
 		if ($formFree.valid()) {
-			console.log('ok');
-		} else {
-			console.log('error');
+			$('#form-loader').css('display', 'flex').addClass('fadein');
+			$('#form-free-wrap').css('display', 'none');
 		}
+	});
+
+	$('#btn-send-free').on('click', function(e){
+		e.preventDefault();
+		$formFree.submit();
 	});
 
 	/* formulario de contacto */
@@ -260,7 +269,8 @@ $(document).ready( function () {
 				required: true
 			},
 			phone_contact: {
-				required: true
+				required: true,
+				digits: true
 			},
 			email_contact: {
 				required: true
@@ -287,13 +297,18 @@ $(document).ready( function () {
 		}
 	});
 
-	$('#btn-send-contact').on('click', function(e){
+	$formContact.on('submit', function(e){
 		e.preventDefault();
 		if ($formContact.valid()) {
-			console.log('ok');
-		} else {
-			console.log('error');
+			$('#form-loader').css('display', 'flex').addClass('fadein');
+			$('#form-contact-wrap').css('display', 'none');
 		}
+		
+	});
+
+	$('#btn-send-contact').on('click', function(e){
+		e.preventDefault();
+		$formContact.submit();
 	});
 	
 

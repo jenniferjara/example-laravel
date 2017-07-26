@@ -17,7 +17,7 @@
 	</nav>
 
 	<div class="bg-reconocimiento">
-		<div class="d-none">
+		<div class="d-none bg-grey">
 			<img class="img-common" src="{{ asset('assets/img/responsive/img_reconocimientos.jpg') }}" alt="Nosotros">
 		</div>
 		<div class="bg-layout-wrap wrapper-general-text valign-wrapper bg-grey">
@@ -109,23 +109,18 @@
 
 			<div class="row">
 				<div class="col s12">
-					<div class="btn-da-box valign-wrapper">
-						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('pages.afiliacion') }}">¡Pruébalo gratis hoy!</a>
+					<div class="btn-da-wrapper valign-wrapper">
+						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('pages.free') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 				<div class="col s12">
-					<div class="btn-da-box d-none">
+					<div class="btn-da-wrapper d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	{{-- <div class="wrapper-general bg-grey">
-		<div class="container">
-		</div>
-	</div> --}}
 
 </section>
 

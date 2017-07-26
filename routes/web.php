@@ -21,6 +21,6 @@ Route::get('/medicion', ['as' => 'pages.medicion', 'uses' => 'LayoutsController@
 
 Route::get('/nosotros', ['as' => 'pages.nosotros', 'uses' => 'LayoutsController@about']);
 
-Route::get('/afiliacion', ['as' => 'pages.afiliacion', 'uses' => 'LayoutsController@afiliacion']);
+Route::get('/prueba-gratis', ['as' => 'pages.free', 'uses' => 'LayoutsController@gratis']);
 
 Route::get('/contáctanos', ['as' => 'pages.contacto', 'uses' => 'LayoutsController@contacto']);

@@ -12,7 +12,7 @@
 				<p class="footer-titles">Contacto</p>
 				<a class="go-cotiza" href="{{ route('home.index') }}#cotiza">Cotizar</a>
 				<a href="{{ route('pages.contacto') }}">Consulta</a>
-				<a href="{{ route('pages.afiliacion') }}">Prueba gratis</a>
+				<a href="{{ route('pages.free') }}">Prueba gratis</a>
 			</div>
 
 			<div class="col s12 l4">

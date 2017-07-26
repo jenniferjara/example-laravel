@@ -1,4 +1,6 @@
-<section class="form-results valign-wrapper center-align" style="display: none;">
+@include('partials.navbarpages')
+
+<section class="form-results valign-wrapper center-align">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
@@ -14,10 +16,12 @@
 				</div>
 			</div>
 			<div class="col s12">
-				<div class="btn-da-box">
-					<a id="cotiza-home-btn" class="waves-effect btn btn-da btn-purple font-bold" href="{{ route('home.index') }}">Ir al home</a>
+				<div class="btn-da-wrapper">
+					<a class="waves-effect btn btn-da btn-purple font-bold" href="{{ route('home.index') }}">Ir al home</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+@include('home.sections.section5')
+@include('partials.footer')

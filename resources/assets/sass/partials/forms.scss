@@ -14,16 +14,11 @@
 
 	.terms-box {
 		margin-top: 2rem;
+
 		input[type=checkbox]:checked + label:before {
 			border-right: 2px solid $purple;
 			border-bottom: 2px solid $purple;
 		}
-	}
-
-	.campos-requeridos {
-		margin-top: 20px;
-		margin-bottom: 15px;
-		text-align: left;
 	}
 	.caret {
 		color: $purple;
@@ -82,10 +77,21 @@
 		border-bottom: 1px solid $purple;
 		margin-bottom: 5px;
 	}
+
+	input.error {
+		border-bottom: 1px solid red;
+	    box-shadow: 0 1px 0 0 red;
+	}
+}
+
+.campos-requeridos {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	text-align: left;
 }
 
 .form-results {
-	height: 100vh;
+	height: 82vh;
 }
 .form-messages-wrap {
 	padding-bottom: 20px;
@@ -97,8 +103,11 @@
 .select-box span.error, 
 .terms-box ~ span.error {
 	font-size: 10px;
-	font-weight: 300;
-	color: red;
+    font-weight: 300;
+    color: red;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 .input-field span.error::before {
 	border-bottom: 1px solid red;
@@ -106,8 +115,8 @@
 @media (min-width: 992px) {
 	#afiliacion, #contacto {
 		margin-top: 70px;
-		.campos-requeridos {
-			text-align: center;
-		}
+	}
+	.campos-requeridos {
+		text-align: center;
 	}
 }
