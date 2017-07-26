@@ -95,14 +95,18 @@ $(document).ready( function () {
 
 	$cotizaHome.validate({
 		errorElement: 'p',
-		errorClass: 'error',
 		rules: {
 			employeehome: {
 				required: true,
 				digits: true,
 			}
 		},
-		errorPlacement: function(error, placement){
+		messages: {
+			employeehome: {
+				required: 'Por favor ingrese solo números.'
+			}
+		},
+		errorPlacement: function(error, element){
 			if(placement.attr('name') == 'employeehome') {
 				error.insertAfter(placement);
 			}

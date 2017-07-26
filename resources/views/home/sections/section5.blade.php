@@ -14,7 +14,7 @@
 					<div class="center-align docs-wrapper-inner">
 						<p class="subtitles">Power of recognition</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque et doloremque error quam quo, corrupti.</p>
-						<div class="btn-da-box">
+						<div class="btn-da-wrapper">
 							<a class="docs-wrapper-btn" href="{{ asset('assets/docs/best-place-work.pdf') }}" download><i class="material-icons left">system_update_alt</i> <span>Descargar</span></a>
 						</div>
 					</div>
@@ -27,7 +27,7 @@
 					<div class="center-align docs-wrapper-inner">
 						<p class="subtitles">Happy employee</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque et doloremque error quam quo, corrupti.</p>
-						<div class="btn-da-box">
+						<div class="btn-da-wrapper">
 							<a class="docs-wrapper-btn" href="{{ asset('assets/docs/happiness-work.pdf') }}" download><i class="material-icons left">system_update_alt</i> <span>Descargar</span></a>
 						</div>
 					</div>
@@ -40,7 +40,7 @@
 					<div class="center-align docs-wrapper-inner">
 						<p class="subtitles">El índice de la chamba</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque et doloremque error quam quo, corrupti.</p>
-						<div class="btn-da-box">
+						<div class="btn-da-wrapper">
 							<a class="docs-wrapper-btn" href="{{ asset('assets/docs/felices-en-el-trabajo.pdf') }}" download><i class="material-icons left">system_update_alt</i><span>Descargar</span></a>
 						</div>
 					</div>

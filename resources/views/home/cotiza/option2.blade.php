@@ -50,8 +50,8 @@
 			</div>
 
 			<div class="col s12">
-				<p class="center-left">*Campos requeridos</p>
-				<div class="btn-da-box valign-wrapper">
+				<p class="campos-requeridos">*Campos requeridos</p>
+				<div class="btn-da-wrapper valign-wrapper">
 					<a id="cotiza-personal-btn" class="waves-effect waves-light btn btn-da btn-purple font-bold" href="">Enviar</a>
 				</div>
 			</div>

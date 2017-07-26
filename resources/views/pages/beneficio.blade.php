@@ -104,117 +104,106 @@
 	</div>
 
 	<div class="wrapper-general bg-beneficio-options">
-		<div class="container">
+		<div>
 			<div class="row">
-				<div class="col s12 l4">
-					<div class="benef-slider">
+				<div class="slider-wrapper">
+					<div class="slider-option">
 						<div class="center-align">
 							<div><span class="da_ico_travel_line icons-white-lg"></span></div>
 							<p class="titles">¡Dá! Viajes</p>
 						</div>
-						<div class="benef-slider-bottom">
-							<ul class="bxslider">
-								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_viaje1.png') }}" alt="">
-										</div>
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_viaje2.png') }}" alt="">
-										</div>
+						<ul class="bxslider">
+							<li>
+								<div class="slider-img-wrap">
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_viaje1.png') }}" alt="">
 									</div>
-								</li>
-								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_viaje3.png') }}" alt="">
-										</div>
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_viaje2.png') }}" alt="">
-										</div>
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_viaje2.png') }}" alt="">
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-img-wrap">
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_viaje3.png') }}" alt="">
+									</div>
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_viaje2.png') }}" alt="">
+									</div>
+								</div>
+							</li>
+						</ul>
 					</div>
-				</div>
 
-				<div class="col s12 l4">
-					<div class="benef-slider">
+					<div class="slider-option">
 						<div class="center-align">
 							<div><span class="da_ico_education_line icons-white-lg"></span></div>
 							<p class="titles">¡Dá! Educación</p>
 						</div>
-						<div class="benef-slider-bottom">
-							<ul class="bxslider">
-								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_educacion1.png') }}" alt="">
-										</div>
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_educacion2.png') }}" alt="">
-										</div>
+						<ul class="bxslider">
+							<li>
+								<div class="slider-img-wrap">
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_educacion1.png') }}" alt="">
 									</div>
-								</li>
-								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_educacion3.png') }}" alt="">
-										</div>
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_educacion2.png') }}" alt="">
-										</div>
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_educacion2.png') }}" alt="">
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-img-wrap">
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_educacion3.png') }}" alt="">
+									</div>
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_educacion2.png') }}" alt="">
+									</div>
+								</div>
+							</li>
+						</ul>
 					</div>
-				</div>
 
-				<div class="col s12 l4">
-					<div class="benef-slider">
+					<div class="slider-option">
 						<div class="center-align">
 							<div><span class="da_ico_health_line icons-white-lg"></span></div>
 							<p class="titles">¡Dá! Bienestar</p>
 						</div>
-						<div class="benef-slider-bottom" style="padding-bottom: 2rem; padding-top: 2rem;">
-							<ul class="bxslider">
-								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_salud1.png') }}" alt="">
-										</div>
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_salud2.png') }}" alt="">
-										</div>
+						<ul class="bxslider">
+							<li>
+								<div class="slider-img-wrap">
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_salud1.png') }}" alt="">
 									</div>
-								</li>
-								<li>
-									<div class="benef-slider-box">
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_salud2.png') }}" alt="">
-										</div>
-										<div class="benef-slider-options">
-											<img src="{{ asset('assets/img/logos/logo_salud3.png') }}" alt="">
-										</div>
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_salud2.png') }}" alt="">
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-img-wrap">
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_salud2.png') }}" alt="">
+									</div>
+									<div class="slider-img">
+										<img src="{{ asset('assets/img/logos/logo_salud3.png') }}" alt="">
+									</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
-
 			</div>
 			
 			<div class="row">
 				<div class="col s12">
-					<div class="btn-da-box valign-wrapper">
+					<div class="btn-da-wrapper valign-wrapper">
 						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('pages.free') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
 				<div class="col s12">
-					<div class="btn-da-box d-none">
+					<div class="btn-da-wrapper d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat-white" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>

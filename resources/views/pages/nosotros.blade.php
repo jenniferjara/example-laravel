@@ -118,7 +118,7 @@
 						<p class="contact-email text-orange">trabajaconnostros&commat;da.pe</p>
 					</div>
 					<div class="col s12 d-none">
-						<div class="layout-btn-box">
+						<div class="btn-da-wrapper">
 							<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 						</div>
 					</div>

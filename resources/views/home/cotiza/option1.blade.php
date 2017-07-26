@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="btn-da-box valign-wrapper">
+			<div class="btn-da-wrapper valign-wrapper">
 				<a class="waves-effect waves-light btn btn-da btn-purple font-bold" href="#">¡Lo quiero!</a>
 			</div>
 		</div>

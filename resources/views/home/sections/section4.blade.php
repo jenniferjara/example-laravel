@@ -15,13 +15,13 @@
 					</form>
 				</div>
 				<div class="col s12">
-					<div class="btn-da-box">
+					<div class="btn-da-wrapper">
 						<a id="cotiza-home-btn" class="waves-effect btn btn-da btn-purple font-bold" href="">¡Cotizar ya!</a>
 					</div>
 				</div>
 
 				<div class="col s12">
-					<div class="btn-da-box">
+					<div class="btn-da-wrapper">
 						<a class="waves-effect btn btn-da btn-cyan" href="{{ route('pages.free') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>

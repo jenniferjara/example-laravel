@@ -102,7 +102,7 @@
 			</div>
 			<div class="row">
 				<div class="col s12">
-					<div class="layout-btn-box valign-wrapper">
+					<div class="btn-da-wrapper valign-wrapper">
 						<a class="waves-effect waves-light btn btn-da btn-cyan font-bold" href="{{ route('pages.free') }}">¡Pruébalo gratis hoy!</a>
 					</div>
 				</div>
@@ -157,9 +157,14 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="col s12 d-none">
-					<div class="layout-btn-box">
+			</div>
+		</div>
+	</div>
+	<div class="wrapper-general bg-grey d-none">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<div class="btn-da-wrapper">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>

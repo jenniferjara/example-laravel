@@ -84,6 +84,9 @@ a {
 		width: 100%;
 		height: auto;
 		background-color: $white;
+		input#employeehome {
+			margin-bottom: 10px;
+		}
 		.btn-da-box {
 			#cotiza-home-btn{
 				margin-top: 30px;
@@ -153,10 +156,10 @@ a {
 }
 
 .docs-wrapper-inner {
-	padding-bottom: 10px;
-    padding-top: 10px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0px 15px 20px;
+	p:nth-child(2){
+		margin-bottom: 15px;
+	}
 }
 
 .docs-wrapper-btn {
@@ -271,7 +274,7 @@ a {
 		line-height: 20px;
 	}
 	.docs-wrapper-btn{
-		width: 70%;
+		width: 90%;
 	}
 
 	#home {
@@ -311,10 +314,8 @@ a {
 		.cotiza-wrapper {
 			width: 50%;
 			height: 600px;
-			.btn-da-box {
-				a {
-					margin-left: 0px;
-				}
+			.btn-da-wrapper > a {
+				margin-left: 0px;
 			}
 			
 		}

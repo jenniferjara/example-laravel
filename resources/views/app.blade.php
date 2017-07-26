@@ -24,12 +24,11 @@
 	<script type="text/javascript" src="{{ asset('assets/js/public.js') }}?ver=2.5"></script>
 	<script type="text/javascript">
 
-	  	var urlAfiliacion = "<?php echo URL::to('/afiliacion'); ?>";
+	  	var urlAfiliacion = "<?php echo URL::to('/prueba-gratis'); ?>";
 
 		$('.bxslider').bxSlider({
 			adaptiveHeight: true,
-	  		pager: false,
-	  		mode: 'fade'
+	  		pager: false
 	  	});
 	  	
 	</script>

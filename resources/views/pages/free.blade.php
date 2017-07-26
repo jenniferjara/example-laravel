@@ -86,10 +86,10 @@
 						</div>
 					</div>
 					<p class="campos-requeridos">*Campos requeridos</p>
-					<div class="layout-btn-box valign-wrapper">
+					<div class="btn-da-wrapper valign-wrapper">
 						<a id="btn-send-free" class="waves-effect waves-light btn btn-da btn-purple font-bold" href="">Enviar</a>
 					</div>
-					<div class="layout-btn-box d-none">
+					<div class="btn-da-wrapper d-none">
 						<a class="waves-effect waves-light btn btn-da btn-flat" href="{{ route('home.index') }}">Regresar</a>
 					</div>
 				</div>
