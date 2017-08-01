@@ -1,5 +1,3 @@
-Dá - Web Pública
-
 ##Instalación
 
 * Copiar el archivo .env.example a .env
